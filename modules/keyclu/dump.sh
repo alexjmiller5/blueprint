@@ -1,5 +1,4 @@
 #!/bin/bash
-# Use shared helper
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
-"$REPO_ROOT/core/helpers/dump_plist.sh" "KeyClu" "com.sergey-software.keyclu.plist"
+"$REPO_ROOT/core/helpers/dump_plist.sh" "KeyClu" "com.sergey-software.keyclu.plist" "$SCRIPT_DIR"

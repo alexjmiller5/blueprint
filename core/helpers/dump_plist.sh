@@ -1,12 +1,12 @@
 #!/bin/bash
 APP_NAME="$1"
 FILENAME="$2"
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-# Calculate Repo Root (This script lives in core/helpers, so up 2 levels)
-REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
-MODULE_DIR="$(pwd)" # The caller script's directory
+TARGET_DIR="$3"  # <--- New Argument
 
-# 1. Get Bundle ID dynamically
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
+
+# 1. Get Bundle ID
 if [ "$APP_NAME" == "Finder" ]; then BUNDLE_ID="com.apple.finder";
 elif [ "$APP_NAME" == "Dock" ]; then BUNDLE_ID="com.apple.dock";
 else
@@ -18,15 +18,13 @@ if [ -z "$BUNDLE_ID" ]; then
     exit 1
 fi
 
-echo "  Drafting settings for $APP_NAME ($BUNDLE_ID)..."
-
-# 2. Export settings using 'defaults export' (Location Agnostic)
-# We export to a temporary binary file first, then convert
+# 2. Export to Temp
 TEMP_FILE="/tmp/${FILENAME}.tmp"
 defaults export "$BUNDLE_ID" "$TEMP_FILE"
 
-# 3. Convert to XML1 and save to Module Directory
-plutil -convert xml1 "$TEMP_FILE" -o "$MODULE_DIR/$FILENAME"
+# 3. Convert & Save to Specific Module Directory
+# We use the explicitly passed TARGET_DIR
+plutil -convert xml1 "$TEMP_FILE" -o "$TARGET_DIR/$FILENAME"
 rm "$TEMP_FILE"
 
 # 4. Push

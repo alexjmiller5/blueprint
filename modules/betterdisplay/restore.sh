@@ -1,5 +1,4 @@
 #!/bin/bash
-# Use shared helper
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
-"$REPO_ROOT/core/helpers/restore_plist.sh" "BetterDisplay" "pro.betterdisplay.BetterDisplay.plist"
+"$REPO_ROOT/core/helpers/restore_plist.sh" "BetterDisplay" "pro.betterdisplay.BetterDisplay.plist" "$SCRIPT_DIR"
