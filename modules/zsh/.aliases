@@ -1,0 +1,12 @@
+alias la="ls -a"
+alias lla="ls -la"
+alias ytdlp-mp3="yt-dlp -x --audio-format mp3 --audio-quality 0 -o '%(title)s.%(ext)s'"
+alias ytdlp-mp4="yt-dlp -f 'bv[vcodec^=avc]+ba/b[vcodec^=avc]' -o '%(title)s.%(ext)s' --merge-output-format mp4"
+alias mp3play='ffplay -nodisp -autoexit'
+alias gs="git status"
+alias gc="git commit"
+alias ga="git add -A"
+alias gp="git push"
+alias gb="git branch"
+alias gba="git branch -a"
+alias gl="git log"
