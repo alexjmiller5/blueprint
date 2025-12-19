@@ -3,15 +3,15 @@
 <plist version="1.0">
     <dict>
         <key>Label</key>
-        <string>com.alexmiller.blueprint.alttab</string>
+        <string>com.alexmiller.blueprint.1password</string>
         <key>ProgramArguments</key>
         <array>
             <string>/bin/bash</string>
-            <string>{{ROOT}}/modules/alttab/dump.sh</string>
+            <string>{{ROOT}}/modules/1password/dump.sh</string>
         </array>
         <key>WatchPaths</key>
         <array>
-            <string>/Users/alexmiller/Library/Preferences/com.blackhole.alttab.plist</string>
+            <string>/Users/alexmiller/Library/Preferences/com.1password.1password.plist</string>
         </array>
         <key>ThrottleInterval</key>
         <integer>60</integer>

@@ -38,3 +38,6 @@ cd <path-to-blueprint-repo>
 - [ ] add justfile runners for dumping and restoring individual modules
 - [ ] either complete all these tasks for move them to the dotfiles project in notion to be completed at a later time
 - [ ] abstract the file copying logic to the yaml file where all you need for a module is a list of source paths and it does the watching and dumping/restoring automatically
+- [ ] add a module for tmux
+- [ ] add a module for ghostty
+- [ ] Design the watchers for plists to automatically get the bundle id and plist file path from the app name just like I did with the dumpers because rn it's hardcoded not sure the best way this can be dyniamcally designed though because the dumpers was easy since it's a bash script
