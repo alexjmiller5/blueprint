@@ -8,8 +8,22 @@
 ssh-keygen -t ed25519 -f ~/.ssh/blueprint_deploy_key -C "blueprint-automation" -N ""
 cat ~/.ssh/blueprint_deploy_key.pub | pbcopy
 ```
-- Add the copied public key to your GitHub account at
-- 
+
+- Add the copied public key to your GitHub account
+
+Go to your Blueprint Repository on GitHub.
+
+Navigate to Settings > Deploy keys.
+
+Click Add deploy key.
+
+Title: Mac Automation (Push)
+
+Key: Paste the key you just copied.
+
+IMPORTANT: Check the box ☑️ Allow write access. (Without this, it can only pull, not push).
+
+Click Add key.
 
 ## Usage
 
@@ -52,3 +66,4 @@ cd <path-to-blueprint-repo>
 - [ ] add a module for tmux
 - [ ] add a module for ghostty
 - [ ] Design the watchers for plists to automatically get the bundle id and plist file path from the app name just like I did with the dumpers because rn it's hardcoded not sure the best way this can be dyniamcally designed though because the dumpers was easy since it's a bash script
+- [ ] write the git commits to include the module name when automatic dumps happen
