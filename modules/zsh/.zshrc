@@ -1,3 +1,5 @@
+test
+
 # Load my PS1 variable
 source ~/.zsh_prompt
 
