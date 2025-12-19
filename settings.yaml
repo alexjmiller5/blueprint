@@ -1,0 +1,21 @@
+modules:
+  zsh: true
+  vscode: true
+  raycast: true
+  homebrew: true
+  chrome: true
+  chrome_pwas: true
+  dock: true
+  login_items: true
+  permissions: true
+  manual_apps: true
+  alttab: true
+  rectangle: true
+  betterdisplay: true
+  keyclu: true
+  monitorcontrol: true
+  finder: true
+  git: true
+  ssh: false
+  hammerspoon: true
+  karabiner: true
