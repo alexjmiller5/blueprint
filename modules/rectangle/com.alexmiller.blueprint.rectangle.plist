@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>Label</key><string>com.alexmiller.blueprint.rectangle</string>
-    <key>ProgramArguments</key><array><string>/bin/bash</string><string>{{ROOT}}/modules/rectangle/dump.sh</string></array>
-    <key>WatchPaths</key><array><string>/Users/alexmiller/Library/Preferences/com.knollsoft.Rectangle.plist</string></array>
-    <key>ThrottleInterval</key><integer>60</integer>
-</dict>
+  <dict>
+    <key>Label</key>
+    <string>com.alexmiller.blueprint.rectangle</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/bash</string>
+      <string>{{ROOT}}/modules/rectangle/dump.sh</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+      <string>/Users/alexmiller/Library/Preferences/com.knollsoft.Rectangle.plist</string>
+    </array>
+    <key>ThrottleInterval</key>
+    <integer>60</integer>
+  </dict>
 </plist>
