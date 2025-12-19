@@ -95,6 +95,7 @@ pkief.material-icon-theme
 pkief.material-product-icons
 prisma.prisma
 redhat.java
+redhat.vscode-xml
 redhat.vscode-yaml
 repreng.csv
 ritwickdey.liveserver

@@ -185,7 +185,8 @@
 	"sqltools.useNodeRuntime": false,
 	// Associate all html files with the html language mode (instead of django-html)
 	"files.associations": {
-		"*.html": "html"
+		"*.html": "html",
+		"*.plist": "xml"
 	},
 	// Hide copilot chat on launch
 	"workbench.secondarySideBar.defaultVisibility": "hidden",

@@ -37,3 +37,4 @@ cd <path-to-blueprint-repo>
 - [ ] add two sections to this readme for the biggest use cases - running dumps and restoring settings on a new mac, and setting up automatic dumps on a new mac
 - [ ] add justfile runners for dumping and restoring individual modules
 - [ ] either complete all these tasks for move them to the dotfiles project in notion to be completed at a later time
+- [ ] abstract the file copying logic to the yaml file where all you need for a module is a list of source paths and it does the watching and dumping/restoring automatically
