@@ -353,3 +353,4 @@ kTCCServiceUbiquity|com.apple.shortcuts.droplet.04D6FC24-FDD8-4DBF-B1F4-6EB73663
 kTCCServiceMicrophone|notion.id|2
 kTCCServiceAppleEvents|org.hammerspoon.Hammerspoon|2
 kTCCServiceUbiquity|com.apple.shortcuts.events|2
+kTCCServiceAppleEvents|/bin/bash|2
