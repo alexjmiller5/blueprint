@@ -18,6 +18,7 @@ davidanson.vscode-markdownlint
 davidbabel.vscode-simpler-icons
 davidbwaters.macos-modern-theme
 dbaeumer.vscode-eslint
+dnicolson.binary-plist
 docker.docker
 donjayamanne.githistory
 dsznajder.es7-react-js-snippets
