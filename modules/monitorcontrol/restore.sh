@@ -1,7 +1,5 @@
 #!/bin/bash
+# Use shared helper
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-SRC="$SCRIPT_DIR/me.guillaumeb.MonitorControl.plist"
-DST="$HOME/Library/Preferences/me.guillaumeb.MonitorControl.plist"
-cp "$SRC" "$DST"
-plutil -convert binary1 "$DST"
-killall cfprefsd
+REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
+"$REPO_ROOT/core/helpers/restore_plist.sh" "MonitorControl" "me.guillaumeb.MonitorControl.plist"

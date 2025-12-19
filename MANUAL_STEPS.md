@@ -78,3 +78,4 @@ macOS will not allow scripts to grant these permissions. You must grant them man
 ## 6. Miscellaneous
 - [ ] **Spotify**: Disable "Hardware Acceleration" in settings if VPN/Firewall causes stuttering.
 - [ ] **Finder Favorites**: Manually drag "Google Drive", "Downloads", and "Code" to the Finder Sidebar (Sidebar order cannot be strictly enforced via plist).
+- [ ] Disable SIP - this will allow permissions management via automation as well as the use o the `yabai` cli

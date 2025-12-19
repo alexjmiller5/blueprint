@@ -1,8 +1,5 @@
 #!/bin/bash
+# Use shared helper
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-SRC="$SCRIPT_DIR/com.apple.dock.plist"
-DST="$HOME/Library/Preferences/com.apple.dock.plist"
-cp "$SRC" "$DST"
-plutil -convert binary1 "$DST"
-killall cfprefsd
-killall Dock
+REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
+"$REPO_ROOT/core/helpers/restore_plist.sh" "Dock" "com.apple.dock.plist"
