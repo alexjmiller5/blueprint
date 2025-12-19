@@ -1,5 +1,16 @@
 # blueprint
 
+## Setup
+
+- Create a GitHub deploy key for the launchagents set to read/write for this repository and add it to your GitHub account.
+
+```bash
+ssh-keygen -t ed25519 -f ~/.ssh/blueprint_deploy_key -C "blueprint-automation" -N ""
+cat ~/.ssh/blueprint_deploy_key.pub | pbcopy
+```
+- Add the copied public key to your GitHub account at
+- 
+
 ## Usage
 
 ### Running one off Dumps
