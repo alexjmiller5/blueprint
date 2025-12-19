@@ -1,2 +1,5 @@
 # MacOS system files
 .DS_Store
+
+# Python cache files
+.venv
