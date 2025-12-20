@@ -11,6 +11,8 @@ sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Aut
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 2
 
+defaults write com.apple.bird optimize-storage -bool true
+
 # Close System Preferences
 osascript -e 'tell application "System Preferences" to quit'
 
@@ -132,4 +134,4 @@ defaults write com.google.Chrome DisablePrintPreview -bool true
 # 6. RESTART                                                                  #
 ###############################################################################
 echo "  Restarting apps..."
-killall Dock Finder SystemUIServer cfprefsd
+killall Dock Finder SystemUIServer cfprefsd bird
