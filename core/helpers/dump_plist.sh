@@ -21,7 +21,9 @@ TEMP_FILE="/tmp/${FILENAME}.tmp"
 defaults export "$BUNDLE_ID" "$TEMP_FILE"
 
 # 3. Convert & Save to Target Directory
-plutil -convert xml1 "$TEMP_FILE" -o "$TARGET_DIR/$FILENAME"
+BACKUP_DIR="$TARGET_DIR/backup"
+mkdir -p "$BACKUP_DIR"
+plutil -convert xml1 "$TEMP_FILE" -o "$BACKUP_DIR/$FILENAME"
 rm "$TEMP_FILE"
 
 # 4. Push

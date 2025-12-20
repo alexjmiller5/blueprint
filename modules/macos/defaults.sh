@@ -130,6 +130,8 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Chrome: Disable print preview (Optional, from generic dev setups)
 defaults write com.google.Chrome DisablePrintPreview -bool true
 
+xattr -w com.apple.fileprovider.pinned 1 ~/Desktop
+
 ###############################################################################
 # 6. RESTART                                                                  #
 ###############################################################################

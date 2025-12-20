@@ -2,6 +2,7 @@
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
 APP_DIR="$HOME/Library/Application Support/com.raycast.macos"
+BACKUP_DIR="$SCRIPT_DIR/backup"
 
 # We use an array for options to keep it clean and robust
 RSYNC_OPTIONS=(
@@ -30,6 +31,7 @@ RSYNC_OPTIONS=(
 )
 
 echo "  Backing up Raycast (Slim Mode)..."
-rsync "${RSYNC_OPTIONS[@]}" "$APP_DIR/" "$SCRIPT_DIR/data/"
+mkdir -p "$BACKUP_DIR/data"
+rsync "${RSYNC_OPTIONS[@]}" "$APP_DIR/" "$BACKUP_DIR/data/"
 
 "$REPO_ROOT/core/git_push.sh"

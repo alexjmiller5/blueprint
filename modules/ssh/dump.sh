@@ -2,7 +2,9 @@
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
+BACKUP_DIR="$SCRIPT_DIR/backup"
 
-sed -E 's/[[:<:]]([0-9]{1,3}\.){3}[0-9]{1,3}[[:>:]]/<REDACTED_IP>/g' "$HOME/.ssh/config" > "$SCRIPT_DIR/config"
+mkdir -p "$BACKUP_DIR"
+sed -E 's/[[:<:]]([0-9]{1,3}\.){3}[0-9]{1,3}[[:>:]]/<REDACTED_IP>/g' "$HOME/.ssh/config" > "$BACKUP_DIR/config"
 
 "$REPO_ROOT/core/git_push.sh"

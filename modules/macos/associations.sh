@@ -10,37 +10,41 @@ fi
 
 echo "🔗 Setting File Associations..."
 
-# VS Code Bundle ID
-VSCODE="com.microsoft.VSCode"
+curl "https://raw.githubusercontent.com/github/linguist/master/lib/linguist/languages.yml" \
+| yq -r "to_entries | (map(.value.extensions) | flatten) - [null] | unique | .[]" \
+| xargs -L 1 -I "{}" duti -s com.microsoft.VSCode {} all
 
-# --- DEVELOPMENT ---
-duti -s $VSCODE .ts all
-duti -s $VSCODE .tsx all
-duti -s $VSCODE .js all
-duti -s $VSCODE .jsx all
-duti -s $VSCODE .json all
-duti -s $VSCODE .py all
-duti -s $VSCODE .sh all
-duti -s $VSCODE .zsh all
-duti -s $VSCODE .bash all
-duti -s $VSCODE .lua all
-duti -s $VSCODE .yaml all
-duti -s $VSCODE .yml all
-duti -s $VSCODE .toml all
-duti -s $VSCODE .md all
-duti -s $VSCODE .css all
-duti -s $VSCODE .scss all
-duti -s $VSCODE .html all
-duti -s $VSCODE .xml all
-duti -s $VSCODE .plist all
-duti -s $VSCODE .c all
-duti -s $VSCODE .cpp all
-duti -s $VSCODE .h all
-duti -s $VSCODE .txt all
-duti -s $VSCODE .csv all
-duti -s $VSCODE .log all
-duti -s $VSCODE .sql all
-duti -s $VSCODE .tf all        # Terraform
-duti -s $VSCODE .tfvars all    # Terraform vars
+# Application Bundle IDs
+VSCODE="com.microsoft.VSCode"
+QUICKTIME="com.apple.QuickTimePlayerX"
+LIBREOFFICE="org.libreoffice.script" 
+
+# --- DEVELOPMENT (VS Code) ---
+# Added .cherri per your notes
+duti -s $VSCODE .cherri all
+
+# Standard Dev Files
+for ext in ts tsx js jsx json py sh zsh bash lua yaml yml toml md css scss html xml plist c cpp h txt csv log sql tf tfvars; do
+    duti -s $VSCODE .$ext all
+done
+
+# --- MEDIA (QuickTime) ---
+# Notes: "set mp3 to naturally open with quicktime instead of apple music"
+duti -s $QUICKTIME .mp3 all
+duti -s $QUICKTIME .wav all
+duti -s $QUICKTIME .mp4 all
+duti -s $QUICKTIME .mov all
+
+# --- DOCUMENTS (LibreOffice) ---
+# Notes: "tell .docx and .pptx ... to all be opened by libreoffice"
+# Only runs if LibreOffice is actually installed
+if [ -d "/Applications/LibreOffice.app" ]; then
+    duti -s $LIBREOFFICE .docx all
+    duti -s $LIBREOFFICE .doc all
+    duti -s $LIBREOFFICE .pptx all
+    duti -s $LIBREOFFICE .ppt all
+    duti -s $LIBREOFFICE .xlsx all
+    duti -s $LIBREOFFICE .xls all
+fi
 
 echo "✅ File associations updated."
