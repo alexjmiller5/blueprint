@@ -2139,7 +2139,7 @@
 	<key>FXMyDocumentsArrangeGroupViewBy</key>
 	<string>Date Last Opened</string>
 	<key>FXPreferencesWindow.Location</key>
-	<string>{{432, 454}, {377, 380}}</string>
+	<string>{{432, 442}, {377, 392}}</string>
 	<key>FXPreferredGroupBy</key>
 	<string>Name</string>
 	<key>FXPreferredSearchViewStyle</key>

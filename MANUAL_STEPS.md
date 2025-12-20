@@ -16,10 +16,6 @@ macOS will not allow scripts to grant these permissions. You must grant them man
     - **Spotify**: Open App Info > Settings > Select "Open in Spotify".
     - **Google Drive/Docs**: Ensure Offline mode is enabled.
 
-## 5. Workday & HR
-- [ ] **Contact Info**: Update Personal Contact & Emergency Contact in Workday.
-- [ ] **Referrals**: Restore "Referrals" bookmark folder from Chrome backup.
-
 ## Finder
 
 - Set the following order of the finder sidebar
