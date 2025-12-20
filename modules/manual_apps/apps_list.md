@@ -2,7 +2,7 @@
 - [Manual] Binary Ninja
 - [Manual] Visual Studio Code
 - [Manual] qbittorrent
-- [Brew] 1Password
+- [Manual] 1Password
 - [Manual] Minecraft
 - [Manual] Raycast
 - [Manual] Figma
@@ -17,7 +17,7 @@
 - [Manual] Notion Calendar
 - [Manual] Legcord
 - [Manual] Spotify
-- [Brew] Inkscape
+- [Manual] Inkscape
 - [Manual] Cursor
 - [Manual] eggnoggplus
 - [Manual] Dolphin
@@ -30,7 +30,7 @@
 - [Manual] zoom.us
 - [Manual] WhatsApp
 - [Manual] GitHub Desktop
-- [Brew] KeyClu
+- [Manual] KeyClu
 - [Manual] LibreOffice
 - [Manual] Wireshark
 - [Manual] Burp Suite Community Edition
@@ -57,3 +57,4 @@
 - [Manual] DuckDuckGo
 - [Manual] Slack
 - [Manual] Discord
+- [Manual] SF Symbols
