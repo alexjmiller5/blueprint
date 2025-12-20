@@ -713,7 +713,7 @@
                         ]
                     },
                     {
-                        "description": "(Global) hyperkey+q → Launch Quick Note",
+                        "description": "(Global) hyperkey+q → Run Receptor Shortcut",
                         "manipulators": [
                             {
                                 "from": {
@@ -723,7 +723,7 @@
                                         "optional": ["any"]
                                     }
                                 },
-                                "to": [{ "shell_command": "open -a 'Synapse'" }],
+                                "to": [{ "shell_command": "shortcuts run 'Receptor'" }],
                                 "type": "basic"
                             }
                         ]
