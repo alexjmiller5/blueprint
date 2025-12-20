@@ -1,6 +1,9 @@
 -- Set up logging
 hs.logger.new("Hammerspoon", "debug")
 
+-- Activate the hammerspoon cli
+require("hs.ipc")
+
 -- Load core configuration files
 local config = require("config")
 
