@@ -10,4 +10,4 @@ osascript -e 'tell application "System Events" to get value of property list ite
 
 ## Setup
 
-- Run `hs.ipc.cliInstall()` in the Hammerspoon console to install the `hs` command line tool.
+- Run `hs.ipc.cliInstall("")` in the Hammerspoon console to install the `hs` command line tool.
