@@ -20,6 +20,10 @@ macOS will not allow scripts to grant these permissions. You must grant them man
 
 - Set the following order of the finder sidebar
 
+## Chrome PWAs
+
+- manually set every PWA to open supported links in Chrome instead of the PWA.
+
 ## 6. Miscellaneous
 - [ ] **Spotify**: Disable "Hardware Acceleration" in settings if VPN/Firewall causes stuttering.
 - [ ] **Finder Favorites**: Manually drag "Google Drive", "Downloads", and "Code" to the Finder Sidebar (Sidebar order cannot be strictly enforced via plist).
