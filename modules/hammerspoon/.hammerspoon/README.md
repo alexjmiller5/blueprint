@@ -8,3 +8,6 @@
 osascript -e 'tell application "System Events" to get value of property list item "CFBundleIdentifier" of property list file "<path-to-your-app>/Contents/Info.plist"'
 ```
 
+## Setup
+
+- Run `hs.ipc.cliInstall()` in the Hammerspoon console to install the `hs` command line tool.
