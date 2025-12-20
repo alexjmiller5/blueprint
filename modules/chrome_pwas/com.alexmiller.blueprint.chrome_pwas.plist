@@ -11,7 +11,7 @@
     </array>
     <key>WatchPaths</key>
     <array>
-      <string>/Users/alexmiller/Applications/Chrome Apps</string>
+      <string>/Users/alexmiller/Applications/Chrome Apps.localized</string>
     </array>
     <key>ThrottleInterval</key>
     <integer>60</integer>
