@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HSAppleScriptEnabledKey</key>
+	<true/>
+	<key>HSUploadCrashData</key>
+	<false/>
+	<key>MJKeepConsoleOnTopKey</key>
+	<false/>
+	<key>MJShowDockIconKey</key>
+	<false/>
+	<key>MJShowMenuIconKey</key>
+	<false/>
+	<key>MJSkipDockMenuIconProblemAlertKey</key>
+	<false/>
+	<key>NSToolbar Configuration Console Default</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSToolbar Configuration hsBrowserToolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>2</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSSpellCheckerSubstitutionsPanel2</key>
+	<string>692 403 348 141 0 0 1470 924 </string>
+	<key>NSWindow Frame console</key>
+	<string>735 52 735 872 0 0 1470 924 {"tilingState":{"tilingPosition":6,"normalizedSize":1,"untiledFrame":"{{679, 32}, {736, 924}}"}}</string>
+	<key>NSWindow Frame prefs</key>
+	<string>556 484 365 277 0 0 1470 924 </string>
+	<key>SUAutomaticallyUpdate</key>
+	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
+	<key>SULastCheckTime</key>
+	<date>2025-12-20T15:37:36Z</date>
+	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>SUUpdateGroupIdentifier</key>
+	<integer>4170950410</integer>
+</dict>
+</plist>
