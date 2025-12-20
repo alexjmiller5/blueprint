@@ -27,10 +27,10 @@ export NODE_EXTRA_CA_CERTS=~/ca-certificates.crt
 # Enable auotcomplete for more git, docker, and more than just basic terminal commands
 autoload -Uz compinit && compinit
 
-# The next line updates PATH for the Google Cloud SDK.
+# The next line updates PATH for the Google Cloud SDK
 if [ -f '/Users/alexmiller/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/alexmiller/google-cloud-sdk/path.zsh.inc'; fi
 
-# The next line enables shell command completion for gcloud.
+# The next line enables shell command completion for gcloud
 if [ -f '/Users/alexmiller/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/alexmiller/google-cloud-sdk/completion.zsh.inc'; fi
 
 # Set 1Password as my default ssh authenticator
