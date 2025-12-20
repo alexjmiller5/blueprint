@@ -48,7 +48,13 @@ defaults write com.apple.WindowManager EnableTiledWindowMargins -bool false
 
 # Stage Manager: Group apps (Disable "Show recent apps in Stage Manager" strip if desired)
 # defaults write com.apple.WindowManager Globals -dict-add "AutoHide" -bool true
+# Disable "Show Spotlight search" hotkey (Key ID 64)
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "{enabled = 0; value = { parameters = (32, 49, 1048576); type = 'standard'; }; }"
 
+/usr/libexec/PlistBuddy -c "Set :AppleSymbolicHotKeys:64:enabled false" ~/Library/Preferences/com.apple.symbolichotkeys.plist
+
+# Reload settings (may still require a logout/restart to take full effect)
+/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
 # Hot Corners
 # Possible values:
 #  0: no-op
@@ -130,7 +136,12 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Chrome: Disable print preview (Optional, from generic dev setups)
 defaults write com.google.Chrome DisablePrintPreview -bool true
 
+defaults write com.apple.finder StandardViewSettings -dict-add ExtendedListViewSettings_calculateAllSizes -bool true
+defaults write com.apple.finder ListViewSettings -dict-add calculateAllSizes -bool true
+
 xattr -w com.apple.fileprovider.pinned 1 ~/Desktop
+
+defaults write com.apple.dock mru-spaces -bool false
 
 ###############################################################################
 # 6. RESTART                                                                  #

@@ -69,3 +69,5 @@ cd <path-to-blueprint-repo>
 - [ ] Design the watchers for plists to automatically get the bundle id and plist file path from the app name just like I did with the dumpers because rn it's hardcoded not sure the best way this can be dyniamcally designed though because the dumpers was easy since it's a bash script
 - [ ] write the git commits to include the module name when automatic dumps happen
 - [ ] Eventually consider seeing if fswatch is advanced enough so that instead of having a different watcher for each module I can have one watcher that watches all the relevant paths and figures out which module it belongs to and triggers the relevant dump script
+- [ ] Codify what my menu bar looks like as it's own module (or maybe in the macos settings)
+- [ ] change all my apps to be installed via brew where it's easier to manage them using brew
