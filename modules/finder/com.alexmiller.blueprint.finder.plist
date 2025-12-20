@@ -12,6 +12,7 @@
         <key>WatchPaths</key>
         <array>
             <string>/Users/alexmiller/Library/Preferences/com.apple.finder.plist</string>
+            <string>/Users/alexmiller/Library/Application Support/com.apple.sharedfilelist</string>
         </array>
         <key>ThrottleInterval</key>
         <integer>60</integer>
