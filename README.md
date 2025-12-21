@@ -71,3 +71,4 @@ cd <path-to-blueprint-repo>
 - [ ] Eventually consider seeing if fswatch is advanced enough so that instead of having a different watcher for each module I can have one watcher that watches all the relevant paths and figures out which module it belongs to and triggers the relevant dump script
 - [ ] Codify what my menu bar looks like as it's own module (or maybe in the macos settings)
 - [ ] change all my apps to be installed via brew where it's easier to manage them using brew
+- [ ] create a script to delete a module which removes the modules code folder AND remoces the launchagent from `~/Library/LaunchAgents` because that gets leftover from the launctl thing - maybe I should use the unload command? Does that remove the file fro launchagents?
