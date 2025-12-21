@@ -10,4 +10,4 @@ alias gp="git push"
 alias gb="git branch"
 alias gba="git branch -a"
 alias gl="git log"
-alias cat='bat'
+alias cat="bat"
