@@ -1,20 +1,24 @@
 # Chrome Extensions
-- Bookmarks Exporter
-- Button Stealer
-- Calendly: Meeting Scheduling Software
-- ChatGPT search
-- Dark Reader
-- GrabText - Screen & Image OCR
-- Insta Content Blocker
-- Minimal Theme for Twitter / X
-- Open Links in Tabs
-- Raycast Companion
-- Refined GitHub
-- Simplify Copilot - Autofill job applications, job tracker & AI resumes
-- Tab Copy
-- Vimium
-- WhatFont
-- Windscribe - Free Proxy and Ad Blocker
-- Youtube-shorts block
-- daily.dev | The homepage developers deserve
-- uBlock Origin
+## Other Extensions
+ - [ ] Bookmarks Exporter
+ - [ ] Button Stealer
+ - [ ] Calendly: Meeting Scheduling Software
+ - [ ] ChatGPT search
+ - [ ] Dark Reader
+ - [ ] GrabText - Screen & Image OCR
+ - [ ] Insta Content Blocker
+ - [ ] Minimal Theme for Twitter / X
+ - [ ] Minimal Theme for Twitter / X
+ - [ ] Open Links in Tabs
+ - [ ] Raycast Companion
+ - [ ] Refined GitHub
+ - [ ] Simplify Copilot - Autofill job applications, job tracker & AI resumes
+ - [ ] Simplify Copilot - Autofill job applications, job tracker & AI resumes
+ - [ ] Simplify Copilot - Autofill job applications, job tracker & AI resumes
+ - [ ] Tab Copy
+ - [ ] Vimium
+ - [ ] WhatFont
+ - [ ] Windscribe - Free Proxy and Ad Blocker
+ - [ ] Youtube-shorts block
+ - [ ] daily.dev | The homepage developers deserve
+ - [ ] uBlock Origin
