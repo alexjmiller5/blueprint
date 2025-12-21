@@ -32,6 +32,6 @@ RSYNC_OPTIONS=(
 
 echo "  Backing up Raycast (Slim Mode)..."
 mkdir -p "$BACKUP_DIR/data"
-rsync "${RSYNC_OPTIONS[@]}" "$APP_DIR/" "$BACKUP_DIR/data/"
+/usr/bin/rsync "${RSYNC_OPTIONS[@]}" "$APP_DIR/" "$BACKUP_DIR/data/"
 
 "$REPO_ROOT/core/git_push.sh"
