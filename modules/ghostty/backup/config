@@ -1,0 +1,38 @@
+Host *
+  IdentityAgent "~/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+
+Host github
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/github.pub
+  IdentitiesOnly yes
+
+Host raspberry-pi-tailscale
+  HostName raspberry-pi.tailee59b5.ts.net
+  User alexmiller
+  IdentityFile ~/.ssh/raspberry-pi.pub
+  IdentitiesOnly yes
+
+Host raspberry-pi-local
+  HostName <REDACTED_IP>
+  User alexmiller
+  IdentityFile ~/.ssh/raspberry-pi.pub
+  IdentitiesOnly yes
+
+Host google-cloud-vm
+  HostName <REDACTED_IP>
+  User alexmiller
+  IdentityFile ~/.ssh/google-cloud-vm.pub
+  IdentitiesOnly yes
+
+Host home-assistant-tailscale
+  HostName home-assistant.tailee59b5.ts.net
+  User root
+  IdentityFile ~/.ssh/home-assistant.pub
+  IdentitiesOnly yes
+
+Host home-assistant-local
+  HostName <REDACTED_IP>
+  User root
+  IdentityFile ~/.ssh/home-assistant.pub
+  IdentitiesOnly yes
