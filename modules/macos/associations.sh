@@ -23,21 +23,15 @@ LIBREOFFICE="org.libreoffice.script"
 # Added .cherri per your notes
 duti -s $VSCODE .cherri all
 
-# Standard Dev Files
 for ext in ts tsx js jsx json py sh zsh bash lua yaml yml toml md css scss html xml plist c cpp h txt csv log sql tf tfvars; do
     duti -s $VSCODE .$ext all
 done
 
-# --- MEDIA (QuickTime) ---
-# Notes: "set mp3 to naturally open with quicktime instead of apple music"
 duti -s $QUICKTIME .mp3 all
 duti -s $QUICKTIME .wav all
 duti -s $QUICKTIME .mp4 all
 duti -s $QUICKTIME .mov all
 
-# --- DOCUMENTS (LibreOffice) ---
-# Notes: "tell .docx and .pptx ... to all be opened by libreoffice"
-# Only runs if LibreOffice is actually installed
 if [ -d "/Applications/LibreOffice.app" ]; then
     duti -s $LIBREOFFICE .docx all
     duti -s $LIBREOFFICE .doc all

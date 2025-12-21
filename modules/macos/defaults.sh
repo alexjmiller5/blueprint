@@ -28,7 +28,7 @@ defaults write com.apple.WindowManager EnableTiledWindowMargins -bool false
 defaults write com.apple.dock mru-spaces -bool false
 
 # Hot Corners (Top Left: Mission Control, Bottom Right: Disable Quick Note)
-defaults write com.apple.dock wvous-tl-corner -int 2
+defaults write com.apple.dock wvous-tl-corner -int 0
 defaults write com.apple.dock wvous-tl-modifier -int 0
 defaults write com.apple.dock wvous-br-corner -int 0
 defaults write com.apple.dock wvous-br-modifier -int 0
