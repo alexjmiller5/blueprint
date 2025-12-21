@@ -1,6 +1,4 @@
 #!/bin/bash
-# associations.sh
-# Sets default applications for file types using 'duti'
 
 if ! command -v duti &> /dev/null; then
     echo "❌ 'duti' is not installed. Skipping file associations."
@@ -14,7 +12,6 @@ curl "https://raw.githubusercontent.com/github/linguist/master/lib/linguist/lang
 | yq -r "to_entries | (map(.value.extensions) | flatten) - [null] | unique | .[]" \
 | xargs -L 1 -I "{}" duti -s com.microsoft.VSCode {} all
 
-# Application Bundle IDs
 VSCODE="com.microsoft.VSCode"
 QUICKTIME="com.apple.QuickTimePlayerX"
 LIBREOFFICE="org.libreoffice.script" 
