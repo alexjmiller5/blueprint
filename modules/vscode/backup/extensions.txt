@@ -23,7 +23,6 @@ docker.docker
 donjayamanne.githistory
 dsznajder.es7-react-js-snippets
 dustinsanders.an-old-hope-theme-vscode
-e2eoperations.space-extension
 eamodio.gitlens
 ecmel.vscode-html-css
 electrikmilk.cherri-vscode-extension
