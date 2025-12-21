@@ -14,7 +14,6 @@ macOS will not allow scripts to grant these permissions. You must grant them man
 
 ## 2. Google Chrome
 
-- [ ] **Extensions**: Open `modules/chrome/extensions_list.md` and click the links to install missing extensions.
 - [ ] **PWA Link Capturing** (Cannot be scripted):
     - **YouTube**: Open App Info (⋮ > App Info) > Settings > Select "Open in YouTube".
     - **Spotify**: Open App Info > Settings > Select "Open in Spotify".
@@ -23,6 +22,12 @@ macOS will not allow scripts to grant these permissions. You must grant them man
 ## Finder
 
 - Set the following order of the finder sidebar favorites
+  - Macintosh HD
+  - Applications
+  - Downloads
+  - Desktop
+  - Documents
+  - alexmiller
 
 ## Chrome PWAs
 
