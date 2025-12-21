@@ -18,3 +18,5 @@ modules:
   ssh: false
   hammerspoon: true
   karabiner: true
+  ghostty: true
+  tmux: true
