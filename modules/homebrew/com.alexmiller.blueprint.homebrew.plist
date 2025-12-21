@@ -11,7 +11,7 @@
     </array>
     <key>WatchPaths</key>
     <array>
-      <string>/opt/homebrew/Cellar</string>
+      <string>/opt/homebrew/</string>
     </array>
     <key>ThrottleInterval</key>
     <integer>60</integer>
