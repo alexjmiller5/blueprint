@@ -103,6 +103,7 @@ repreng.csv
 ritwickdey.liveserver
 robbowen.synthwave-vscode
 ryuta46.multi-command
+serveyouai.copy-file-contents
 shardulm94.trailing-spaces
 simonsiefke.svg-preview
 skellock.just
