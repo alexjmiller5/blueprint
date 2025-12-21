@@ -2,6 +2,7 @@
 Amazon.app
 Bitwarden Web.app
 BofA.app
+Breaking News, Latest News and Videos | CNN.app
 ChatGPT.app
 Claude.app
 DeepSeek.app
