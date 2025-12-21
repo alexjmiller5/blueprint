@@ -1,3 +1,4 @@
+
 getsynapsenotionsecret() {
   op item get 'Synapse Notion Internal Integration Secret' --fields credential --reveal
 }
@@ -45,4 +46,7 @@ syn-local() {
         -d "$payload"
     
     echo ""
+}
+get-bundleid() {
+  osascript -e "id of app \"$1\""
 }
