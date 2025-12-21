@@ -10,10 +10,9 @@ modules:
   permissions: true
   manual_apps: true
   alttab: true
-  rectangle: true
   betterdisplay: true
   keyclu: true
-  monitorcontrol: true
+  1password: true
   finder: true
   git: true
   ssh: false
