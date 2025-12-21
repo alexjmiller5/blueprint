@@ -75,3 +75,4 @@ cd <path-to-blueprint-repo>
 - [ ] figure out how to unload the launchagent texts.com screenshot I put in my desktop
 - [ ] modifiy the git push in the core install script to only add the relevant module folder instead of the entire repo when an automatic dump happens
 - [ ] Redact my tailscale network DNS name from the config ssh module
+- [ ] I really need to centralize the plist creation to be better at DRY and the file duplication / 
