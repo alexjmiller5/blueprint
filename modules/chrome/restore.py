@@ -1,7 +1,7 @@
 import json
 import os
 import sys
-import psutil  # You may need to install this: uv pip install psutil
+import psutil
 
 # --- CONFIGURATION ---
 PROFILE_PATH = os.path.expanduser("~/Library/Application Support/Google/Chrome/Profile 1")
