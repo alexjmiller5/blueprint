@@ -19,13 +19,7 @@ VSCODE="com.microsoft.VSCode"
 QUICKTIME="com.apple.QuickTimePlayerX"
 LIBREOFFICE="org.libreoffice.script" 
 
-# --- DEVELOPMENT (VS Code) ---
-# Added .cherri per your notes
 duti -s $VSCODE .cherri all
-
-for ext in ts tsx js jsx json py sh zsh bash lua yaml yml toml md css scss html xml plist c cpp h txt csv log sql tf tfvars; do
-    duti -s $VSCODE .$ext all
-done
 
 duti -s $QUICKTIME .mp3 all
 duti -s $QUICKTIME .wav all
