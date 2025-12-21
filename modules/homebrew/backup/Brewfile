@@ -29,7 +29,6 @@ brew "just"
 brew "libffi"
 brew "mlton"
 brew "perl"
-brew "pipenv", link: false
 brew "python@3.10"
 brew "ruby-install"
 brew "terraform"
