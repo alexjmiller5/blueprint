@@ -18,7 +18,7 @@ cat ~/.ssh/blueprint_deploy_key.pub | pbcopy
   - IMPORTANT: Check the box ☑️ Allow write access. (Without this, it can only pull, not push).
   - Click Add key.
 
-- Load the LaunchAgents
+- Load the LaunchAgents to enable automatic dumps.
 
 ```bash
 cd <path-to-blueprint-repo>
@@ -76,3 +76,4 @@ cd <path-to-blueprint-repo>
 - [ ] modifiy the git push in the core install script to only add the relevant module folder instead of the entire repo when an automatic dump happens
 - [ ] Redact my tailscale network DNS name from the config ssh module
 - [ ] I really need to centralize the plist creation to be better at DRY and the file duplication / copying code for backing up certain modules
+- [ ] in the settings.yaml, put the throttle intervals, filepaths to watch, and files to copy, and the path to the dumping script for each module instead of hardcoding them in the plist files
