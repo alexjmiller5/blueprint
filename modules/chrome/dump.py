@@ -1,5 +1,6 @@
 import json
 import os
+import subprocess
 import sys
 from datetime import datetime
 
@@ -195,6 +196,44 @@ def main():
 
     print("---------------------------------------------------")
     print("🎉 All profiles dumped successfully.")
+
+    print("\n🚀 Triggering auto-commit and push...")
+    # The git_push.sh script is in the core directory, relative to the project root.
+    # SCRIPT_DIR is the 'modules/chrome' directory.
+    git_push_script = os.path.abspath(
+        os.path.join(SCRIPT_DIR, "..", "..", "core", "git_push.sh")
+    )
+
+    if not os.path.exists(git_push_script):
+        print(f"   ❌ Error: Git push script not found at {git_push_script}")
+        return
+
+    try:
+        # Ensure the script is executable
+        os.chmod(git_push_script, 0o755)
+
+        # The script handles changing to the repo root and running git commands.
+        result = subprocess.run(
+            [git_push_script], check=True, capture_output=True, text=True
+        )
+        print("   ✅ Backup committed and pushed successfully.")
+        if result.stdout.strip():
+            print("   ---")
+            print(result.stdout.strip())
+        if result.stderr.strip():
+            print("   ---")
+            print(result.stderr.strip())
+
+    except subprocess.CalledProcessError as e:
+        print(f"   ❌ Git push script failed with exit code {e.returncode}.")
+        if e.stdout:
+            print("   --- STDOUT ---")
+            print(e.stdout)
+        if e.stderr:
+            print("   --- STDERR ---")
+            print(e.stderr)
+    except Exception as e:
+        print(f"   ❌ An unexpected error occurred: {e}")
 
 
 if __name__ == "__main__":
