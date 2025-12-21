@@ -36,7 +36,7 @@ echo "🔍 Extracting Pinned Extensions from $PROFILE_DIR..."
 
 # Extract the array of pinned extension IDs
 # The path is usually .extensions.toolbar (an array of ID strings)
-jq '.extensions.toolbar' "$PREFS_FILE" > "$OUTPUT_FILE"
+jq '.extensions.pinned_extensions' "$PREFS_FILE" > "$OUTPUT_FILE"
 
 echo "✅ Saved pinned list to $(basename "$OUTPUT_FILE")"
 cat "$OUTPUT_FILE"

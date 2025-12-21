@@ -54,7 +54,7 @@ TMP_PREFS=$(mktemp)
 # 3. Use jq to swap out the toolbar list with our backup list
 # We pass the backup file as 'pins' and update the .extensions.toolbar key
 jq --slurpfile pins "$BACKUP_FILE" \
-   '.extensions.toolbar = $pins[0]' \
+   '.extensions.pinned_extensions = $pins[0]' \
    "$PREFS_FILE" > "$TMP_PREFS"
 
 # 4. Overwrite the real preferences file

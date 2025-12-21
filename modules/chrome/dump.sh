@@ -44,7 +44,7 @@ find "$EXT_DIR" -name "manifest.json" -mindepth 2 -maxdepth 3 -print0 | while IF
     fi
 done
 
-PINNED_IDS=$(jq -r '(.extensions.toolbar // []) | .[]' "$PREFS_FILE")
+PINNED_IDS=$(jq -r '(.extensions.pinned_extensions // []) | .[]' "$PREFS_FILE")
 SETTINGS_JSON=$(jq '.extensions.settings' "$PREFS_FILE")
 PINNED_OUT=$(mktemp)
 OTHER_OUT=$(mktemp)
