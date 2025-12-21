@@ -3,11 +3,11 @@
 <plist version="1.0">
   <dict>
     <key>Label</key>
-    <string>com.alexmiller.blueprint.ssh</string>
+    <string>com.alexmiller.blueprint.ghostty</string>
     <key>ProgramArguments</key>
     <array>
       <string>/bin/bash</string>
-      <string>{{ROOT}}/modules/ssh/dump.sh</string>
+      <string>{{ROOT}}/modules/ghostty/dump.sh</string>
     </array>
     <key>WatchPaths</key>
     <array>
