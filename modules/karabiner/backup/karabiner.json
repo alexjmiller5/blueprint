@@ -870,6 +870,10 @@
                             "to": [{ "key_code": "vk_mission_control" }]
                         }
                     ]
+                },
+                {
+                    "identifiers": { "is_consumer": true },
+                    "ignore": false
                 }
             ],
             "name": "Default profile",
