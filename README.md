@@ -64,14 +64,13 @@ cd <path-to-blueprint-repo>
 - [ ] either complete all these tasks for move them to the dotfiles project in notion to be completed at a later time
 - [ ] abstract the file copying logic to the yaml file where all you need for a module is a list of source paths and it does the watching and dumping/restoring automatically
 - [ ] add a module for tmux
-- [ ] add a module f
-- [ ] or ghostty
+- [ ] add a module for ghostty
 - [ ] Design the watchers for plists to automatically get the bundle id and plist file path from the app name just like I did with the dumpers because rn it's hardcoded not sure the best way this can be dyniamcally designed though because the dumpers was easy since it's a bash script
 - [ ] write the git commits to include the module name when automatic dumps happen
 - [ ] Eventually consider seeing if fswatch is advanced enough so that instead of having a different watcher for each module I can have one watcher that watches all the relevant paths and figures out which module it belongs to and triggers the relevant dump script
 - [ ] Codify what my menu bar looks like as it's own module (or maybe in the macos settings)
 - [ ] change all my apps to be installed via brew where it's easier to manage them using brew
-- [ ] create a script to delete a module which removes the modules code folder AND remoces the launchagent from `~/Library/LaunchAgents` because that gets leftover from the launctl thing - maybe I should use the unload command? Does that remove the file fro launchagents?
+- [ ] create a script to delete a module which removes the modules code folder AND remoces the launchagent from `~/Library/LaunchAgents` because that gets leftover from the launctl thing - maybe I should use the unload command? Does that remove the file for launchagents?
 - [ ] figure out how to unload the launchagent texts.com screenshot I put in my desktop
 - [ ] modifiy the git push in the core install script to only add the relevant module folder instead of the entire repo when an automatic dump happens
 - [ ] Redact my tailscale network DNS name from the config ssh module
