@@ -5,6 +5,7 @@ REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
 BACKUP_DIR="$SCRIPT_DIR/backup"
 
 mkdir -p "$BACKUP_DIR"
-/usr/bin/sed -E 's/[[:<:]]([0-9]{1,3}\.){3}[0-9]{1,3}[[:>:]]/<REDACTED_IP>/g' "$HOME/.ssh/config" > "$BACKUP_DIR/config"
+
+cp "$HOME/Library/Application Support/com.mitchellh.ghostty/config" "$BACKUP_DIR/config"
 
 "$REPO_ROOT/core/git_push.sh"
