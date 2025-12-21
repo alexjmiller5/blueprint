@@ -11,7 +11,7 @@
     </array>
     <key>WatchPaths</key>
     <array>
-      <string>/Users/alexmiller/.ssh/config</string>
+      <string>/Users/alexmiller/Library/Application Support/com.mitchellh.ghostty/config</string>
     </array>
   </dict>
 </plist>
