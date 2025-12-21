@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "profile": "Profile 1",
+    "timestamp": "2025-12-20T20:56:51.956754",
+    "type": "toolbar_settings"
+  },
+  "ui_toggles": {
+    "show_home_button": false,
+    "show_forward_button": true,
+    "show_bookmarks_bar": false,
+    "show_incognito_btn": false
+  },
+  "toolbar_actions": [
+    {
+      "name": "Chrome Labs",
+      "id": "kActionShowChromeLabs",
+      "pinned": true
+    },
+    {
+      "name": "Developer Tools",
+      "id": "kActionDevTools",
+      "pinned": true
+    },
+    {
+      "name": "Downloads",
+      "id": "kActionShowDownloads",
+      "pinned": true
+    },
+    {
+      "name": "Translate",
+      "id": "kActionShowTranslate",
+      "pinned": true
+    },
+    {
+      "name": "Tab Search",
+      "id": "kActionTabSearch",
+      "pinned": false
+    },
+    {
+      "name": "Print",
+      "id": "kActionPrint",
+      "pinned": false
+    },
+    {
+      "name": "Send to your devices",
+      "id": "kActionSendTabToSelf",
+      "pinned": false
+    },
+    {
+      "name": "Create QR Code",
+      "id": "kActionQrCodeGenerator",
+      "pinned": false
+    },
+    {
+      "name": "Cast",
+      "id": "media_router_action",
+      "pinned": false
+    },
+    {
+      "name": "Reading List",
+      "id": "kActionSidePanelShowReadingList",
+      "pinned": false
+    },
+    {
+      "name": "Bookmarks (Side Panel)",
+      "id": "kActionSidePanelShowBookmarks",
+      "pinned": false
+    },
+    {
+      "name": "History (Side Panel)",
+      "id": "kActionSidePanelShowHistory",
+      "pinned": false
+    },
+    {
+      "name": "Copy Link",
+      "id": "kActionCopyLink",
+      "pinned": false
+    },
+    {
+      "name": "Reading Mode",
+      "id": "kActionSidePanelShowReadAnything",
+      "pinned": false
+    },
+    {
+      "name": "Task Manager",
+      "id": "kActionTaskManager",
+      "pinned": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "profile": "Profile 9",
+    "timestamp": "2025-12-20T20:56:51.961771",
+    "type": "extensions_list"
+  },
+  "extensions": [
+    {
+      "name": "Adobe Acrobat: PDF edit, convert, sign tools",
+      "id": "efaidnbmnnnibpcajpcglclefindmkaj",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Application Launcher For Drive (by Google)",
+      "id": "lmjegmlicamnimmfhcmpkclmigmmcbeh",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "Chrome PDF Viewer",
+      "id": "mhjfbmdgcfjbbpaeojofohoefgiehjai",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Chrome Web Store Payments",
+      "id": "nmmhkkegccagdldgiimedpiccmgmieda",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Docs Offline",
+      "id": "ghbmnnjooekpmoecnnnilnnbdlolhkhi",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Hangouts",
+      "id": "nkeimhogjdpnpccoofpliimaahmaaome",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Network Speech",
+      "id": "fignfifoniblkonapihmkfakmlgkbkcf",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Network Speech",
+      "id": "neajdppkdcdipfabeoofebfddakdcjhd",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Open Links in Tabs",
+      "id": "jlgojbammkhdbbohlihccohgbaccgpbm",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "Tab Copy",
+      "id": "micdllihgoppmejpecmkilggmaagfdmb",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "Web Store",
+      "id": "ahfgeienlihckogmohjhadlkjgocpleb",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "uBlock Origin Lite",
+      "id": "ddkjiahejlhfcafbddmgiahcphecmpfh",
+      "enabled": true,
+      "pinned": false
+    }
+  ]
+}

@@ -6,14 +6,18 @@
     <string>com.alexmiller.blueprint.chrome</string>
     <key>ProgramArguments</key>
     <array>
-      <string>/bin/bash</string>
-      <string>{{ROOT}}/modules/chrome/dump.sh</string>
+      <string>/usr/bin/python3</string>
+      <string>{{ROOT}}/modules/chrome/dump.py</string>
     </array>
     <key>WatchPaths</key>
     <array>
-      <string>/Users/alexmiller/Library/Application Support/Google/Chrome/</string>
+      <string>/Users/alexmiller/Library/Application Support/Google/Chrome</string>
     </array>
     <key>ThrottleInterval</key>
     <integer>300</integer>
+    <key>StandardOutPath</key>
+    <string>/tmp/chrome_blueprint.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/chrome_blueprint_err.log</string>
   </dict>
 </plist>
