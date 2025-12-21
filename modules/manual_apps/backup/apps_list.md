@@ -9,3 +9,52 @@
 - [Manual] AutoRaise
 - [Manual] BetterDisplay
 - [Manual] Google Chrome
+- [Manual] Karabiner-Elements
+- [Manual] Karabiner-EventViewer
+- [Manual] Telegram
+- [Manual] Notion
+- [Manual] Xcode
+- [Manual] Notion Calendar
+- [Manual] Legcord
+- [Manual] Spotify
+- [Manual] Inkscape
+- [Manual] Cursor
+- [Manual] eggnoggplus
+- [Manual] Dolphin
+- [Manual] Docker
+- [Manual] Obsidian
+- [Manual] Safari
+- [Manual] Flighty
+- [Manual] IPFS Desktop
+- [Manual] ChatGPT
+- [Manual] zoom.us
+- [Manual] WhatsApp
+- [Manual] GitHub Desktop
+- [Manual] KeyClu
+- [Manual] LibreOffice
+- [Manual] Wireshark
+- [Manual] Burp Suite Community Edition
+- [Manual] Texts
+- [Manual] Hammerspoon
+- [Manual] Processing
+- [Manual] .Karabiner-VirtualHIDDevice-Manager
+- [Manual] Flappy Golf 2
+- [Manual] qFlipper
+- [Manual] Raspberry Pi Imager
+- [Manual] hide.me
+- [Manual] MySQLWorkbench
+- [Manual] Ghostty
+- [Manual] Numi
+- [Manual] Messenger
+- [Manual] Yaak
+- [Manual] BambuStudio
+- [Manual] Menu Bar Spacing
+- [Manual] AltTab
+- [Manual] Postman
+- [Manual] Octagon
+- [Manual] Notion Mail
+- [Manual] Tailscale
+- [Manual] DuckDuckGo
+- [Manual] Slack
+- [Manual] Discord
+- [Manual] SF Symbols
