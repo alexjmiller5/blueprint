@@ -58,6 +58,8 @@ meganrogge.template-string-converter
 mgesbert.python-path
 miguelsolorio.symbols
 monokai.theme-monokai-pro-vscode
+ms-azuretools.vscode-azurefunctions
+ms-azuretools.vscode-azureresourcegroups
 ms-azuretools.vscode-containers
 ms-azuretools.vscode-docker
 ms-python.black-formatter
