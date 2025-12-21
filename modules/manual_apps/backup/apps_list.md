@@ -17,7 +17,6 @@
 - [Manual] Notion Calendar
 - [Manual] Legcord
 - [Manual] Spotify
-- [Manual] Inkscape
 - [Manual] Cursor
 - [Manual] eggnoggplus
 - [Manual] Dolphin
