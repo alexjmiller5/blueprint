@@ -1,92 +1,62 @@
 #!/bin/bash
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
+# modules/chrome/dump_state.sh
+
 CHROME_SUPPORT_DIR="$HOME/Library/Application Support/Google/Chrome"
-BACKUP_DIR="$SCRIPT_DIR/backup"
-mkdir -p "$BACKUP_DIR"
-OUT="$BACKUP_DIR/extensions_list.md"
+OUTPUT_FILE="$(dirname "$0")/chrome_full_state.json"
 
-echo "# Chrome Extensions" > "$OUT"
-
-# Find profile
+# --- 1. INTELLIGENT PROFILE FINDER ---
+# Strategy: Find the profile with the MOST pinned extensions.
 PROFILE_DIR=""
-if [ -d "$CHROME_SUPPORT_DIR/Default" ]; then
-    PROFILE_DIR="$CHROME_SUPPORT_DIR/Default"
-else
-    for dir in "$CHROME_SUPPORT_DIR/Profile "*/; do
-        if [ -d "$dir" ]; then
-            PROFILE_DIR=$(echo "$dir" | sed 's:/*$::') # remove trailing slash
-            break
+MAX_PINNED=0
+
+# Check Default + Profiles 1-20
+PROFILES=("$CHROME_SUPPORT_DIR/Default")
+for i in {1..20}; do PROFILES+=("$CHROME_SUPPORT_DIR/Profile $i"); done
+
+echo "🔍 Searching for main Chrome profile..."
+
+for dir in "${PROFILES[@]}"; do
+    if [ -f "$dir/Preferences" ]; then
+        # Count how many pinned extensions are in this profile
+        COUNT=$(jq '.extensions.pinned_extensions | length' "$dir/Preferences" 2>/dev/null)
+        
+        # If COUNT is null, treat as 0
+        if [ "$COUNT" = "null" ]; then COUNT=0; fi
+
+        if [ "$COUNT" -gt "$MAX_PINNED" ]; then
+            MAX_PINNED=$COUNT
+            PROFILE_DIR="$dir"
+            echo "   👉 Candidate: $(basename "$dir") ($COUNT pinned items)"
         fi
-    done
-fi
+    fi
+done
 
 if [ -z "$PROFILE_DIR" ]; then
-    echo "No Chrome profile found." >> "$OUT"
-    exit 0
+    echo "❌ No profiles with pinned extensions found."
+    exit 1
 fi
 
+echo "✅ Selected Profile: $(basename "$PROFILE_DIR")"
 PREFS_FILE="$PROFILE_DIR/Preferences"
-EXT_DIR="$PROFILE_DIR/Extensions"
 
-if [ ! -f "$PREFS_FILE" ] || [ ! -d "$EXT_DIR" ]; then
-    echo "Chrome Preferences or Extensions directory not found in $PROFILE_DIR" >> "$OUT"
-    exit 0
-fi
+# --- 2. EXTRACTION ---
+# We use the keys confirmed by your debug output.
+# We DROP 'extension_states' because your Preferences file doesn't have it.
 
-ALL_EXT_INFO=$(mktemp)
-# Get all extension IDs and names
-find "$EXT_DIR" -name "manifest.json" -mindepth 2 -maxdepth 3 -print0 | while IFS= read -r -d $'\0' m; do
-    EXT_ID=$(basename "$(dirname "$(dirname "$m")")")
-    NAME=$(jq -r '.name' "$m" 2>/dev/null | tr -d '"')
-    if [[ ! -z "$NAME" && ! "$NAME" =~ "__MSG" ]]; then
-        echo "$EXT_ID $NAME" >> "$ALL_EXT_INFO"
-    fi
-done
+jq '{
+  # The ordered list of pinned extension IDs
+  pinned_order: (.extensions.pinned_extensions // []),
 
-PINNED_IDS=$(jq -r '(.extensions.pinned_extensions // []) | .[]' "$PREFS_FILE")
-SETTINGS_JSON=$(jq '.extensions.settings' "$PREFS_FILE")
-PINNED_OUT=$(mktemp)
-OTHER_OUT=$(mktemp)
+  # Native Chrome Buttons (Translate, Side Panel, etc.)
+  native_actions: (.pinned_actions // []),
 
-# Process pinned extensions
-for pinned_id in $PINNED_IDS; do
-    line=$(grep "^$pinned_id " "$ALL_EXT_INFO")
-    if [[ -z "$line" ]]; then continue; fi
-    name=${line#* }
+  # Toolbar Toggles (Home, Bookmarks)
+  toolbar_settings: {
+    show_home_button: (.browser.show_home_button // false),
+    show_bookmarks_bar: (.bookmark_bar.show_on_all_tabs // false)
+  }
+}' "$PREFS_FILE" > "$OUTPUT_FILE"
 
-    state=$(echo "$SETTINGS_JSON" | jq -r --arg id "$pinned_id" '.[$id].state // 0')
-    state_icon=$([ "$state" == "1" ] && echo "[x]" || echo "[ ]")
-
-    echo " - $state_icon $name" >> "$PINNED_OUT"
-done
-
-# Process other extensions
-while read -r line; do
-    ext_id=${line%% *}
-    name=${line#* }
-
-    is_pinned=false
-    for pinned_id in $PINNED_IDS; do [[ "$ext_id" == "$pinned_id" ]] && is_pinned=true && break; done
-
-    if ! $is_pinned; then
-        state=$(echo "$SETTINGS_JSON" | jq -r --arg id "$ext_id" '.[$id].state // 0')
-        state_icon=$([ "$state" == "1" ] && echo "[x]" || echo "[ ]")
-        echo " - $state_icon $name" >> "$OTHER_OUT"
-    fi
-done < "$ALL_EXT_INFO"
-
-# Assemble final file
-if [ -s "$PINNED_OUT" ]; then
-    echo "## Pinned" >> "$OUT"
-    cat "$PINNED_OUT" >> "$OUT"
-    echo "" >> "$OUT"
-fi
-if [ -s "$OTHER_OUT" ]; then
-    echo "## Other Extensions" >> "$OUT"
-    sort -u "$OTHER_OUT" >> "$OUT"
-fi
-
-rm "$ALL_EXT_INFO" "$PINNED_OUT" "$OTHER_OUT"
-
-"$REPO_ROOT/core/git_push.sh"
+echo "💾 Saved Chrome UI state to $(basename "$OUTPUT_FILE")"
+echo "   - Pinned Items:   $(jq '.pinned_order | length' "$OUTPUT_FILE")"
+echo "   - Native Actions: $(jq '.native_actions | length' "$OUTPUT_FILE")"
