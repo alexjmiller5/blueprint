@@ -14,7 +14,7 @@
       <string>/Users/alexmiller/Library/Application Support/Google/Chrome</string>
     </array>
     <key>ThrottleInterval</key>
-    <integer>5</integer>
+    <integer>300</integer>
     <key>StandardOutPath</key>
     <string>/tmp/chrome_blueprint.log</string>
     <key>StandardErrorPath</key>
