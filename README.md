@@ -10,20 +10,20 @@ cat ~/.ssh/blueprint_deploy_key.pub | pbcopy
 ```
 
 - Add the copied public key to your GitHub account
+  - Go to your Blueprint Repository on GitHub.
+  - Navigate to Settings > Deploy keys.
+  - Click Add deploy key.
+  - Title: Mac Automation (Push)
+  - Key: Paste the key you just copied.
+  - IMPORTANT: Check the box ☑️ Allow write access. (Without this, it can only pull, not push).
+  - Click Add key.
 
-Go to your Blueprint Repository on GitHub.
+- Load the LaunchAgents
 
-Navigate to Settings > Deploy keys.
-
-Click Add deploy key.
-
-Title: Mac Automation (Push)
-
-Key: Paste the key you just copied.
-
-IMPORTANT: Check the box ☑️ Allow write access. (Without this, it can only pull, not push).
-
-Click Add key.
+```bash
+cd <path-to-blueprint-repo>
+just load_agents
+```
 
 ## Usage
 
