@@ -143,8 +143,6 @@ xattr -w com.apple.fileprovider.pinned 1 ~/Desktop
 
 defaults write com.apple.dock mru-spaces -bool false
 
-###############################################################################
-# 6. RESTART                                                                  #
-###############################################################################
+
 echo "  Restarting apps..."
 killall Dock Finder SystemUIServer cfprefsd bird
