@@ -1,24 +1,331 @@
 {
-  "pinned_order": [
-    "oocalimimngaihdkbihfgmpkcpnmlaoa",
-    "iaocbfnfliofajghjjeddjmpagigngmp",
-    "cjpalhdlnbpafiamejdnhcphjbkeiagm",
-    "cbhilkcodigmigfbnphipnnmamjfkipp",
-    "aapbdbdomjkkjkaonfhkkikfgjllcleb",
-    "ejcfepkfckglbgocfkanmcdngdijcgld",
-    "gighmmpiobklfepjocnamgkkbiglidom",
-    "jlgojbammkhdbbohlihccohgbaccgpbm",
-    "jlmpjdjjbgclbocgajdjefcidcncaied",
-    "nngceckbapebfimnlniiiahkandclblb",
-    "micdllihgoppmejpecmkilggmaagfdmb",
-    "lkbebcjgcmobigpeffafkodonchffocl",
-    "ddkjiahejlhfcafbddmgiahcphecmpfh",
-    "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
-    "logpjaacgmcbpdkdchjiaagddngobkck"
-  ],
-  "native_actions": [],
-  "toolbar_settings": {
+  "metadata": {
+    "profile": "Profile 1",
+    "timestamp": "2025-12-20T20:33:09.110481"
+  },
+  "ui_toggles": {
     "show_home_button": false,
-    "show_bookmarks_bar": true
-  }
+    "show_forward_button": true,
+    "show_bookmarks_bar": false,
+    "show_incognito_btn": false
+  },
+  "toolbar_actions": [
+    {
+      "name": "Chrome Labs",
+      "id": "kActionShowChromeLabs",
+      "pinned": true
+    },
+    {
+      "name": "Developer Tools",
+      "id": "kActionDevTools",
+      "pinned": true
+    },
+    {
+      "name": "Downloads",
+      "id": "kActionShowDownloads",
+      "pinned": true
+    },
+    {
+      "name": "Translate",
+      "id": "kActionShowTranslate",
+      "pinned": true
+    },
+    {
+      "name": "Tab Search",
+      "id": "kActionTabSearch",
+      "pinned": false
+    },
+    {
+      "name": "Print",
+      "id": "kActionPrint",
+      "pinned": false
+    },
+    {
+      "name": "Send to your devices",
+      "id": "kActionSendTabToSelf",
+      "pinned": false
+    },
+    {
+      "name": "Create QR Code",
+      "id": "kActionQrCodeGenerator",
+      "pinned": false
+    },
+    {
+      "name": "Cast",
+      "id": "media_router_action",
+      "pinned": false
+    },
+    {
+      "name": "Reading List",
+      "id": "kActionSidePanelShowReadingList",
+      "pinned": false
+    },
+    {
+      "name": "Bookmarks (Side Panel)",
+      "id": "kActionSidePanelShowBookmarks",
+      "pinned": false
+    },
+    {
+      "name": "History (Side Panel)",
+      "id": "kActionSidePanelShowHistory",
+      "pinned": false
+    },
+    {
+      "name": "Copy Link",
+      "id": "kActionCopyLink",
+      "pinned": false
+    },
+    {
+      "name": "Reading Mode",
+      "id": "kActionSidePanelShowReadAnything",
+      "pinned": false
+    },
+    {
+      "name": "Task Manager",
+      "id": "kActionTaskManager",
+      "pinned": false
+    }
+  ],
+  "extensions": [
+    {
+      "name": "1Password \u2013 Password Manager",
+      "id": "aeblfdkhhhdcdjpifhhbdiojplfjncoa",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "AdBlock \u2014 block ads across the web",
+      "id": "gighmmpiobklfepjocnamgkkbiglidom",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "Adobe Acrobat: PDF edit, convert, sign tools",
+      "id": "efaidnbmnnnibpcajpcglclefindmkaj",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Bookmarks Exporter",
+      "id": "kagpmnfgpdecdkbhongbgkgppnpimime",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Button Stealer",
+      "id": "iiikidmnimlpahbeknmkeonmemajpccj",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Calendly: Meeting Scheduling Software",
+      "id": "cbhilkcodigmigfbnphipnnmamjfkipp",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "ChatGPT search",
+      "id": "ejcfepkfckglbgocfkanmcdngdijcgld",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Chrome PDF Viewer",
+      "id": "mhjfbmdgcfjbbpaeojofohoefgiehjai",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Chrome Web Store Payments",
+      "id": "nmmhkkegccagdldgiimedpiccmgmieda",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Cloaq - Location Guard & Locale Switcher",
+      "id": "fcalilbnpkfikdppppppchmkdipibalb",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Dark Reader",
+      "id": "eimadpbcbfnmbkopoojfekhnkhdbieeh",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Docs Offline",
+      "id": "ghbmnnjooekpmoecnnnilnnbdlolhkhi",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Hangouts",
+      "id": "nkeimhogjdpnpccoofpliimaahmaaome",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Network Speech",
+      "id": "fignfifoniblkonapihmkfakmlgkbkcf",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Network Speech",
+      "id": "neajdppkdcdipfabeoofebfddakdcjhd",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Google Translate",
+      "id": "aapbdbdomjkkjkaonfhkkikfgjllcleb",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "GrabText - Screen & Image OCR",
+      "id": "fimdnblmnbmkbgcbdofdobncndmaembf",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Insta Content Blocker",
+      "id": "gjbnlmbnepomgkknbhclokdameangdan",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "MetaMask",
+      "id": "nkbihfbeogaeaoehlefnkodbefgpgknn",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Minimal Theme for Twitter / X",
+      "id": "pobhoodpcipjmedfenaigbeloiidbflp",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Notion Web Clipper",
+      "id": "knheggckgoiihginacbkhaalnibhilkk",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Open Links in Tabs",
+      "id": "jlgojbammkhdbbohlihccohgbaccgpbm",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Raycast Companion",
+      "id": "fgacdjnoljjfikkadhogeofgjoglooma",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Refined GitHub",
+      "id": "hlepfoohegkhhmjieoechaddaejaokhf",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Return YouTube Dislike",
+      "id": "gebbhagfogifgggkldgodflihgfeippi",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Save to Google Drive",
+      "id": "gmbmikajjgmnabiglmofipeabaddhgne",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Shortkeys (Custom Keyboard Shortcuts)",
+      "id": "logpjaacgmcbpdkdchjiaagddngobkck",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "Simplify Copilot - Autofill job applications, job tracker & AI resumes",
+      "id": "pbanhockgagggenencehbnadejlgchfc",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "SponsorBlock for YouTube - Skip Sponsorships",
+      "id": "mnjggcdmjocbbbhaepdhchncahnbgone",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Student Beans: Exclusive Student Discounts",
+      "id": "pdmhehfogekmpmdoemhabjpaiadagpgp",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Tab Copy",
+      "id": "micdllihgoppmejpecmkilggmaagfdmb",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "Tampermonkey",
+      "id": "dhdgffkkebhmkfjojejmpbldmpobfkfo",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Vimium",
+      "id": "dbepggeogbaibhgnhhndojpepiihcmeb",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Web Store",
+      "id": "ahfgeienlihckogmohjhadlkjgocpleb",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "WhatFont",
+      "id": "jabopobgcpjmedljpbcaablpmlmfcogm",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Windscribe - Free Proxy and Ad Blocker",
+      "id": "hnmpcagpplmpfojmgmnngilcnanddlhb",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "Youtube-shorts block",
+      "id": "jiaopdjbehhjgokpphdfgmapkobbnmjp",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "daily.dev | The homepage developers deserve",
+      "id": "jlmpjdjjbgclbocgajdjefcidcncaied",
+      "enabled": true,
+      "pinned": false
+    },
+    {
+      "name": "uBlock Origin",
+      "id": "cjpalhdlnbpafiamejdnhcphjbkeiagm",
+      "enabled": true,
+      "pinned": true
+    },
+    {
+      "name": "uBlock Origin Lite",
+      "id": "ddkjiahejlhfcafbddmgiahcphecmpfh",
+      "enabled": true,
+      "pinned": true
+    }
+  ]
 }
