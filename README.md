@@ -74,3 +74,4 @@ cd <path-to-blueprint-repo>
 - [ ] create a script to delete a module which removes the modules code folder AND remoces the launchagent from `~/Library/LaunchAgents` because that gets leftover from the launctl thing - maybe I should use the unload command? Does that remove the file fro launchagents?
 - [ ] figure out how to unload the launchagent texts.com screenshot I put in my desktop
 - [ ] modifiy the git push in the core install script to only add the relevant module folder instead of the entire repo when an automatic dump happens
+- [ ] Redact my tailscale network DNS name from the config ssh module
