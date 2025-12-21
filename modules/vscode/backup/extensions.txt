@@ -113,7 +113,6 @@ swiftlang.swift-vscode
 tailscale.vscode-tailscale
 tal7aouy.icons
 teabyii.ayu
-timocodes.context-for-ai
 tobiah.language-pde
 tonybaloney.vscode-pets
 twxs.cmake
