@@ -13,6 +13,7 @@
     <array>
       <string>/Users/alexmiller/.zshrc</string>
       <string>/Users/alexmiller/.aliases</string>
+      <string>/Users/alexmiller/.functions</string>
     </array>
     <key>ThrottleInterval</key>
     <integer>10</integer>
