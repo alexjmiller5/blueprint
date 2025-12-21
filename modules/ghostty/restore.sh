@@ -1,3 +1,2 @@
 #!/bin/bash
-cp "$HOME/blueprint/modules/ssh/config" "$HOME/.ssh/config"
-chmod 600 "$HOME/.ssh/config"
+cp "$BACKUP_DIR/config" "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
