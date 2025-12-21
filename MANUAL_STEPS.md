@@ -8,17 +8,6 @@
 
 These steps cannot be automated via script due to macOS System Integrity Protection (SIP), binary database limitations, or complex UI interactions.
 
-## 1. Security & Privacy Permissions (SIP Protected)
-
-macOS will not allow scripts to grant these permissions. You must grant them manually when the apps first launch.
-
-## 2. Google Chrome
-
-- [ ] **PWA Link Capturing** (Cannot be scripted):
-    - **YouTube**: Open App Info (⋮ > App Info) > Settings > Select "Open in YouTube".
-    - **Spotify**: Open App Info > Settings > Select "Open in Spotify".
-    - **Google Drive/Docs**: Ensure Offline mode is enabled.
-
 ## Finder
 
 - Set the following order of the finder sidebar favorites
@@ -31,7 +20,7 @@ macOS will not allow scripts to grant these permissions. You must grant them man
 
 ## Chrome PWAs
 
-- manually set every PWA to open supported links in Chrome instead of the PWA.
+- manually set every PWA to open supported links in Chrome instead of the PWA in the settings of each PWA
 
 ## Tab Copy
 
