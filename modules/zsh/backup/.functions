@@ -1,4 +1,3 @@
-
 getsynapsenotionsecret() {
   op item get 'Synapse Notion Internal Integration Secret' --fields credential --reveal
 }
