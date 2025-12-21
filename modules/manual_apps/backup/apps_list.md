@@ -44,6 +44,7 @@
 - [Manual] hide.me
 - [Manual] MySQLWorkbench
 - [Manual] Ghostty
+- [Manual] MonitorControl
 - [Manual] Numi
 - [Manual] Messenger
 - [Manual] Yaak
