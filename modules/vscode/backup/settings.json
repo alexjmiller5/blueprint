@@ -198,7 +198,6 @@
 	"editor.wordWrap": "on",
 	// Hide copilot chat on launch
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
-	
 	"gitlens.ai.model": "vscode",
 	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
 	"remote.SSH.useLocalServer": true,
