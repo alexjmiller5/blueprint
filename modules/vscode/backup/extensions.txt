@@ -80,6 +80,7 @@ ms-vscode.cmake-tools
 ms-vscode.cpptools
 ms-vscode.cpptools-extension-pack
 ms-vscode.cpptools-themes
+ms-vscode.extension-test-runner
 ms-vscode.hexeditor
 ms-vscode.live-server
 ms-vscode.makefile-tools
