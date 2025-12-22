@@ -11,4 +11,4 @@ alias gb="git branch"
 alias gba="git branch -a"
 alias gl="git log"
 alias cat="bat"
-alias pclip='node /Users/alexmiller/Desktop/personal-software-projects/active/power-clipper/out/cli.js --file-template "{{path}}:\n{{content}}\n" --tree-template "File Structure:{{tree}}\n"'
+alias pclip='node /Users/alexmiller/Desktop/personal-software-projects/active/power-clipper/out/cli.js --file-template "{{path}}:\n{{content}}\n" --tree-template "File Structure:\n{{tree}}\n"'
