@@ -3,3 +3,6 @@
 
 # Python cache files
 .venv
+
+# Visual Studio Code settings
+.vscode
