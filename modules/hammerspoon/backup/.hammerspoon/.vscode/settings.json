@@ -9,5 +9,7 @@
     "textClipboardHistory",
     "seq"
   ],
-  "powerClipper.alwaysExclude" = ["scripts"]
+  "powerClipper.alwaysExclude":[
+    "scripts"
+  ]
 }
