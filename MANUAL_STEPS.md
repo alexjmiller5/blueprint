@@ -6,7 +6,6 @@
 
 # Manual Setup Steps
 
-These steps cannot be automated via script due to macOS System Integrity Protection (SIP), binary database limitations, or complex UI interactions.
 
 ## Finder
 
