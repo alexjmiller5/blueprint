@@ -25,6 +25,12 @@
 	"[sql]": {
 		"editor.defaultFormatter": "mtxr.sqltools"
 	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
 	// Python file location
 	"python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
 	"code-runner.executorMap": {
@@ -188,8 +194,11 @@
 		"*.html": "html",
 		"*.plist": "xml"
 	},
+	// Wrap lines that exceed the width of the editor window
+	"editor.wordWrap": "on",
 	// Hide copilot chat on launch
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	
 	"gitlens.ai.model": "vscode",
 	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
 	"remote.SSH.useLocalServer": true,
@@ -198,13 +207,5 @@
 	"vsicons.presets.yamlOfficial": true,
 	"csv.enabled": true,
 	"docker.extension.enableComposeLanguageServer": false,
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-		"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"editor.wordWrap": "on",
-
 	// ⬆️ New settings (past the "workbench.secondarySideBar.defaultVisibility" suggestions) autonatically added by VSCode or an extension which need comments or removal
 }
