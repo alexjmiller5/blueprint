@@ -1,11 +1,6 @@
 # Manual Setup Steps
 
-- [ ] **Permissions**: Grant Accessibility/Screen Recording to apps manually.
-- [ ] **Chrome**: Install extensions from list.
-- [ ] **System Settings**: Set Permissions manually.
-
-# Manual Setup Steps
-
+- These steps I haven't figured out how to automate yet
 
 ## Finder
 
@@ -24,5 +19,3 @@
 ## Tab Copy
 
 - write down the setting
-
-- [ ] Disable SIP - this will allow permissions management via automation as well as the use o the `yabai` cli
