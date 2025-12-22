@@ -110,3 +110,4 @@ cd <path-to-blueprint-repo>
 
 - [ ] add this my macos module somehow? Need to run some kinda script to set all finder defaults to have larger icons, be in a list and always show and calcuate the size of folders
 - [ ] Test and build out all of the restore scripts - they are mostly untested - could also standardize them the same wanna i wanna standardize the dump scripts
+- [ ] add the vscode sidebar 
