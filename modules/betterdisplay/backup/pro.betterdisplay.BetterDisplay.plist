@@ -273,9 +273,9 @@
 	<key>defaultWidth@Display:35</key>
 	<integer>2560</integer>
 	<key>displayConfigurationId</key>
-	<integer>3570</integer>
+	<integer>3571</integer>
 	<key>displayConfigurationId@Display:3</key>
-	<integer>3570</integer>
+	<integer>3571</integer>
 	<key>displayConfigurationId@Display:30</key>
 	<integer>3481</integer>
 	<key>displayConfigurationId@Display:31</key>
@@ -403,7 +403,7 @@
 	<key>isUnavailable@temperature-OverlayController@Display:31</key>
 	<true/>
 	<key>lastConnected@Display:3</key>
-	<real>788121746.46412694</real>
+	<real>788133536.76572001</real>
 	<key>lastConnected@Display:30</key>
 	<real>786924027.77665102</real>
 	<key>lastConnected@Display:31</key>
@@ -697,7 +697,7 @@
 	<key>value@blueLight-BlueLightController</key>
 	<real>1</real>
 	<key>value@combinedBrightness-CombinedController@Display:3</key>
-	<real>1</real>
+	<real>0.62121668187054724</real>
 	<key>value@combinedBrightness-CombinedController@Display:30</key>
 	<real>1</real>
 	<key>value@combinedBrightness-CombinedController@Display:34</key>
@@ -705,7 +705,7 @@
 	<key>value@combinedBrightness-CombinedController@Display:35</key>
 	<real>1</real>
 	<key>value@hardwareBrightness-AppleController@Display:3</key>
-	<real>1</real>
+	<real>0.50000602006912231</real>
 	<key>value@hardwareBrightness-DDCController@Display:30</key>
 	<real>1</real>
 	<key>value@hardwareBrightness-DDCController@Display:34</key>
