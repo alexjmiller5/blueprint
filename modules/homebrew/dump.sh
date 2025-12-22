@@ -1,6 +1,4 @@
 #!/bin/bash
-# Add Homebrew to PATH for non-interactive shell execution
-export PATH="/opt/homebrew/bin:$PATH"
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../../" && pwd)"
