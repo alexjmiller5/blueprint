@@ -45,7 +45,6 @@ helgardrichard.helium-icon-theme
 humao.rest-client
 idleberg.applescript
 idleberg.icon-fonts
-iyulab.copy-text-selected-files
 james-yu.latex-workshop
 jamesmaj.easy-icons
 jock.svg
@@ -105,7 +104,6 @@ repreng.csv
 ritwickdey.liveserver
 robbowen.synthwave-vscode
 ryuta46.multi-command
-serveyouai.copy-file-contents
 shardulm94.trailing-spaces
 simonsiefke.svg-preview
 skellock.just
