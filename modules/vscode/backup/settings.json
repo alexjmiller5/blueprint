@@ -199,9 +199,9 @@
 	// Hide copilot chat on launch
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	// Power Clipper Settings
-	"powerClipper.fileTemplate": 
+	"powerClipper.fileTemplate": "{{repoPath}}:\n{{content}}\n",
 
-	"powerClipper.treeTemplate": "{date}_{title}",
+	"powerClipper.treeTemplate": "File Structure:\n{{tree}}\n",
 
 	"gitlens.ai.model": "vscode",
 	"gitlens.ai.vscode.model": "copilot:gpt-4.1",
