@@ -1,0 +1,5 @@
+{ 
+  "powerClipper.alwaysExclude" : [
+    "backup/**"
+  ]
+}
