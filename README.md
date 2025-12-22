@@ -76,3 +76,4 @@ cd <path-to-blueprint-repo>
 - [ ] Redact my tailscale network DNS name from the config ssh module
 - [ ] I really need to centralize the plist creation to be better at DRY and the file duplication / copying code for backing up certain modules
 - [ ] in the settings.yaml, put the throttle intervals, filepaths to watch, and files to copy, and the path to the dumping script for each module instead of hardcoding them in the plist files
+- [ ] Consider adding the `sudo xattr -d com.apple.quarantine /Applications/Visual\ Studio\ Code.app` command to the homebrew restore script for all the installations because then I won't have to click open the app even though it's downloaded from the internet
