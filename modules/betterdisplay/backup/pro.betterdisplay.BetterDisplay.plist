@@ -273,9 +273,9 @@
 	<key>defaultWidth@Display:35</key>
 	<integer>2560</integer>
 	<key>displayConfigurationId</key>
-	<integer>3564</integer>
+	<integer>3565</integer>
 	<key>displayConfigurationId@Display:3</key>
-	<integer>3564</integer>
+	<integer>3565</integer>
 	<key>displayConfigurationId@Display:30</key>
 	<integer>3481</integer>
 	<key>displayConfigurationId@Display:31</key>
@@ -403,7 +403,7 @@
 	<key>isUnavailable@temperature-OverlayController@Display:31</key>
 	<true/>
 	<key>lastConnected@Display:3</key>
-	<real>788065044.21838701</real>
+	<real>788078272.39326501</real>
 	<key>lastConnected@Display:30</key>
 	<real>786924027.77665102</real>
 	<key>lastConnected@Display:31</key>
@@ -607,7 +607,7 @@
 	<key>storedDisplayID@Display:3</key>
 	<integer>1</integer>
 	<key>storedIdentifiers@Display:3</key>
-	<string>[{"serial":4251086178,"infoDictionaryVendorNumber":1552,"modelNumber":41042,"infoDictionaryModelNumber":41042,"infoDictionarySerial":4251086178,"ioDisplayLocation":"IOService:\/AppleARMPE\/arm-io@10F00000\/AppleT811xIO\/disp0@30000000\/AppleCLCD2","systemUUID":"37D8832A-2D66-02CA-B9F7-8F30A301B230","vendorNumber":1552,"productName":"Color LCD","edidProductName":"Color LCD"}]</string>
+	<string>[{"serial":4251086178,"infoDictionaryVendorNumber":1552,"modelNumber":41042,"infoDictionaryModelNumber":41042,"infoDictionarySerial":4251086178,"ioDisplayLocation":"IOService:\/AppleARMPE\/arm-io@10F00000\/AppleT811xIO\/disp0@30000000\/AppleCLCD2","vendorNumber":1552,"systemUUID":"37D8832A-2D66-02CA-B9F7-8F30A301B230","productName":"Color LCD","edidProductName":"Color LCD"}]</string>
 	<key>storedIdentifiers@Display:30</key>
 	<string>[{"alphanumericSerialNumber":"204NTRL8M590","infoDictionarySerial":293590,"infoDictionaryModelNumber":30543,"edidProductName":"LG HDR 4K","portID":0,"vendorNumber":7789,"weekOfManufacture":4,"edidData":"AP\/\/\/\/\/\/\/wAebU931noEAAQgAQOARih46nuhrk9EqSYMUFQhCADRwGFARUABAQEBAQEBAQEBTdAAoPBwPoAwIDUAuYghAAAaAAAA\/QAoPB6HPAAKICAgICAgAAAA\/ABMRyBIRFIgNEsKICAgAAAA\/wAyMDROVFJMOE01OTAKAaICA0JyIwkHB4MBAABNAQMEEBIfICJhYF9eXW0DDAAQALg8IABgAQIDZ9hdxAF4gAPjDwAD4gBq4wXAAOYGBQFZWVKjZgCg8HAfgDAgNQC5iCEAABpWXgCgoKApUDAgNQC5iCEAABoCOoAYcTgtQFgsRQC5iCEAABoAAAAAAAAArw==","serial":293590,"yearOfManufacture":2022,"ioDisplayLocation":"IOService:\/AppleARMPE\/arm-io@10F00000\/AppleT811xIO\/dispext0@70000000\/AppleCLCD2","modelNumber":30543,"productName":"LG HDR 4K","infoDictionaryVendorNumber":7789,"systemUUID":"404DE0E8-C300-455F-8A42-51A8F097A998"}]</string>
 	<key>storedIdentifiers@Display:31</key>
@@ -697,7 +697,7 @@
 	<key>value@blueLight-BlueLightController</key>
 	<real>1</real>
 	<key>value@combinedBrightness-CombinedController@Display:3</key>
-	<real>1</real>
+	<real>0.62121668187054724</real>
 	<key>value@combinedBrightness-CombinedController@Display:30</key>
 	<real>1</real>
 	<key>value@combinedBrightness-CombinedController@Display:34</key>
@@ -705,7 +705,7 @@
 	<key>value@combinedBrightness-CombinedController@Display:35</key>
 	<real>1</real>
 	<key>value@hardwareBrightness-AppleController@Display:3</key>
-	<real>1</real>
+	<real>0.50000602006912231</real>
 	<key>value@hardwareBrightness-DDCController@Display:30</key>
 	<real>1</real>
 	<key>value@hardwareBrightness-DDCController@Display:34</key>
