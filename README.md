@@ -78,3 +78,32 @@ cd <path-to-blueprint-repo>
 - [ ] in the settings.yaml, put the throttle intervals, filepaths to watch, and files to copy, and the path to the dumping script for each module instead of hardcoding them in the plist files
 - [ ] Consider adding the `sudo xattr -d com.apple.quarantine /Applications/Visual\ Studio\ Code.app` command to the homebrew restore script for all the installations because then I won't have to click open the app even though it's downloaded from the internet
 - [ ] Add a notion module with the plist file and make sure it captures this setting: Disable “Use Command Search” in Settings > Preferences to disable global hotkeys for searching Notion and asking Notion AI
+- [ ] add error and stdout to the launchagent plists as follows (use the keepalive tag too):
+
+```xml
+   1 │ <?xml version="1.0" encoding="UTF-8"?>
+   2 │ <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList
+     │ -1.0.dtd">
+   3 │ <plist version="1.0">
+   4 │     <dict>
+   5 │         <key>Label</key>
+   6 │         <string>com.alexmiller.auto-sync-zshrc</string>
+   7 │         <key>ServiceDescription</key>
+   8 │         <string>Auto sync zsh configs to git repository</string>
+   9 │         <key>ProgramArguments</key>
+  10 │         <array>
+  11 │             <string>zsh</string>
+  12 │             <string>-c</string>
+  13 │             <string>/Users/alexmiller/code/zsh-backup/sync_zshrc.sh</string>
+  14 │         </array>
+  15 │         <key>StandardOutPath</key>
+  16 │         <string>/Users/alexmiller/code/logs/com.alexmiller.sync-zshrc.stdout</string>
+  17 │         <key>StandardErrorPath</key>
+  18 │         <string>/Users/alexmiller/code/logs/com.alexmiller.sync-zshrc.stderr</string>
+  19 │         <key>WorkingDirectory</key>
+  20 │         <string>/Users/alexmiller/code/zsh-backup</string>
+  21 │         <key>KeepAlive</key>
+  22 │         <true/>
+  23 │      </dict>
+  24 │   </plist>
+```
