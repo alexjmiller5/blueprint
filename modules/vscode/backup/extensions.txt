@@ -45,6 +45,7 @@ helgardrichard.helium-icon-theme
 humao.rest-client
 idleberg.applescript
 idleberg.icon-fonts
+iyulab.copy-text-selected-files
 james-yu.latex-workshop
 jamesmaj.easy-icons
 jock.svg
