@@ -97,5 +97,17 @@
 		"key": "shift+cmd+x",
 		"command": "workbench.view.extensions",
 		"when": "viewContainer.workbench.view.extensions.enabled"
-	}
+	},
+	// Power Clipper copy file contents for ai
+  {
+    "key": "cmd+shift+c",
+    "command": "power-clipper.copyFilesContent",
+    "when": "filesExplorerFocus"
+  },
+	// Power clipper just copy file tree for ai
+  {
+    "key": "cmd+shift+t",
+    "command": "power-clipper.copyFolderStructure",
+    "when": "filesExplorerFocus"
+  }
 ]
