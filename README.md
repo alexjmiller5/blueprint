@@ -78,7 +78,7 @@ cd <path-to-blueprint-repo>
 - [ ] in the settings.yaml, put the throttle intervals, filepaths to watch, and files to copy, and the path to the dumping script for each module instead of hardcoding them in the plist files
 - [ ] Consider adding the `sudo xattr -d com.apple.quarantine /Applications/Visual\ Studio\ Code.app` command to the homebrew restore script for all the installations because then I won't have to click open the app even though it's downloaded from the internet
 - [ ] Add a notion module with the plist file and make sure it captures this setting: Disable “Use Command Search” in Settings > Preferences to disable global hotkeys for searching Notion and asking Notion AI
-- [ ] add error and stdout to the launchagent plists as follows (use the keepalive tag too):
+- [ ] add error and stdout to the launchagent plists as follows (use the keepalive tag too just gotta figure out what it does exactly first):
 
 ```xml
    1 │ <?xml version="1.0" encoding="UTF-8"?>
