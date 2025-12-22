@@ -64,6 +64,10 @@ xattr -w com.apple.fileprovider.pinned 1 ~/Desktop
 # Applications
 defaults write com.google.Chrome DisablePrintPreview -bool true
 
+# Menu Bar Spacing
+defaults -currentHost write -globalDomain NSStatusItemSpacing -int 12
+defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 10
+
 # Shortcuts & Settings Updates
 defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 64 "{enabled = 0; value = { parameters = (32, 49, 1048576); type = 'standard'; }; }"
 /usr/libexec/PlistBuddy -c "Set :AppleSymbolicHotKeys:64:enabled false" ~/Library/Preferences/com.apple.symbolichotkeys.plist

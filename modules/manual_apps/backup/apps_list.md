@@ -46,7 +46,6 @@
 - [Manual] Messenger
 - [Manual] Yaak
 - [Manual] BambuStudio
-- [Manual] Menu Bar Spacing
 - [Manual] AltTab
 - [Manual] Postman
 - [Manual] Octagon
