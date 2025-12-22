@@ -55,6 +55,7 @@ kevinrose.vsc-python-indent
 llvm-vs-code-extensions.lldb-dap
 mariusalchimavicius.json-to-ts
 mechatroner.rainbow-csv
+mefengl.copy-folder-content
 meganrogge.template-string-converter
 mgesbert.python-path
 miguelsolorio.symbols
