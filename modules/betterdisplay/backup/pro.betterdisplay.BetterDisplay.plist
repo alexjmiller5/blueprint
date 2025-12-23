@@ -697,7 +697,7 @@
 	<key>value@blueLight-BlueLightController</key>
 	<real>1</real>
 	<key>value@combinedBrightness-CombinedController@Display:3</key>
-	<real>0.5625</real>
+	<real>0.9375</real>
 	<key>value@combinedBrightness-CombinedController@Display:30</key>
 	<real>1</real>
 	<key>value@combinedBrightness-CombinedController@Display:34</key>
@@ -705,7 +705,7 @@
 	<key>value@combinedBrightness-CombinedController@Display:35</key>
 	<real>1</real>
 	<key>value@hardwareBrightness-AppleController@Display:3</key>
-	<real>0.42250001430511475</real>
+	<real>0.91749989986419678</real>
 	<key>value@hardwareBrightness-DDCController@Display:30</key>
 	<real>1</real>
 	<key>value@hardwareBrightness-DDCController@Display:34</key>
