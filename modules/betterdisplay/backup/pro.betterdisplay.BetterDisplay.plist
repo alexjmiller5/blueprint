@@ -273,9 +273,9 @@
 	<key>defaultWidth@Display:35</key>
 	<integer>2560</integer>
 	<key>displayConfigurationId</key>
-	<integer>3573</integer>
+	<integer>3574</integer>
 	<key>displayConfigurationId@Display:3</key>
-	<integer>3573</integer>
+	<integer>3574</integer>
 	<key>displayConfigurationId@Display:30</key>
 	<integer>3481</integer>
 	<key>displayConfigurationId@Display:31</key>
@@ -403,7 +403,7 @@
 	<key>isUnavailable@temperature-OverlayController@Display:31</key>
 	<true/>
 	<key>lastConnected@Display:3</key>
-	<real>788151441.48376203</real>
+	<real>788205935.760149</real>
 	<key>lastConnected@Display:30</key>
 	<real>786924027.77665102</real>
 	<key>lastConnected@Display:31</key>
