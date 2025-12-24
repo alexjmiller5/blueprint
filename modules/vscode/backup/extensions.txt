@@ -2,6 +2,7 @@ aaron-bond.better-comments
 albert.tabout
 alefragnani.rtf
 alexandernanberg.horizon-theme-vscode
+alexjmiller5.power-clipper
 batisteo.vscode-django
 be5invis.vscode-icontheme-nomo-dark
 bibhasdn.django-html
