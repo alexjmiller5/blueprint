@@ -7,6 +7,11 @@ source ~/.aliases
 # Functions
 source ~/.functions
 
+# L
+if [[ -f "$HOME/.config/zsh/local.zsh" ]]; then
+    source "$HOME/.config/zsh/local.zsh"
+fi
+
 # Homebrew
 export PATH="/opt/homebrew/bin:$PATH"
 
