@@ -1,22 +1,165 @@
+defaults:
+  throttle: 60
+  git_push: true
+
 modules:
-  zsh: true
-  vscode: true
-  raycast: true
-  homebrew: true
-  chrome: true
-  chrome_pwas: true
-  dock: true
-  login_items: true
-  permissions: true
-  manual_apps: true
-  alttab: true
-  betterdisplay: true
-  keyclu: true
-  1password: true
-  finder: true
-  git: true
-  ssh: false
-  hammerspoon: true
-  karabiner: true
-  ghostty: true
-  tmux: true
+  # --- SHELL & TERMINAL ---
+  zsh:
+    enabled: true
+    throttle: 10
+    watch:
+      - "~/.zshrc"
+      - "~/.aliases"
+      - "~/.functions"
+      - "~/.zsh_prompt"
+    copy:
+      - { src: "~/.zshrc", dest: "backup/.zshrc" }
+      - { src: "~/.aliases", dest: "backup/.aliases" }
+      - { src: "~/.functions", dest: "backup/.functions" }
+      - { src: "~/.zsh_prompt", dest: "backup/.zsh_prompt" }
+
+  ghostty:
+    enabled: true
+    watch:
+      - "~/Library/Application Support/com.mitchellh.ghostty/config"
+    copy:
+      - { src: "~/Library/Application Support/com.mitchellh.ghostty/config", dest: "backup/config" }
+
+  tmux:
+    enabled: true
+    watch:
+      - "~/.tmux.conf"
+    copy:
+      - { src: "~/.tmux.conf", dest: "backup/.tmux.conf" }
+
+  git:
+    enabled: true
+    watch:
+      - "~/.gitconfig"
+    copy:
+      - { src: "~/.gitconfig", dest: "backup/.gitconfig" }
+
+  ssh:
+    enabled: false
+    watch:
+      - "~/.ssh/config"
+    # Keep script because you need sed/redaction logic
+    script: "dump.sh"
+
+  # --- SYSTEM UTILITIES (AUTO-DETECTED PLISTS) ---
+  1password:
+    enabled: true
+    app_name: "1Password"
+    copy:
+      - { src: "~/Library/Preferences/com.1password.1password.plist", dest: "backup/com.1password.1password.plist" }
+
+  alttab:
+    enabled: true
+    app_name: "AltTab"
+    copy:
+      - { src: "~/Library/Preferences/com.blackhole.alttab.plist", dest: "backup/com.blackhole.alttab.plist" }
+
+  betterdisplay:
+    enabled: true
+    app_name: "BetterDisplay"
+    copy:
+      - { src: "~/Library/Preferences/pro.betterdisplay.BetterDisplay.plist", dest: "backup/pro.betterdisplay.BetterDisplay.plist" }
+
+  keyclu:
+    enabled: true
+    app_name: "KeyClu"
+    copy:
+      - { src: "~/Library/Preferences/com.sergey-software.keyclu.plist", dest: "backup/com.sergey-software.keyclu.plist" }
+
+  raycast:
+    enabled: true
+    throttle: 300
+    watch:
+      - "~/Library/Application Support/com.raycast.macos/raycast.sqlite"
+    # Keep script because you use rsync with specific excludes (slim backup)
+    script: "dump.sh"
+
+  hammerspoon:
+    enabled: true
+    watch:
+      - "~/.hammerspoon"
+      - "~/Library/Preferences/org.hammerspoon.Hammerspoon.plist"
+    # Simple copy works for folders too
+    copy:
+      - { src: "~/.hammerspoon", dest: "backup/.hammerspoon" }
+      - { src: "~/Library/Preferences/org.hammerspoon.Hammerspoon.plist", dest: "backup/org.hammerspoon.Hammerspoon.plist" }
+
+  karabiner:
+    enabled: true
+    watch:
+      - "~/.config/karabiner/karabiner.json"
+    copy:
+      - { src: "~/.config/karabiner/karabiner.json", dest: "backup/karabiner.json" }
+
+  # --- MACOS SYSTEM ---
+  dock:
+    enabled: true
+    watch:
+      - "~/Library/Preferences/com.apple.dock.plist"
+    copy:
+      - { src: "~/Library/Preferences/com.apple.dock.plist", dest: "backup/com.apple.dock.plist" }
+
+  finder:
+    enabled: true
+    watch:
+      - "~/Library/Preferences/com.apple.finder.plist"
+      - "~/Library/Application Support/com.apple.sharedfilelist"
+    copy:
+      - { src: "~/Library/Preferences/com.apple.finder.plist", dest: "backup/com.apple.finder.plist" }
+      - { src: "~/Library/Application Support/com.apple.sharedfilelist", dest: "backup/com.apple.sharedfilelist" }
+
+  login_items:
+    enabled: true
+    interval: 3600 # Runs every hour
+    # Keep script (System Events osascript required)
+    script: "dump.sh"
+
+  permissions:
+    enabled: true
+    interval: 86400 # Runs daily
+    # Keep script (SQLite dump required)
+    script: "dump.sh"
+
+  manual_apps:
+    enabled: true
+    throttle: 300
+    watch:
+      - "/Applications"
+    # Keep script (Find/Diff logic)
+    script: "dump.sh"
+
+  # --- DEV TOOLS & APPS ---
+  vscode:
+    enabled: true
+    watch:
+      - "~/Library/Application Support/Code/User/settings.json"
+      - "~/.vscode/extensions"
+    # Keep script (Need to run `code --list-extensions`)
+    script: "dump.sh"
+
+  homebrew:
+    enabled: true
+    watch:
+      - "/opt/homebrew/Cellar"
+    # Keep script (Need to run `brew bundle dump`)
+    script: "dump.sh"
+
+  chrome:
+    enabled: true
+    throttle: 300
+    watch:
+      - "~/Library/Application Support/Google/Chrome"
+    # Keep script (Complex Python logic)
+    script: "dump.py"
+
+  chrome_pwas:
+    enabled: true
+    watch:
+      - "~/Applications/Chrome Apps.localized"
+    # Keep script (Parsing .app names)
+    script: "dump.sh"
