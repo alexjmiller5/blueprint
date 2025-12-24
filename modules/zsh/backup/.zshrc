@@ -7,7 +7,7 @@ source ~/.aliases
 # Functions
 source ~/.functions
 
-# L
+# Load profile
 if [[ -f "$HOME/.config/zsh/local.zsh" ]]; then
     source "$HOME/.config/zsh/local.zsh"
 fi
