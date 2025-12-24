@@ -18,13 +18,6 @@ cat ~/.ssh/blueprint_deploy_key.pub | pbcopy
   - IMPORTANT: Check the box ☑️ Allow write access. (Without this, it can only pull, not push).
   - Click Add key.
 
-- Load the LaunchAgents to enable automatic dumps.
-
-```bash
-cd <path-to-blueprint-repo>
-just load_agents
-```
-
 ## Usage
 
 ### Running one off Dumps
@@ -38,9 +31,11 @@ find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}.
 
 ### Enabling automatic Dumps
 
-- First, select the modules which you like to have automatically dumped by editing the `settings.yaml` at the root of this repository and setting true for the modules you want to enable automatic dumps for and false for the ones you don't. Then, run the below commands.
+1. First, select the modules which you like to have automatically dumped by editing the `settings.yaml` at the root of this repository and setting true for the modules you want to enable automatic dumps for and false for the ones you don't. Then, run the below commands.
+
+2. Load the LaunchAgents to enable automatic dumps.
 
 ```bash
 cd <path-to-blueprint-repo>
-./install.sh
+just load_agents
 ```
