@@ -4,7 +4,6 @@ local helpers = require("helpers")
 local M = {}
 
 local actions = {
-  -- App Launchers
   launchGhostty = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.ghostty)
   end,
@@ -39,9 +38,9 @@ local actions = {
     hs.osascript.applescript(
       'tell application "Finder" \n if not (exists window 1) then make new Finder window \n activate \n end tell'
     )
-  end,
-
-  -- Other Launchers
+    end,
+  
+  -- Scripts
   searchClipTab = function()
     hs.task.new("/bin/sh", nil, { constants.paths.searchClipTab }):start()
   end,
@@ -71,6 +70,11 @@ local actions = {
   newChromeWindow = function()
     hs.osascript.applescript('tell application "Google Chrome" to make new window \n activate')
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.chrome)
+    end,
+    forceQuitApp = function()
+    os.execute(
+      "kill -9 $(osascript -e 'tell application \"System Events\" to get unix id of first process whose frontmost is true and background only is false')"
+    )
   end,
 
   -- Window Management
@@ -126,12 +130,7 @@ local actions = {
     end
   end,
 
-  -- System/Misc
-  forceQuitApp = function()
-    os.execute(
-      "kill -9 $(osascript -e 'tell application \"System Events\" to get unix id of first process whose frontmost is true and background only is false')"
-    )
-  end,
+  -- Native Hammerspoon
   reloadConfig = function()
     hs.reload()
   end,
