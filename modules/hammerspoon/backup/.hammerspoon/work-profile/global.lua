@@ -26,7 +26,7 @@ local actions = {
     hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.artifactoryRepo .. "?windowId=_blank"}):start()
   end,
   openDriveDesktop = function()
-    hs.task.new("/usr/bin/open", nil, {constants.paths.desktopFolder}):start()
+    hs.task.new("/usr/bin/open", nil, {constants.paths.driveDesktop}):start()
   end,
   openDriveDownloads = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDownloads}):start()
