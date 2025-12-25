@@ -21,7 +21,6 @@ local actions = {
   launchGoogleDrive = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleDrive)
   end,
-
   openArtifactoryInVscode = function()
     hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.artifactoryRepo .. "?windowId=_blank"}):start()
   end,
@@ -30,35 +29,6 @@ local actions = {
   end,
   openChromePasswords = function()
     hs.osascript.applescriptFromFile(constants.paths.openGooglePasswordsManager)
-  end,
-  -- Window Management
-  windowCenter = function()
-    hs.execute("open -g 'rectangle://execute-action?name=center-half'")
-  end,
-  windowLeft = function()
-    hs.execute("open -g 'rectangle://execute-action?name=left-half'")
-  end,
-  windowRight = function()
-    if not helpers.tryMenuItem({"Window", "Move & Resize", "Right"}) then
-      hs.execute("open -g 'rectangle://execute-action?name=right-half'")
-    end
-  end,
-  windowMaximize = function()
-    if not helpers.tryMenuItem({"Window", "Fill"}) then
-      hs.execute("open -g 'rectangle://execute-action?name=maximize'")
-    end
-  end,
-  windowTopLeft = function()
-    hs.execute("open -g 'rectangle://execute-action?name=top-left'")
-  end,
-  windowBottomLeft = function()
-    hs.execute("open -g 'rectangle://execute-action?name=bottom-left'")
-  end,
-  windowTopRight = function()
-    hs.execute("open -g 'rectangle://execute-action?name=top-right'")
-  end,
-  windowBottomRight = function()
-    hs.execute("open -g 'rectangle://execute-action?name=bottom-right'")
   end,
 
   -- System/Misc
