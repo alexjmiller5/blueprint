@@ -1,5 +1,5 @@
 -- Set up logging
-hs.logger.new("Hammerspoon", "debug")
+log = hs.logger.new("Hammerspoon", "debug")
 
 -- Activate the hammerspoon cli
 require("hs.ipc")

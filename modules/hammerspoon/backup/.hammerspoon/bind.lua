@@ -1,6 +1,3 @@
-
-  log = hs.logger.new("Logger", "debug")
-
 local globalHotkeys = require("hotkeys.global").definitions
 local appHotkeys = require("hotkeys.app-based").definitions
 
