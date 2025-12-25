@@ -73,11 +73,6 @@ M.definitions = {
     {mods = {"cmd"}, key = "d", action = actions.vscodeDuplicateFile},
     {mods = {"cmd", "shift"}, key = "r", action = actions.vscodeRenameSymbol}
   },
-  [constants.appBundleIds.googleTasks]    = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
-  [constants.appBundleIds.googleCalendar] = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
-  [constants.appBundleIds.gmail]          = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
-  [constants.appBundleIds.googleDrive]    = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
-
   [constants.appBundleIds.hammerspoon] = {
     {mods = {"cmd"}, key = "r", action = actions.hammerspoonReload},
   }
