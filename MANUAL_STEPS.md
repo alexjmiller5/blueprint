@@ -4,6 +4,7 @@ These steps I haven't figured out how to automate yet
 
 ## Disable SIP for `yabai` CLI
 
+- Longer instructions on [the yabai wiki](https://github.com/asmvik/yabai/wiki/Disabling-System-Integrity-Protection)
 - Reboot into recovery mode
 - Open terminal from the utilities menu
 - Run `csrutil enable --without fs --without debug --without nvram`
