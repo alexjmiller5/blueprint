@@ -6,12 +6,6 @@ local M = {}
 
 local actions = {
   -- App Launchers
-  launchGhostty = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.ghostty)
-  end,
-  launchNotes = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.notes)
-  end,
   launchGmail = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.gmail)
   end,
@@ -33,17 +27,11 @@ local actions = {
   launchYouTube = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.youtube)
   end,
-  launchHammerspoon = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.hammerspoon)
-  end,
   launchGoogleTasks = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleTasks)
   end,
   launchSlack = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.slack)
-  end,
-  launchSystemSettings = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.systemSettings)
   end,
   launchGoogleDrive = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleDrive)
