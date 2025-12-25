@@ -3,17 +3,8 @@ M.hyperKeyMods = { "cmd", "alt", "ctrl", "shift" }
 
 -- Application Bundle IDs
 M.appBundleIds = {
-  ghostty        = "com.mitchellh.ghostty",
-  notes          = "com.apple.Notes",
-  vscode         = "com.microsoft.VSCode",
   gemini         = "com.google.Chrome.app.caidcmannjgahlnhpmdmihecjcoiigg",
-  spotify        = "com.spotify.client",
   youtube        = "com.google.Chrome.app.agimnkijcaahngcdmfeangaknmldooml",
-  hammerspoon    = "org.hammerspoon.Hammerspoon",
-  systemSettings = "com.apple.systempreferences",
-  zoom           = "us.zoom.xos",
-  slack          = "com.tinyspeck.slackmacgap",
-  chrome         = "com.google.Chrome",
   googleTasks    = "com.google.Chrome.app.okhfeehhillipaleckndoboggdkcebmo",
   googleCalendar = "com.google.Chrome.app.kjbdgfilnfhdofibpgamdcdgpehopbep",
   gmail          = "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
