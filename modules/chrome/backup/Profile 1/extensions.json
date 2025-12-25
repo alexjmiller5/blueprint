@@ -1,7 +1,7 @@
 {
   "metadata": {
     "profile": "Profile 1",
-    "timestamp": "2025-12-25T10:37:04.057600",
+    "timestamp": "2025-12-25T10:42:04.074493",
     "type": "extensions_list"
   },
   "extensions": [
@@ -195,7 +195,7 @@
       "name": "Tampermonkey",
       "id": "dhdgffkkebhmkfjojejmpbldmpobfkfo",
       "enabled": true,
-      "pinned": false
+      "pinned": true
     },
     {
       "name": "Vimium",
