@@ -53,34 +53,10 @@ local actions = {
 }
 
 M.definitions = {
-  [constants.appBundleIds.zoom] = {
-    {mods = {"cmd"}, key = "u", action = actions.zoomToggleMute}
-  },
-  [constants.appBundleIds.slack] = {
-    {mods = {"cmd"}, key = "\\", action = actions.slackToggleSidebar},
-    {mods = {"cmd"}, key = "k", action = actions.slackSearch}
-  },
-  [constants.appBundleIds.spotify] = {
-    {mods = {"cmd"}, key = "\\", action = actions.spotifyToggleSidebars},
-  },
-  [constants.appBundleIds.chrome] = {
-    {mods = {"cmd"}, key = "d", action = actions.chromeDuplicateTab},
-    {mods = {"cmd", "alt", "shift"}, key = "[", action = actions.chromeDuplicateAndGoBack},
-    {mods = {"cmd"}, key = "b", action = actions.chromeBookmarkTab},
-    {mods = {"cmd", "shift"}, key = "d", action = actions.chromeToggleDevTools},
-  },
-  [constants.appBundleIds.vscode] = {
-    {mods = {"cmd"}, key = "d", action = actions.vscodeDuplicateFile},
-    {mods = {"cmd", "shift"}, key = "r", action = actions.vscodeRenameSymbol}
-  },
   [constants.appBundleIds.googleTasks]    = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
   [constants.appBundleIds.googleCalendar] = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
   [constants.appBundleIds.gmail]          = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
   [constants.appBundleIds.googleDrive]    = { {mods = {"cmd"}, key = "w", action = actions.pwaCloseWindow}, {mods = {"cmd", "shift"}, key = "d", action = actions.pwaDevTools} },
-
-  [constants.appBundleIds.hammerspoon] = {
-    {mods = {"cmd"}, key = "r", action = actions.hammerspoonReload},
-  }
 }
 
 return M
