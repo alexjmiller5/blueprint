@@ -1,39 +1,4 @@
 
-
-
-
-local function logAllAudioDevices()
-  local devices = hs.audiodevice.allDevices()
-  print(string.format("Found %d devices:", #devices))
-
-  for _, device in ipairs(devices) do
-    print("------------------------------------------------")
-    print("Name:          " .. (device:name() or "N/A"))
-    print("UID:           " .. (device:uid() or "N/A"))
-    print("Transport:     " .. (device:transportType() or "N/A"))
-    print("Jack Plugged:  " .. tostring(device:jackConnected()))
-
-    if device:isOutputDevice() then
-      print("Type:          Output")
-      print("Volume:        " .. (device:outputVolume() or "N/A"))
-      print("Muted:         " .. tostring(device:outputMuted()))
-      print("DataSource:    " ..
-        (device:currentOutputDataSource() and device:currentOutputDataSource():name() or "Default"))
-    end
-
-    if device:isInputDevice() then
-      print("Type:          Input")
-      print("Volume:        " .. (device:inputVolume() or "N/A"))
-      print("Muted:         " .. tostring(device:inputMuted()))
-      print("DataSource:    " ..
-        (device:currentInputDataSource() and device:currentInputDataSource():name() or "Default"))
-    end
-  end
-  print("------------------------------------------------")
-end
-
-logAllAudioDevices()
-
 local soundPath = "/Users/alexmiller/Documents/icons-and-sound-bites/sound-bites/Mario Waow.mp3"
 local powerConnectedSound = hs.sound.getByFile(soundPath)
 
