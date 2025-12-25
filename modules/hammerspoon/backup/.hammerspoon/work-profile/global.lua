@@ -34,6 +34,7 @@ local actions = {
 
 -- Hotkey Definitions Table
 M.definitions = {
+  -- App Launchers
   {
     mods = {"alt"},
     key = "m",

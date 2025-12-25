@@ -139,8 +139,8 @@ local actions = {
 }
 
 -- Hotkey Definitions Table
--- This is now much cleaner and easier to read!
 M.definitions = {
+    - App Launchers
   {
     mods = {"alt"},
     key = "t",
