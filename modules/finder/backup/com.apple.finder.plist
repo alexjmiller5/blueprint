@@ -568,7 +568,7 @@
 		<key>showIconPreview</key>
 		<true/>
 		<key>sortColumn</key>
-		<string>dateAdded</string>
+		<string>name</string>
 		<key>textSize</key>
 		<real>12</real>
 		<key>useRelativeDates</key>
