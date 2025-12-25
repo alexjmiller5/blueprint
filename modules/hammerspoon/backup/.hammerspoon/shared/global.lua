@@ -135,8 +135,9 @@ local actions = {
   reloadConfig = function()
     hs.reload()
   end,
+
 }
-w
+
 -- Hotkey Definitions Table
 -- This is now much cleaner and easier to read!
 M.definitions = {
@@ -152,16 +153,6 @@ M.definitions = {
   },
   {
     mods = {"alt"},
-    key = "m",
-    action = actions.launchGmail
-  },
-  {
-    mods = {"alt"},
-    key = "c",
-    action = actions.launchGoogleCalendar
-  },
-  {
-    mods = {"alt"},
     key = "v",
     action = actions.launchVSCode
   },
@@ -169,11 +160,6 @@ M.definitions = {
     mods = {"alt"},
     key = "g",
     action = actions.launchGemini
-  },
-  {
-    mods = {"alt"},
-    key = "h",
-    action = actions.launchGoogleDrive
   },
   {
     mods = {"alt"},
@@ -196,19 +182,9 @@ M.definitions = {
     action = actions.launchHammerspoon
   },
   {
-    mods = {"alt"},
-    key = "l",
-    action = actions.openChromePasswords
-  },
-  {
     mods = {"alt", "shift"},
     key = "h",
     action = actions.openHsConfigInVscode
-  },
-  {
-    mods = {"alt", "shift"},
-    key = "n",
-    action = actions.launchGoogleTasks
   },
   {
     mods = {"alt", "shift"},
