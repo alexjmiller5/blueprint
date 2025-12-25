@@ -90,10 +90,14 @@ local actions = {
     end
   end,
   windowTopLeft = function()
-    hs.execute("open -g 'rectangle://execute-action?name=top-left'")
+    if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Left"}) then
+      hs.execute("open -g 'raycast://extensions/raycast/window-management/top-left-quarter'")
+    end
   end,
   windowBottomLeft = function()
-    hs.execute("open -g 'rectangle://execute-action?name=bottom-left'")
+    if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Left"}) then
+      hs.execute("open -g 'raycast://extensions/raycast/window-management/top-left-quarter'")
+    end
   end,
   windowTopRight = function()
     hs.execute("open -g 'rectangle://execute-action?name=top-right'")
