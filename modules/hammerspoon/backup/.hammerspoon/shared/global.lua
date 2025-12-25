@@ -61,7 +61,7 @@ local actions = {
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDownloads}):start()
   end,
   openDocumentsFolder = function()
-    hs.task.new("/usr/bin/open", nil, {constants.paths.driveDocuments}):start()
+    hs.task.new("/usr/bin/open", nil, {constants.paths.documentsFolder}):start()
   end,
   newIncognitoWindow = function()
     hs.osascript.applescript(
