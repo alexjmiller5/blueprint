@@ -1,4 +1,4 @@
-local updateHotkeyStates(app)
+
   log = hs.logger.new("Logger", "debug")
 
 local globalHotkeys = require("hotkeys.global").definitions
