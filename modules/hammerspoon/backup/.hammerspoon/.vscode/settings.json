@@ -4,8 +4,5 @@
     "appWatcher",
     "log",
     "textClipboardHistory",
-  ],
-  "powerClipper.alwaysExclude":[
-    "scripts"
   ]
 }
