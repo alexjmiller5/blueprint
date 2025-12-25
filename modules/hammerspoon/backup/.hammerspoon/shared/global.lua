@@ -49,9 +49,6 @@ local actions = {
   openHsConfigInVscode = function()
     hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.hsConfig .. "?windowId=_blank"}):start()
   end,
-  openArtifactoryInVscode = function()
-    hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.artifactoryRepo .. "?windowId=_blank"}):start()
-  end,
   openDriveDesktop = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDesktop}):start()
   end,
