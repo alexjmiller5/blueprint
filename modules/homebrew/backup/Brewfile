@@ -40,6 +40,7 @@ brew "vsce"
 brew "yq"
 brew "yt-dlp"
 brew "electrikmilk/cherri/cherri", link: false
+brew "koekeishiya/formulae/yabai"
 brew "smudge/smudge/nightlight"
 brew "supabase/tap/supabase"
 cask "1password"
