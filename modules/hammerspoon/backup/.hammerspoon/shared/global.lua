@@ -35,11 +35,12 @@ local actions = {
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.systemSettings)
   end,
   launchFinder = function()
-    hs.osascript.applescript(
-      'tell application "Finder" \n if not (exists window 1) then make new Finder window \n activate \n end tell'
-    )
-    end,
-  
+    hs.application.launchOrFocusByBundleID(constants.appBundleIds.finder)
+    -- hs.osascript.applescript(
+    --   'tell application "Finder" \n if not (exists window 1) then make new Finder window \n activate \n end tell'
+    -- )
+  end,
+
   -- Scripts
   searchClipTab = function()
     hs.task.new("/bin/sh", nil, { constants.paths.searchClipTab }):start()
@@ -70,8 +71,8 @@ local actions = {
   newChromeWindow = function()
     hs.osascript.applescript('tell application "Google Chrome" to make new window \n activate')
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.chrome)
-    end,
-    forceQuitApp = function()
+  end,
+  forceQuitApp = function()
     os.execute(
       "kill -9 $(osascript -e 'tell application \"System Events\" to get unix id of first process whose frontmost is true and background only is false')"
     )
