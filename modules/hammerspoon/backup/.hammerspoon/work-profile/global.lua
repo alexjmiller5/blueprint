@@ -30,19 +30,6 @@ local actions = {
   openChromePasswords = function()
     hs.osascript.applescriptFromFile(constants.paths.openGooglePasswordsManager)
   end,
-
-  -- System/Misc
-  forceQuitApp = function()
-    os.execute(
-      "kill -9 $(osascript -e 'tell application \"System Events\" to get unix id of first process whose frontmost is true and background only is false')"
-    )
-  end,
-  reloadConfig = function()
-    hs.reload()
-  end,
-  enterDriveModal = function()
-    driveModal:enter()
-  end
 }
 
 -- Hotkey Definitions Table
