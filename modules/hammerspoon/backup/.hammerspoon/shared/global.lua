@@ -11,12 +11,6 @@ local actions = {
   launchNotes = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.notes)
   end,
-  launchGmail = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.gmail)
-  end,
-  launchGoogleCalendar = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleCalendar)
-  end,
   launchVSCode = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.vscode)
   end,
@@ -35,17 +29,11 @@ local actions = {
   launchHammerspoon = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.hammerspoon)
   end,
-  launchGoogleTasks = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleTasks)
-  end,
   launchSlack = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.slack)
   end,
   launchSystemSettings = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.systemSettings)
-  end,
-  launchGoogleDrive = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleDrive)
   end,
 
   -- Other Launchers

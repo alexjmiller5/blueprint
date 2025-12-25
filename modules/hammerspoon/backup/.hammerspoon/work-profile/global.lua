@@ -12,21 +12,6 @@ local actions = {
   launchGoogleCalendar = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleCalendar)
   end,
-  launchVSCode = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.vscode)
-  end,
-  launchGemini = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.gemini)
-  end,
-  launchZoom = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.zoom)
-  end,
-  launchSpotify = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.spotify)
-  end,
-  launchYouTube = function()
-    hs.application.launchOrFocusByBundleID(constants.appBundleIds.youtube)
-  end,
   launchGoogleTasks = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleTasks)
   end,
