@@ -4,7 +4,6 @@ local M = {}
 
 function M.activateAppsScript(scriptPath)
   os.execute("'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --new-window " .. constants.Urls.appsScript .. " " .. "?type=" .. scriptPath .. " " .. ">/dev/null 2>&1 &")
-end
 
 local function checkLoading()
   local success, isLoading = hs.osascript.applescript('tell application "Google Chrome" to return loading of active tab of front window')
