@@ -49,7 +49,7 @@ local actions = {
   openHsConfigInVscode = function()
     hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.hsConfig .. "?windowId=_blank"}):start()
   end,
-  openDriveDesktop = function()
+  openDesktopFolder = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDesktop}):start()
   end,
   openDownloadsFolder = function()
@@ -208,7 +208,7 @@ M.definitions = {
   {
     mods = {"alt", "shift"},
     key = "d",
-    action = actions.openDriveDesktop
+    action = actions.openDesktopFolder
   },
   {
     mods = {"alt", "shift"},
