@@ -48,7 +48,6 @@
 	{
 		"key": "cmd+r",
 		"command": "workbench.action.reloadWindow",
-		"when": "textInputFocus"
 	},
 	// Allow me to redo with cmd+y
 	{

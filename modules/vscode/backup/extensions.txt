@@ -49,6 +49,7 @@ idleberg.icon-fonts
 idleberg.jxa
 james-yu.latex-workshop
 jamesmaj.easy-icons
+janisdd.vscode-edit-csv
 jock.svg
 junstyle.vscode-django-support
 keesschollaart.vscode-home-assistant
