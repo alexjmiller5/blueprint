@@ -86,7 +86,7 @@ local actions = {
   end,
   windowMaximize = function()
     if not helpers.tryMenuItem({"Window", "Fill"}) then
-      hs.execute("open -g 'rectangle://execute-action?name=maximize'")
+      hs.execute("open -g 'raycast://extensions/raycast/window-management/maximize'")
     end
   end,
   windowTopLeft = function()
@@ -95,15 +95,19 @@ local actions = {
     end
   end,
   windowBottomLeft = function()
-    if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Left"}) then
-      hs.execute("open -g 'raycast://extensions/raycast/window-management/top-left-quarter'")
+    if not helpers.tryMenuItem({"Window", "Move & Resize", "Bottom Left"}) then
+      hs.execute("open -g 'raycast://extensions/raycast/window-management/bottom-left-quarter'")
     end
   end,
   windowTopRight = function()
-    hs.execute("open -g 'rectangle://execute-action?name=top-right'")
+    if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Right"}) then
+      hs.execute("open -g 'raycast://extensions/raycast/window-management/top-right-quarter'")
+    end
   end,
   windowBottomRight = function()
-    hs.execute("open -g 'rectangle://execute-action?name=bottom-right'")
+    if not helpers.tryMenuItem({"Window", "Move & Resize", "Bottom Right"}) then
+      hs.execute("open -g 'raycast://extensions/raycast/window-management/bottom-right-quarter'")
+    end
   end,
 
   -- System/Misc
