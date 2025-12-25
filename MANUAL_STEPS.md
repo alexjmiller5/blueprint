@@ -4,9 +4,13 @@ These steps I haven't figured out how to automate yet
 
 ## Disable SIP for `yabai` CLI
 
-- reboot into recovery mode
-- open terminal from the utilities menu
-- run `csrutil enable --without fs --without debug --without nvram`
+- Reboot into recovery mode
+- Open terminal from the utilities menu
+- Run `csrutil enable --without fs --without debug --without nvram`
+- Reboot
+- Run `sudo nvram boot-args=-arm64e_preview_abi`
+- Reboot
+- 
 
 ## Finder
 
@@ -20,8 +24,8 @@ These steps I haven't figured out how to automate yet
 
 ## Chrome PWAs
 
-- manually set every PWA to open supported links in Chrome instead of the PWA in the settings of each PWA
+- Manually set every PWA to open supported links in Chrome instead of the PWA in the settings of each PWA
 
 ## Tab Copy
 
-- write down the setting
+- Write down the settings for Tab Copy extension because they can't be exported (maybe take a sreenshot and put it here?)
