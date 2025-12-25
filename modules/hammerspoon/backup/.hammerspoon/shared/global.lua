@@ -71,56 +71,58 @@ local actions = {
   newChromeWindow = function()
     hs.osascript.applescript('tell application "Google Chrome" to make new window \n activate')
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.chrome)
-  end,
-  -- Window ManawindowCenter = function()
+    end,
+
+  -- Window Management
+  windowCenter = function()
     -- Grid 1:4, start at index 1 (2nd col), span 2 cols. (Centered 50% width)
-    hs.execute("yabai -m window --grid 1:4:1:0:2:1")
+    hs.execute("/opt/homebrew/bin/yabai -m window --grid 1:4:1:0:2:1")
   end,
 
   windowLeft = function()
     -- Grid 1:2, start at 0, span 1 (Left Half)
-    hs.execute("yabai -m window --grid 1:2:0:0:1:1")
+    hs.execute("/opt/homebrew/bin/yabai -m window --grid 1:2:0:0:1:1")
   end,
 
   windowRight = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Right"}) then
       -- Grid 1:2, start at 1, span 1 (Right Half)
-      hs.execute("yabai -m window --grid 1:2:1:0:1:1")
+      hs.execute("/opt/homebrew/bin/yabai -m window --grid 1:2:1:0:1:1")
     end
   end,
 
   windowMaximize = function()
     if not helpers.tryMenuItem({"Window", "Fill"}) then
       -- Grid 1:1, full span (Maximize)
-      hs.execute("yabai -m window --grid 1:1:0:0:1:1")
+      hs.execute("/opt/homebrew/bin/yabai -m window --grid 1:1:0:0:1:1")
     end
   end,
 
   windowTopLeft = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Left"}) then
       -- Grid 2:2, start 0,0 (Top Left Quarter)
-      hs.execute("yabai -m window --grid 2:2:0:0:1:1")
+      hs.execute("/opt/homebrew/bin/yabai -m window --grid 2:2:0:0:1:1")
     end
   end,
 
   windowBottomLeft = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Bottom Left"}) then
       -- Grid 2:2, start 0,1 (Bottom Left Quarter)
-      hs.execute("yabai -m window --grid 2:2:0:1:1:1")
+      hs.execute("/opt/homebrew/bin/yabai -m window --grid 2:2:0:1:1:1")
     end
   end,
 
   windowTopRight = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Right"}) then
       -- Grid 2:2, start 1,0 (Top Right Quarter)
-      hs.execute("yabai -m window --grid 2:2:1:0:1:1")
+      hs.execute("/opt/homebrew/bin/yabai -m window --grid 2:2:1:0:1:1")
     end
   end,
 
   windowBottomRight = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Bottom Right"}) then
       -- Grid 2:2, start 1,1 (Bottom Right Quarter)
-      hs.execute("yabai -m window --grid 2:2:1:1:1:1")
+      hs.execute("/opt/homebrew/bin/yabai -m window --grid 2:2:1:1:1:1")
     end
   end,
 
@@ -133,11 +135,8 @@ local actions = {
   reloadConfig = function()
     hs.reload()
   end,
-  enterDriveModal = function()
-    driveModal:enter()
-  end
 }
-
+w
 -- Hotkey Definitions Table
 -- This is now much cleaner and easier to read!
 M.definitions = {
