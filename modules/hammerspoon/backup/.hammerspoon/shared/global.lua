@@ -72,12 +72,6 @@ local actions = {
     hs.osascript.applescript('tell application "Google Chrome" to make new window \n activate')
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.chrome)
   end,
-  clickMyDrive = function()
-    hs.osascript.applescriptFromFile(constants.paths.clickMyDrive)
-  end,
-  openChromePasswords = function()
-    hs.osascript.applescriptFromFile(constants.paths.openGooglePasswordsManager)
-  end,
   -- Window Management
   windowCenter = function()
     hs.execute("open -g 'rectangle://execute-action?name=center-half'")
