@@ -55,10 +55,10 @@ local actions = {
     hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.hsConfig .. "?windowId=_blank"}):start()
   end,
   openDesktopFolder = function()
-    hs.task.new("/usr/bin/open", nil, {constants.paths.driveDesktop}):start()
+    hs.task.new("/usr/bin/open", nil, {constants.paths.desktopFolder}):start()
   end,
   openDownloadsFolder = function()
-    hs.task.new("/usr/bin/open", nil, {constants.paths.driveDownloads}):start()
+    hs.task.new("/usr/bin/open", nil, {constants.paths.downloadsFolder}):start()
   end,
   openDocumentsFolder = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.documentsFolder}):start()
