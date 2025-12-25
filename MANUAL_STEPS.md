@@ -1,6 +1,12 @@
 # Manual Setup Steps
 
-- These steps I haven't figured out how to automate yet
+These steps I haven't figured out how to automate yet
+
+## Disable SIP for `yabai` CLI
+
+- reboot into recovery mode
+- open terminal from the utilities menu
+- run `csrutil enable --without fs --without debug --without nvram`
 
 ## Finder
 
