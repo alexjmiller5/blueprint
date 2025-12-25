@@ -10,12 +10,12 @@ mkdir -p "$BACKUP_DIR"
 USER_DUMP=$(/usr/bin/sqlite3 "$HOME/Library/Application Support/com.apple.TCC/TCC.db" "SELECT service, client, auth_value FROM access")
 
 # 2. Dump System Data (NEEDS SUDO)
-# We check if we can read it first; if not, we might prompt for sudo or fail gracefully
+# We check if we can read it first; if not, we try sudo
 if [ -r "/Library/Application Support/com.apple.TCC/TCC.db" ]; then
     SYSTEM_DUMP=$(/usr/bin/sqlite3 "/Library/Application Support/com.apple.TCC/TCC.db" "SELECT service, client, auth_value FROM access")
 else
-    # Try with sudo if readable check failed
-    echo "⚠️  Need sudo to read System TCC database for Accessibility permissions..."
+    # Quietly try sudo if we can't read it
+    echo "⚠️  Need sudo to read System TCC database (Accessibility permissions)..."
     SYSTEM_DUMP=$(sudo /usr/bin/sqlite3 "/Library/Application Support/com.apple.TCC/TCC.db" "SELECT service, client, auth_value FROM access")
 fi
 
@@ -74,15 +74,14 @@ for line in sys.stdin:
 
     unique_entries.add((client, service, status))
 
-print(f"{to_str(len(unique_entries))} unique permissions found.\n")
+# Print Header
+print(f"{len(unique_entries)} unique permissions found.\n")
 print(f"{0:<60} | {1:<30} | {2}".format("APPLICATION (ID)", "PERMISSION", "STATUS"))
 print("-" * 115)
 
+# Sort by Application Name, then Service
 for entry in sorted(list(unique_entries), key=lambda x: (x[0].lower(), x[1])):
     print(f"{entry[0]:<60} | {entry[1]:<30} | {entry[2]}")
-
-def to_str(num):
-    return str(num)
 ' > "$BACKUP_DIR/tcc_readable_dump.txt"
 
 # 5. Git Push
