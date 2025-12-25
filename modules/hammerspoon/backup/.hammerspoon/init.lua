@@ -5,12 +5,7 @@ hs.logger.new("Hammerspoon", "debug")
 require("hs.ipc")
 
 -- Load the diagnostic key logger based on config
---   require("keylogger"):start()
-
--- Load the Hyper Key module based on config
-if config.enableHyperKey then
-  require("hotkeys.hyperkey"):start()
-end
+-- require("keylogger"):start()
 
 require("helpers")
 require("constants")
