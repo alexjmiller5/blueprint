@@ -52,10 +52,10 @@ local actions = {
   openDriveDesktop = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDesktop}):start()
   end,
-  openDriveDownloads = function()
+  openDownloadsFolder = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDownloads}):start()
   end,
-  openDriveDocuments = function()
+  openDocumentsFolder = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDocuments}):start()
   end,
   newIncognitoWindow = function()
@@ -78,7 +78,6 @@ local actions = {
   openChromePasswords = function()
     hs.osascript.applescriptFromFile(constants.paths.openGooglePasswordsManager)
   end,
-  
   -- Window Management
   windowCenter = function()
     hs.execute("open -g 'rectangle://execute-action?name=center-half'")
@@ -214,12 +213,12 @@ M.definitions = {
   {
     mods = {"alt", "shift"},
     key = "w",
-    action = actions.openDriveDownloads
+    action = actions.openDownloadsFolder
   },
   {
     mods = {"alt", "shift"},
     key = "e",
-    action = actions.openDriveDocuments
+    action = actions.openDocumentsFolder
   },
   {
     mods = {"alt", "shift"},
