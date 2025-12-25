@@ -1,13 +1,9 @@
 {
   "Lua.diagnostics.globals": [
     "hs",
-    "createAppSpecificHotkeys",
-    "hotkey",
     "appWatcher",
     "log",
-    "spoon",
     "textClipboardHistory",
-    "seq"
   ],
   "powerClipper.alwaysExclude":[
     "scripts"
