@@ -1,5 +1,4 @@
 local M = {}
-M.hyperKeyMods = { "cmd", "alt", "ctrl", "shift" }
 
 -- Application Bundle IDs
 M.appBundleIds = {

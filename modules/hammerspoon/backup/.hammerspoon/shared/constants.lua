@@ -12,15 +12,9 @@ M.appBundleIds = {
   zoom            = "us.zoom.xos",
   slack           = "com.tinyspeck.slackmacgap",
   chrome          = "com.google.Chrome",
-  googleTasks     = "com.google.Chrome.app.okhfeehhillipaleckndoboggdkcebmo",
-  googleCalendar  = "com.google.Chrome.app.kjbdgfilnfhdofibpgamdcdgpehopbep",
-  gmail           = "com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm",
-  googleDrive     = "com.google.Chrome.app.aghbiahbpaijignceidepookljebhfak",
 }
 
 M.paths = {
-  clickMyDrive                  = M.home .. "/.local/bin/click-my-drive-button.applescript",
-  openGooglePasswordsManager    = M.home .. "/.local/bin/open-google-passwords-manager.applescript",
   searchClipTab                 = M.home .. "/.local/bin/search-from-clipboard-in-new-tab.sh",
   searchClipWindow              = M.home .. "/.local/bin/search-from-clipboard-in-new-window.sh",
   searchClipIncognito           = M.home .. "/.local/bin/search-incognito-from-clipboard.sh",
