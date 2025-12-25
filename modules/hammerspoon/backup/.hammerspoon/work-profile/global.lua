@@ -22,24 +22,11 @@ local actions = {
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleDrive)
   end,
 
-  -- Other Launchers
-  searchClipTab = function()
-    hs.task.new("/bin/sh", nil, {constants.paths.searchClipTab}):start()
-  end,
-  searchClipWindow = function()
-    hs.task.new("/bin/sh", nil, {constants.paths.searchClipWindow}):start()
-  end,
-  searchClipIncognito = function()
-    hs.task.new("/bin/sh", nil, {constants.paths.searchClipIncognito}):start()
-  end,
-  openHsConfigInVscode = function()
-    hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.hsConfig .. "?windowId=_blank"}):start()
-  end,
   openArtifactoryInVscode = function()
     hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.artifactoryRepo .. "?windowId=_blank"}):start()
   end,
   openDriveDesktop = function()
-    hs.task.new("/usr/bin/open", nil, {constants.paths.driveDesktop}):start()
+    hs.task.new("/usr/bin/open", nil, {constants.paths.desktopFolder}):start()
   end,
   openDriveDownloads = function()
     hs.task.new("/usr/bin/open", nil, {constants.paths.driveDownloads}):start()
