@@ -22,10 +22,8 @@ local actions = {
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.googleDrive)
   end,
   openArtifactoryInVscode = function()
-    hs.task.new("/usr/bin/open", nil, {"vscode://file/" .. constants.paths.artifactoryRepo .. "?windowId=_blank"}):start()
-  end,
-  clickMyDrive = function()
-    hs.osascript.applescriptFromFile(constants.paths.clickMyDrive)
+    hs.task.new("/usr/bin/open", nil, { "vscode://file/" .. constants.paths.artifactoryRepo .. "?windowId=_blank" })
+        :start()
   end,
   openChromePasswords = function()
     hs.osascript.applescriptFromFile(constants.paths.openGooglePasswordsManager)
@@ -36,32 +34,32 @@ local actions = {
 M.definitions = {
   -- App Launchers
   {
-    mods = {"alt"},
+    mods = { "alt" },
     key = "m",
     action = actions.launchGmail
   },
   {
-    mods = {"alt"},
+    mods = { "alt" },
     key = "c",
     action = actions.launchGoogleCalendar
   },
   {
-    mods = {"alt"},
+    mods = { "alt" },
     key = "h",
     action = actions.launchGoogleDrive
   },
   {
-    mods = {"alt"},
+    mods = { "alt" },
     key = "l",
     action = actions.openChromePasswords
   },
   {
-    mods = {"alt", "shift"},
+    mods = { "alt", "shift" },
     key = "n",
     action = actions.launchGoogleTasks
   },
   {
-    mods = {"alt", "shift"},
+    mods = { "alt", "shift" },
     key = "m",
     action = actions.launchSlack
   }
