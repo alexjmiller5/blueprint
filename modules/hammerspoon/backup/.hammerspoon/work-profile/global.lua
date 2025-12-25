@@ -62,7 +62,12 @@ M.definitions = {
     mods = { "alt", "shift" },
     key = "m",
     action = actions.launchSlack
-  }
+  },
+  {
+    mods = { "alt", "shift" },
+    key = "a",
+    action = actions.openArtifactoryInVscode
+  },
 }
 
 return M
