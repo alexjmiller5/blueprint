@@ -72,41 +72,55 @@ local actions = {
     hs.osascript.applescript('tell application "Google Chrome" to make new window \n activate')
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.chrome)
   end,
-  -- Window Management
-  windowCenter = function()
-    hs.execute("open -g 'rectangle://execute-action?name=center-half'")
+  -- Window ManawindowCenter = function()
+    -- Grid 1:4, start at index 1 (2nd col), span 2 cols. (Centered 50% width)
+    hs.execute("yabai -m window --grid 1:4:1:0:2:1")
   end,
+
   windowLeft = function()
-    hs.execute("open -g 'rectangle://execute-action?name=left-half'")
+    -- Grid 1:2, start at 0, span 1 (Left Half)
+    hs.execute("yabai -m window --grid 1:2:0:0:1:1")
   end,
+
   windowRight = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Right"}) then
-      hs.execute("open -g 'rectangle://execute-action?name=right-half'")
+      -- Grid 1:2, start at 1, span 1 (Right Half)
+      hs.execute("yabai -m window --grid 1:2:1:0:1:1")
     end
   end,
+
   windowMaximize = function()
     if not helpers.tryMenuItem({"Window", "Fill"}) then
-      hs.execute("open -g 'raycast://extensions/raycast/window-management/maximize'")
+      -- Grid 1:1, full span (Maximize)
+      hs.execute("yabai -m window --grid 1:1:0:0:1:1")
     end
   end,
+
   windowTopLeft = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Left"}) then
-      hs.execute("open -g 'raycast://extensions/raycast/window-management/top-left-quarter'")
+      -- Grid 2:2, start 0,0 (Top Left Quarter)
+      hs.execute("yabai -m window --grid 2:2:0:0:1:1")
     end
   end,
+
   windowBottomLeft = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Bottom Left"}) then
-      hs.execute("open -g 'raycast://extensions/raycast/window-management/bottom-left-quarter'")
+      -- Grid 2:2, start 0,1 (Bottom Left Quarter)
+      hs.execute("yabai -m window --grid 2:2:0:1:1:1")
     end
   end,
+
   windowTopRight = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Top Right"}) then
-      hs.execute("open -g 'raycast://extensions/raycast/window-management/top-right-quarter'")
+      -- Grid 2:2, start 1,0 (Top Right Quarter)
+      hs.execute("yabai -m window --grid 2:2:1:0:1:1")
     end
   end,
+
   windowBottomRight = function()
     if not helpers.tryMenuItem({"Window", "Move & Resize", "Bottom Right"}) then
-      hs.execute("open -g 'raycast://extensions/raycast/window-management/bottom-right-quarter'")
+      -- Grid 2:2, start 1,1 (Bottom Right Quarter)
+      hs.execute("yabai -m window --grid 2:2:1:1:1:1")
     end
   end,
 
