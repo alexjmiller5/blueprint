@@ -4,13 +4,8 @@ hs.logger.new("Hammerspoon", "debug")
 -- Activate the hammerspoon cli
 require("hs.ipc")
 
--- Load core configuration files
-local config = require("config")
-
 -- Load the diagnostic key logger based on config
-if config.enableKeyLogger then
-  require("keylogger"):start()
-end
+--   require("keylogger"):start()
 
 -- Load the Hyper Key module based on config
 if config.enableHyperKey then
