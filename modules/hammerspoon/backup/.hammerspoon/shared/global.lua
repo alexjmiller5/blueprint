@@ -34,6 +34,11 @@ local actions = {
   end,
   launchSystemSettings = function()
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.systemSettings)
+    end,
+  launchFinder = function()
+    hs.osascript.applescript(
+      'tell application "Finder" \n if not (exists window 1) then make new Finder window \n activate \n end tell'
+    )
   end,
 
   -- Other Launchers
@@ -61,11 +66,6 @@ local actions = {
   newIncognitoWindow = function()
     hs.osascript.applescript(
       'tell application "Google Chrome" to make new window with properties {mode:"incognito"} \n activate'
-    )
-  end,
-  newFinderWindow = function()
-    hs.osascript.applescript(
-      'tell application "Finder" \n if not (exists window 1) then make new Finder window \n activate \n end tell'
     )
   end,
   newChromeWindow = function()
@@ -243,7 +243,7 @@ M.definitions = {
   {
     mods = {"alt"},
     key = "f",
-    action = actions.newFinderWindow
+    action = actions.launchFinder
   },
   {
     mods = {"alt"},
