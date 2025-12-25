@@ -10,7 +10,8 @@ These steps I haven't figured out how to automate yet
 - Reboot
 - Run `sudo nvram boot-args=-arm64e_preview_abi`
 - Reboot
-- 
+- Verify by running `csrutil status` in terminal
+  - It should say "System Integrity Protection status: disabled (Custom Configuration),"
 
 ## Finder
 
