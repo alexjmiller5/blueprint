@@ -67,7 +67,7 @@ local actions = {
     hs.osascript.applescript(
       'tell application "Finder" \n if not (exists window 1) then make new Finder window \n activate \n end tell'
     )
-  end,9
+  end,
   newChromeWindow = function()
     hs.osascript.applescript('tell application "Google Chrome" to make new window \n activate')
     hs.application.launchOrFocusByBundleID(constants.appBundleIds.chrome)
