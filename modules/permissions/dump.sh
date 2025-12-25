@@ -14,7 +14,6 @@ USER_DUMP=$(/usr/bin/sqlite3 "$HOME/Library/Application Support/com.apple.TCC/TC
 if [ -r "/Library/Application Support/com.apple.TCC/TCC.db" ]; then
     SYSTEM_DUMP=$(/usr/bin/sqlite3 "/Library/Application Support/com.apple.TCC/TCC.db" "SELECT service, client, auth_value FROM access")
 else
-    # Quietly try sudo if we can't read it
     echo "⚠️  Need sudo to read System TCC database (Accessibility permissions)..."
     SYSTEM_DUMP=$(sudo /usr/bin/sqlite3 "/Library/Application Support/com.apple.TCC/TCC.db" "SELECT service, client, auth_value FROM access")
 fi
@@ -23,9 +22,10 @@ fi
 FULL_DUMP="${USER_DUMP}
 ${SYSTEM_DUMP}"
 
-# 4. Process with Python
+# 4. Process with Python -> CSV
 echo "$FULL_DUMP" | python3 -c '
 import sys
+import csv
 
 SERVICE_MAP = {
     "kTCCServiceLiverpool": "iCloud/CloudKit",
@@ -66,23 +66,22 @@ for line in sys.stdin:
 
     # Clean Auth Status
     if auth_val == "2":
-        status = "✅ Allowed"
+        status = "Allowed"
     elif auth_val == "0":
-        status = "❌ Denied"
+        status = "Denied"
     else:
-        status = f"❓ Unknown ({auth_val})"
+        status = f"Unknown ({auth_val})"
 
     unique_entries.add((client, service, status))
 
-# Print Header
-print(f"{len(unique_entries)} unique permissions found.\n")
-print(f"{0:<60} | {1:<30} | {2}".format("APPLICATION (ID)", "PERMISSION", "STATUS"))
-print("-" * 115)
+# Write CSV to stdout
+writer = csv.writer(sys.stdout)
+writer.writerow(["Application", "Permission", "Status"])
 
 # Sort by Application Name, then Service
 for entry in sorted(list(unique_entries), key=lambda x: (x[0].lower(), x[1])):
-    print(f"{entry[0]:<60} | {entry[1]:<30} | {entry[2]}")
-' > "$BACKUP_DIR/tcc_readable_dump.txt"
+    writer.writerow(entry)
+' > "$BACKUP_DIR/tcc_permissions.csv"
 
 # 5. Git Push
-"$REPO_ROOT/core/git_push.sh"
+# "$REPO_ROOT/core/git_push.sh"
