@@ -1,56 +1,66 @@
-local globalHotkeys = require("hotkeys.global").definitions
-local appHotkeys = require("hotkeys.app-based").definitions
+local M = {}
+local log = hs.logger.new("Binder", "debug")
 
--- Bind all global hotkeys
-for _, hotkey in ipairs(globalHotkeys) do
-  hs.hotkey.bind(hotkey.mods, hotkey.key, hotkey.action)
-end
+-- Store the watcher globally so it doesn't get garbage collected
+M.appWatcher = nil
 
--- Bind all application-specific hotkeys
-local appSpecificHotkeys = {}
-local previousBundleID = nil
+function M.init(globalDefs, appDefs)
+  log.i("Binding " .. #globalDefs .. " global hotkeys.")
 
--- Create hotkey objects (initially disabled)
-for bundleID, definitions in pairs(appHotkeys) do
-  appSpecificHotkeys[bundleID] = {}
-  for _, definition in ipairs(definitions) do
-    local hotkey = hs.hotkey.new(definition.mods, definition.key, definition.action)
-    table.insert(appSpecificHotkeys[bundleID], hotkey)
+  -- 1. Bind all global hotkeys
+  for _, hotkey in ipairs(globalDefs) do
+    hs.hotkey.bind(hotkey.mods, hotkey.key, hotkey.action)
   end
-end
 
--- Function to enable/disable hotkeys based on the frontmost app
-local function updateHotkeyStates(app)
-  local newBundleID = app and app:bundleID() or nil
-  if newBundleID == previousBundleID then return end
+  -- 2. Prepare Application Specific Hotkeys
+  local appSpecificHotkeys = {}
+  local previousBundleID = nil
 
-  -- Disable hotkeys for the old app
-  if previousBundleID and appSpecificHotkeys[previousBundleID] then
-    for _, hotkey in ipairs(appSpecificHotkeys[previousBundleID]) do
-      hotkey:disable()
+  -- Create hotkey objects (initially disabled)
+  for bundleID, definitions in pairs(appDefs) do
+    if not appSpecificHotkeys[bundleID] then
+      appSpecificHotkeys[bundleID] = {}
+    end
+    
+    for _, definition in ipairs(definitions) do
+      local hk = hs.hotkey.new(definition.mods, definition.key, definition.action)
+      table.insert(appSpecificHotkeys[bundleID], hk)
     end
   end
 
-  -- Enable hotkeys for the new app
-  if newBundleID and appSpecificHotkeys[newBundleID] then
-    for _, hotkey in ipairs(appSpecificHotkeys[newBundleID]) do
-      hotkey:enable()
+  -- Function to enable/disable hotkeys based on the frontmost app
+  local function updateHotkeyStates(app)
+    local newBundleID = app and app:bundleID() or nil
+    if newBundleID == previousBundleID then return end
+
+    -- Disable hotkeys for the old app
+    if previousBundleID and appSpecificHotkeys[previousBundleID] then
+      for _, hk in ipairs(appSpecificHotkeys[previousBundleID]) do
+        hk:disable()
+      end
     end
+
+    -- Enable hotkeys for the new app
+    if newBundleID and appSpecificHotkeys[newBundleID] then
+      for _, hk in ipairs(appSpecificHotkeys[newBundleID]) do
+        hk:enable()
+      end
+    end
+
+    previousBundleID = newBundleID
   end
 
-  previousBundleID = newBundleID
+  -- 3. Start the Watcher
+  M.appWatcher = hs.application.watcher.new(function(appName, eventType, app)
+    if eventType == hs.application.watcher.activated then
+      updateHotkeyStates(app)
+    end
+  end)
+
+  M.appWatcher:start()
+  updateHotkeyStates(hs.application.frontmostApplication())
+  
+  log.i("All hotkeys bound successfully.")
 end
 
--- Create a watcher to track application changes and update hotkey states
--- This must be global otherwise it will get cleaned up by the Lua garbage collector
-appWatcher = hs.application.watcher.new(function(appName, eventType, app)
-  if eventType == hs.application.watcher.activated then
-    updateHotkeyStates(app)
-  end
-end)
-
--- Start the watcher and set initial state
-appWatcher:start()
-updateHotkeyStates(hs.application.frontmostApplication())
-
-log.i("Hotkeys bound!")
+return M
