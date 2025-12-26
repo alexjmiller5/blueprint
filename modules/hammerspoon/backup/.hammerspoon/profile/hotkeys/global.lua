@@ -1,6 +1,4 @@
 local constants = require("constants")
-local helpers = require("helpers")
-local driveModal = require("hotkeys.modal").driveModal
 
 local M = {}
 

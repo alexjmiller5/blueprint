@@ -1,4 +1,3 @@
-require("helpers")
 require("constants")
 require("spoons")
 require("hotkeys.bind")
