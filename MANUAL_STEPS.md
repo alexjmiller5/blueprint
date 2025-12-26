@@ -4,7 +4,7 @@ These steps I haven't figured out how to automate yet
 
 ## Restore the Modules you'd like to use
 
-- Choose only one profile for 
+- Choose only one profile for modules which have profiles
 
 ## Disable SIP for `yabai` CLI
 
