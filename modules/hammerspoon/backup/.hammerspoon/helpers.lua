@@ -15,22 +15,35 @@ function M.tryMenuItem(menuPath)
   end)
 end
 
--- Copy app definitions from one table to another
-function M.mergeAppHotkeys(firstTable, secondTable)
-    for bundleID, defs in pairs(firstTable) do
-        if not secondTable[bundleID] then
-            secondTable[bundleID] = {}
-        end
-        for _, def in ipairs(defs) do
-            table.insert(secondTable[bundleID], def)
-        end
-    end
+function M.mergeGlobalHotkeys(source, destination)
+  if type(source) ~= "table" then return end
+  if type(destination) ~= "table" then
+    log.e("mergeGlobalHotkeys: Destination is not a table")
+    return
+  end
+
+  for _, def in ipairs(source) do
+    table.insert(destination, def)
+  end
 end
 
-function M.mergeGlobalHotkeys(firstTable, secondTable)
-  if not firstTable then return end
-  for _, def in ipairs(firstTable) do
-    table.insert(secondTable, def)
+function M.mergeAppBasedHotkeys(source, destination)
+  if type(source) ~= "table" then return end
+  if type(destination) ~= "table" then 
+    log.e("mergeAppHotkeys: Destination is not a table")
+    return 
+  end
+
+  for bundleID, defs in pairs(source) do
+    if not destination[bundleID] then
+      destination[bundleID] = {}
+    end
+
+    if type(defs) == "table" then
+      for _, def in ipairs(defs) do
+        table.insert(destination[bundleID], def)
+      end
+    end
   end
 end
 

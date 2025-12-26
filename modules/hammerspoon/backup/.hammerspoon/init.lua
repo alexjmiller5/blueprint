@@ -22,10 +22,9 @@ local sharedAppBasedHotkeys    = require("hotkeys.app-based").definitions
 local profileGlobalHotkeys = require("profile.hotkeys.global").definitions
 local profileAppBasedHotkeys    = require("profile.hotkeys.app-based").definitions
 
--- 4. Merge App-Based Hotkeys (Map Merge with List Concatenation)
 
-helpers.mergeAppBasedHotkeys(, profileAppHotkeys)
-helpers.mergeGlobalHotkeys(, mergedApp)
+helpers.mergeAppBasedHotkeys(sharedAppBasedHotkeys, profileAppBasedHotkeys)
+helpers.mergeGlobalHotkeys(sharedGlobalHotkeys, profileGlobalHotkeys)
 
 require("hotkeys.bind").init(mergedGlobal, mergedApp)
 require("profile.init")
