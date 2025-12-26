@@ -16,23 +16,23 @@ require("spoons")
 -- --- DATA LOADING & MERGING ---
 
 -- 1. Initialize empty master tables
-local masterGlobal = {}
-local masterAppBasedHotkeys = {}
+local mergedGlobalHotkeys = {}
+local mergedAppBasedHotkeys = {}
 
 -- 1. Load Main Definitions
 local sharedGlobalHotkeys = require("hotkeys.global").definitions
 local sharedAppBasedHotkeys    = require("hotkeys.app-based").definitions
 
-helpers.mergeAppBasedHotkeys(sharedAppBasedHotkeys, masterGlobal)
-helpers.mergeGlobalHotkeys(sharedGlobalHotkeys, profileGlobalHotkeys)
+helpers.mergeAppBasedHotkeys(sharedAppBasedHotkeys, mergedGlobalHotkeys)
+helpers.mergeGlobalHotkeys(sharedGlobalHotkeys, mergedAppBasedHotkeys)
 
 local profileGlobalHotkeys = require("profile.hotkeys.global").definitions
 local profileAppBasedHotkeys    = require("profile.hotkeys.app-based").definitions
 
-helpers.mergeAppBasedHotkeys(sharedAppBasedHotkeys, profileAppBasedHotkeys)
-helpers.mergeGlobalHotkeys(sharedGlobalHotkeys, profileGlobalHotkeys)
+helpers.mergeAppBasedHotkeys(profileAppBasedHotkeys, mergedGlobalHotkeys)
+helpers.mergeGlobalHotkeys(profileGlobalHotkeys, mergedAppBasedHotkeys)
 
-require("hotkeys.bind").init(mergedGlobal, mergedApp)
+require("hotkeys.bind").init(mergedGlobalHotkeys, mergedApp)
 require("profile.init")
 
 -- Final confirmation message
