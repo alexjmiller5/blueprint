@@ -9,7 +9,7 @@ require("hs.ipc")
 
 
 -- Load Core
-require("helpers")
+local helpers = require("helpers")
 require("constants")
 require("spoons")
 
@@ -34,14 +34,9 @@ for _, v in ipairs(profileGlobal) do table.insert(mergedGlobal, v) end
 local mergedApp = {}
 
 helpers.copyAppDefs(mainApp)
-copyAppDefs(profileApp)
+helpers.copyAppDefs(profileApp)
 
--- --- EXECUTION ---
-
--- 5. Bind Everything using the merged data
 require("hotkeys.bind").init(mergedGlobal, mergedApp)
-
--- 6. Run Profile Init (for spoons/watchers/scripts, NOT hotkeys)
 require("profile.init")
 
 -- Final confirmation message
