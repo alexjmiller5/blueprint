@@ -22,7 +22,6 @@ local sharedAppBasedHotkeys    = require("hotkeys.app-based").definitions
 local profileGlobalHotkeys = require("profile.hotkeys.global").definitions
 local profileAppBasedHotkeys    = require("profile.hotkeys.app-based").definitions
 
-
 helpers.mergeAppBasedHotkeys(sharedAppBasedHotkeys, profileAppBasedHotkeys)
 helpers.mergeGlobalHotkeys(sharedGlobalHotkeys, profileGlobalHotkeys)
 
