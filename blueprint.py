@@ -55,19 +55,32 @@ def git_push():
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     commit_msg = f"Auto-backup: {timestamp}"
 
-    # Set Bot Identity via Environment Variables (Overrides all config)
-    bot_env = {
-        "GIT_AUTHOR_NAME": "Blueprint Bot",
-        "GIT_AUTHOR_EMAIL": "bot@blueprint.local",
-        "GIT_COMMITTER_NAME": "Blueprint Bot",
-        "GIT_COMMITTER_EMAIL": "bot@blueprint.local",
-    }
+    # This ensures external helpers (LFS, SSH Signers) reading from disk see the Bot.
+    try:
+        # 1. Set Local Config (Disk Write)
+        run_cmd(
+            ["git", "config", "--local", "user.name", "Blueprint Bot"], cwd=REPO_ROOT
+        )
+        run_cmd(
+            ["git", "config", "--local", "user.email", "bot@blueprint.local"],
+            cwd=REPO_ROOT,
+        )
 
-    run_cmd(
-        ["git", "-c", "commit.gpgsign=false", "commit", "-m", commit_msg],
-        cwd=REPO_ROOT,
-        env=bot_env,
-    )
+        # 2. Commit (No GPG to avoid 1Password prompt/override)
+        run_cmd(["git", "commit", "-m", commit_msg, "--no-gpg-sign"], cwd=REPO_ROOT)
+
+    finally:
+        # 3. CLEANUP: Always remove the local config so manual commits use your global identity
+        run_cmd(
+            ["git", "config", "--local", "--unset", "user.name"],
+            cwd=REPO_ROOT,
+            ignore_error=True,
+        )
+        run_cmd(
+            ["git", "config", "--local", "--unset", "user.email"],
+            cwd=REPO_ROOT,
+            ignore_error=True,
+        )
 
     ssh_cmd = f"ssh -i {SSH_KEY_PATH} -o IdentitiesOnly=yes"
     print("   Pushing to origin...")
