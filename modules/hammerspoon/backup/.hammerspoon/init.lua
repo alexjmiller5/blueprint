@@ -16,21 +16,16 @@ require("spoons")
 -- --- DATA LOADING & MERGING ---
 
 -- 1. Load Main Definitions
-local mainGlobal = require("hotkeys.global").definitions
-local mainApp    = require("hotkeys.app-based").definitions
+local mainGlobalHotkeys = require("hotkeys.global").definitions
+local mainAppHotkeys    = require("hotkeys.app-based").definitions
 
-local profileGlobal = require("profile.hotkeys.global").definitions
-local profileApp    = require("profile.hotkeys.app-based").definitions
-
-local mergedGlobal = {}
-for _, v in ipairs(mainGlobal) do table.insert(mergedGlobal, v) end
-for _, v in ipairs(profileGlobal) do table.insert(mergedGlobal, v) end
+local profileGlobalHotkeys = require("profile.hotkeys.global").definitions
+local profileAppHotkeys    = require("profile.hotkeys.app-based").definitions
 
 -- 4. Merge App-Based Hotkeys (Map Merge with List Concatenation)
-local mergedApp = {}
 
-helpers.copyAppDefs(mainApp)
-helpers.copyAppDefs(profileApp)
+helpers.mergeAppHotkeys(mainAppHotkeys, profileAppHotkeys)
+helpers.mergeAppHotkeys(, mergedApp)
 
 require("hotkeys.bind").init(mergedGlobal, mergedApp)
 require("profile.init")
