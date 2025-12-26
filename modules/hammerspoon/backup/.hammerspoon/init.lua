@@ -7,19 +7,14 @@ require("hs.ipc")
 -- Load the diagnostic key logger based on config
 -- require("keylogger"):start()
 
-
 -- Load Core
 local helpers = require("helpers")
 require("constants")
 require("spoons")
 
--- --- DATA LOADING & MERGING ---
-
--- 1. Initialize empty master tables
 local mergedGlobalHotkeys = {}
 local mergedAppBasedHotkeys = {}
 
--- 1. Load Main Definitions
 local sharedGlobalHotkeys = require("hotkeys.global").definitions
 local sharedAppBasedHotkeys    = require("hotkeys.app-based").definitions
 
@@ -32,7 +27,8 @@ local profileAppBasedHotkeys    = require("profile.hotkeys.app-based").definitio
 helpers.mergeAppBasedHotkeys(profileAppBasedHotkeys, mergedGlobalHotkeys)
 helpers.mergeGlobalHotkeys(profileGlobalHotkeys, mergedAppBasedHotkeys)
 
-require("hotkeys.bind").init(mergedGlobalHotkeys, mergedApp)
+require("hotkeys.bind").init(mergedGlobalHotkeys, mergedAppBasedHotkeys)
+
 require("profile.init")
 
 -- Final confirmation message
