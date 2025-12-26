@@ -11,8 +11,6 @@ if not powerConnectedSound then
   return -- Stop the script if the sound can't be found
 end
 
-
-
 local previousPowerSource = hs.battery.powerSource()
 
 -- Play the sound if the power adapter is connected
@@ -31,21 +29,6 @@ end
 -- Create and start the watcher
 local powerWatcher = hs.battery.watcher.new(powerStateChanged)
 powerWatcher:start()
-
---- Attempts to select a menu item on the frontmost application.
--- @param menuPath A table of strings representing the menu path.
--- @return boolean - True on success, false on failure.
-local function tryMenuItem(menuPath)
-  local frontApp = hs.application.frontmostApplication()
-  if not frontApp then return false end
-
-  -- pcall returns `true` if the function runs without error, `false` otherwise.
-  return pcall(function()
-    if not frontApp:selectMenuItem(menuPath) then
-      error("Menu item not found or action failed.")
-    end
-  end)
-end
 
 -- Hotkey: Cmd + shift + l = Launch Home Assistant webhook to toggle lights
 hs.hotkey.bind({ "cmd", "shift" }, "l", function()
