@@ -4,7 +4,7 @@ local log = hs.logger.new("Binder", "debug")
 -- Store the watcher globally so it doesn't get garbage collected
 M.appWatcher = nil
 
-function M.init(globalDefs, appDefs)
+function M.bind(globalDefs, appDefs)
   log.i("Binding " .. #globalDefs .. " global hotkeys.")
 
   -- 1. Bind all global hotkeys
