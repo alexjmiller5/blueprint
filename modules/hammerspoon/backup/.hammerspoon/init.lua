@@ -19,13 +19,9 @@ require("spoons")
 local mainGlobal = require("hotkeys.global").definitions
 local mainApp    = require("hotkeys.app-based").definitions
 
--- 2. Load Profile Definitions
--- We use pcall just in case the profile files have syntax errors,
--- but we assume the files exist based on your structure.
 local profileGlobal = require("profile.hotkeys.global").definitions
 local profileApp    = require("profile.hotkeys.app-based").definitions
 
--- 3. Merge Global Hotkeys (Array Merge)
 local mergedGlobal = {}
 for _, v in ipairs(mainGlobal) do table.insert(mergedGlobal, v) end
 for _, v in ipairs(profileGlobal) do table.insert(mergedGlobal, v) end
