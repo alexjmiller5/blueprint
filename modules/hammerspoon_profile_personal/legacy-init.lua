@@ -47,34 +47,6 @@ local function tryMenuItem(menuPath)
   end)
 end
 
--- Hotkey: Cmd + Left Arrow
-hs.hotkey.bind({ "cmd", "shift", "alt", "ctrl" }, "left", function()
-  if not tryMenuItem({ "Window", "Move & Resize", "Left" }) then
-    os.execute("open -g 'raycast://extensions/raycast/window-management/left-half'") -- should i be using this or the task object??
-  end
-end)
-
--- Hotkey: Cmd + Right Arrow
-hs.hotkey.bind({ "cmd", "shift", "alt", "ctrl" }, "right", function()
-  if not tryMenuItem({ "Window", "Move & Resize", "Right" }) then
-    os.execute("open -g 'raycast://extensions/raycast/window-management/right-half'")
-  end
-end)
-
--- Hotkey: Cmd + Up Arrow
-hs.hotkey.bind({ "cmd", "shift", "alt", "ctrl" }, "up", function()
-  if not tryMenuItem({ "Window", "Fill" }) then
-    os.execute("open -g 'raycast://extensions/raycast/window-management/maximize'")
-  end
-end)
-
--- Hotkey: Cmd + Down Arrow
-hs.hotkey.bind({ "cmd", "shift", "alt", "ctrl" }, "down", function()
-  if not tryMenuItem({ "Window", "Move & Resize", "Bottom" }) then
-    os.execute("open -g 'raycast://extensions/raycast/window-management/bottom-half'")
-  end
-end)
-
 -- Hotkey: Cmd + shift + l = Launch Home Assistant webhook to toggle lights
 hs.hotkey.bind({ "cmd", "shift" }, "l", function()
   os.execute("curl -X POST http://home-assistant:8123/api/webhook/-yUrGzgTyzR953PAr3ndMGQaD")
