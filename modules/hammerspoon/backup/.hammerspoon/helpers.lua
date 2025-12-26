@@ -27,7 +27,7 @@ function M.mergeAppHotkeys(sourceTable)
     end
 end
 
-function M.mergeGlobal(defs)
+function M.mergeGlobalHotkeys(firstTable, secondTable)
   if not defs then return end
   for _, def in ipairs(defs) do
     table.insert(collectedGlobal, def)
