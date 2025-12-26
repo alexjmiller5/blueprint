@@ -2,6 +2,10 @@
 
 These steps I haven't figured out how to automate yet
 
+## Restore the Modules you'd like to use
+
+- Choose only one profile for 
+
 ## Disable SIP for `yabai` CLI
 
 - Longer instructions on [the yabai wiki](https://github.com/asmvik/yabai/wiki/Disabling-System-Integrity-Protection)
@@ -31,3 +35,7 @@ These steps I haven't figured out how to automate yet
 ## Tab Copy
 
 - Write down the settings for Tab Copy extension because they can't be exported (maybe take a sreenshot and put it here?)
+
+## Hammerspoon
+
+- Run `hs.ipc.cliInstall("/opt/homebrew")` in the Hammerspoon console to install the `hs` command line tool (assuming you installed Hammerspoon via Homebrew).
