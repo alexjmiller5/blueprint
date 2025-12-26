@@ -55,21 +55,17 @@ def git_push():
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     commit_msg = f"Auto-backup: {timestamp}"
 
-    run_cmd(
-        [
-            "git",
-            "-c",
-            "user.name=Blueprint Bot",
-            "-c",
-            "user.email=bot@blueprint.local",  # <--- This is the key fix
-            "-c",
-            "commit.gpgsign=false",
-            "commit",
-            "-m",
-            commit_msg,
-        ],
-        cwd=REPO_ROOT,
-    )
+    run_cmd([
+        "/usr/bin/env",
+        "GIT_AUTHOR_NAME=Blueprint Bot",
+        "GIT_AUTHOR_EMAIL=bot@blueprint.local",
+        "GIT_COMMITTER_NAME=Blueprint Bot",
+        "GIT_COMMITTER_EMAIL=bot@blueprint.local",
+        "git",
+        "-c", "commit.gpgsign=false",
+        "commit",
+        "-m", commit_msg
+    ], cwd=REPO_ROOT)
 
     ssh_cmd = f"ssh -i {SSH_KEY_PATH} -o IdentitiesOnly=yes"
     print("   Pushing to origin...")
