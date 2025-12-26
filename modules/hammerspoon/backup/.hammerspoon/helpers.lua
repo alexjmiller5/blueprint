@@ -15,4 +15,16 @@ function M.tryMenuItem(menuPath)
   end)
 end
 
+-- Copy app definitions from one table to another
+function M.copyAppDefs(sourceTable)
+  for bundleID, defs in pairs(sourceTable) do
+    if not mergedApp[bundleID] then
+      mergedApp[bundleID] = {}
+    end
+    for _, def in ipairs(defs) do
+      table.insert(mergedApp[bundleID], def)
+    end
+  end
+end
+
 return M

@@ -20,7 +20,7 @@ local mainGlobal = require("hotkeys.global").definitions
 local mainApp    = require("hotkeys.app-based").definitions
 
 -- 2. Load Profile Definitions
--- We use pcall just in case the profile files have syntax errors, 
+-- We use pcall just in case the profile files have syntax errors,
 -- but we assume the files exist based on your structure.
 local profileGlobal = require("profile.hotkeys.global").definitions
 local profileApp    = require("profile.hotkeys.app-based").definitions
@@ -33,19 +33,7 @@ for _, v in ipairs(profileGlobal) do table.insert(mergedGlobal, v) end
 -- 4. Merge App-Based Hotkeys (Map Merge with List Concatenation)
 local mergedApp = {}
 
--- Helper to copy entries
-local function copyAppDefs(sourceTable)
-  for bundleID, defs in pairs(sourceTable) do
-    if not mergedApp[bundleID] then
-      mergedApp[bundleID] = {}
-    end
-    for _, def in ipairs(defs) do
-      table.insert(mergedApp[bundleID], def)
-    end
-  end
-end
-
-copyAppDefs(mainApp)
+helpers.copyAppDefs(mainApp)
 copyAppDefs(profileApp)
 
 -- --- EXECUTION ---
