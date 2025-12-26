@@ -14,6 +14,7 @@ SETTINGS_PATH = os.path.join(SCRIPT_DIR, "settings.yaml")
 AGENTS_DIR = os.path.expanduser("~/Library/LaunchAgents")
 SSH_KEY_PATH = os.path.expanduser("~/.ssh/blueprint_deploy_key")
 
+
 def run_cmd(cmd, cwd=None, ignore_error=False, capture_output=False):
     """Generic wrapper for subprocess to keep main logic clean."""
     try:
@@ -54,14 +55,21 @@ def git_push():
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     commit_msg = f"Auto-backup: {timestamp}"
 
-    run_cmd([
-        "git", 
-        "-c", "user.name=Blueprint Bot", 
-        "-c", "user.email=bot@blueprint.local",  # <--- This is the key fix
-        "-c", "commit.gpgsign=false", 
-        "commit", 
-        "-m", commit_msg
-    ], cwd=REPO_ROOT)
+    run_cmd(
+        [
+            "git",
+            "-c",
+            "user.name=Blueprint Bot",
+            "-c",
+            "user.email=bot@blueprint.local",  # <--- This is the key fix
+            "-c",
+            "commit.gpgsign=false",
+            "commit",
+            "-m",
+            commit_msg,
+        ],
+        cwd=REPO_ROOT,
+    )
 
     ssh_cmd = f"ssh -i {SSH_KEY_PATH} -o IdentitiesOnly=yes"
     print("   Pushing to origin...")
