@@ -1,5 +1,5 @@
 local M = {}
-
+M.profileName = "Work"
 -- Application Bundle IDs
 M.appBundleIds = {
   gemini         = "com.google.Chrome.app.caidcmannjgahlnhpmdmihecjcoiigg",
