@@ -1,5 +1,7 @@
 local M = {}
 
+local home = os.getenv("HOME")
+
 M.hyperKeyMods = { "cmd", "alt", "ctrl", "shift" }
 
 -- Application Bundle IDs
@@ -17,10 +19,10 @@ M.appBundleIds = {
 }
 
 M.paths = {
-  searchClipTab       = M.home .. "/.local/bin/search-from-clipboard-in-new-tab.sh",
-  searchClipWindow    = M.home .. "/.local/bin/search-from-clipboard-in-new-window.sh",
-  searchClipIncognito = M.home .. "/.local/bin/search-incognito-from-clipboard.sh",
-  hsConfig            = M.home .. "/.hammerspoon"
+  searchClipTab       = home .. "/.hammerspoon/scripts/search-from-clipboard-in-new-tab.sh",
+  searchClipWindow    = home .. "/.hammerspoon/scripts/search-from-clipboard-in-new-window.sh",
+  searchClipIncognito = home .. "/.hammerspoon/scripts/search-incognito-from-clipboard.sh",
+  hsConfig            = home .. "/.hammerspoon"
 }
 
 return M

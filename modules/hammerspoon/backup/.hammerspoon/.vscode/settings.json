@@ -4,6 +4,8 @@
     "appWatcher",
     "log",
     "textClipboardHistory",
-    "spoon"
+    "spoon",
+    "appSpecificHotkeys",
+    "previousBundleID"
   ]
 }

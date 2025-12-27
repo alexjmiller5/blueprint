@@ -1,7 +1,7 @@
 local M = {}
 
-M.name = "KeyLogger"
-local log = hs.logger.new(M.name, "debug")
+local log = hs.logger.new("KeyLogger", "debug")
+
 local keyLoggerTap
 
 function M.start()
