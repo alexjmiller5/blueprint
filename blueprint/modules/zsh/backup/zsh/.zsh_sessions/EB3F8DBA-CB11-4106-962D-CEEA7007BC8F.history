@@ -1,0 +1,1480 @@
+gc -m "imporved script and remove harcoded secret"
+gp
+./startup.sh
+./startup.sh
+ps aux
+ps aux
+ps aux | grep -i python
+./startup.sh
+./startup.sh
+lsof -i :5000
+killall python
+kill -9 664
+kill -9 708
+lsof -i :5000
+kill -9 7446
+lsof -i :5000
+./startup.sh
+./startup.sh
+./startup.sh
+./startup.sh
+./startup.sh
+./startup.sh
+./startup.sh
+./startup.sh
+lsof -i :5000
+lsof -i :5000
+lsof -i :5000
+kill -9 7923
+kill -9 7687
+lsof -i :5000
+cat ~/.functions
+getnotiondbprops 45e59935dc574e15a86ab8c3a70a0e51
+getnotiondbprops 1a803953a8af8067b5bedb83b6358c58
+getnotiondbprops 2a803953a8af8060b9c4e1d94bfab2e0
+getnotiondbprops 14e1bc89cf2949289bb34090c11016a2
+getnotiondbprops bd075f6b39584d07929cbaeeafc15299
+getnotiondbprops 19d03953a8af80b8b4c0ec37be230e8e
+getnotiondbprops 1a803953a8af8067b5bedb83b6358c58
+/Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/python
+./startup.sh
+./startup.sh
+./startup.sh
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+ga .
+gc -m "improved quote and pdocast extraction"
+gp
+uv run functions-framework --target=processor --source=main.py --debug
+uv run functions-framework --target=processor --source=main.py --debug
+uv run functions-framework --target=processor --source=main.py --debug
+uv run functions-framework --target=processor --source=main.py --debug
+uv run functions-framework --target=processor --source=main.py --debug
+ga .
+gc -m "added priority select from tasks db to the config yaml file"
+gp
+gs
+git pull
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+syn-local My password is fuck you $ dad quote
+cd ..
+gaa .
+ga .
+gc -m "added tmdb api key to terraform secrets"
+gp
+syn-local "Tires with Shane Gillis $ show"
+syn-local "Weapons $ Horror movie"
+syn-local "Mohallen Drive $ movie"
+syn-local "Weapons $ Horror movie"
+syn-local "Nobody 2 $ movie"
+syn-local Insatiable $ Debbie Ryan show
+syn-local finished pluribus show
+syn-local finished pluribus show
+syn-local Who Killed the Montreal Expos? $ show netflix
+syn-local "Who Killed the Montreal Expos? $ show netflix"
+syn-local Insatiable $ Debbie Ryan show
+syn-local insatiable show $ in progress
+syn-local "Better acll saul finished show"
+syn-local need to watch Wicked
+syn-local need to watch Wicked
+syn-local need to watch Wicked
+syn-local need to watch Wicked $ priority
+syn-local need to watch Wicked
+syn-local need to watch good luck charlie
+syn-local need to watch Wicked
+syn-local need to watch Wicked
+syn-local need to watch Wicked
+syn-local watch Wicked
+syn-local Wicked movie
+syn-local watch Wicked
+cd scripts
+deactivate
+uv run --with requests send-local-requests.py local-requests.txt
+Weâ€ƒ¹re almost at full strength! $ dad quote
+syn-local "Weâ€ƒ¹re almost at full strength! $ dad quote"
+syn-local "My password is fuck you $ dad quote"
+syn-local mr robot show in progress
+syn-local the jinx robert dirst hbo show
+./set-secrets.sh
+../scripts/set-secrets.sh
+cd ..
+./scripts/set-secrets.sh
+syn-local hotkey optimiaztion projet $ add a scripts directory to take all the raycast script commands and use hammerspoon to trigger them from a scripts directory to further get off raycast
+ga .
+gc -m "lots of prompt tweaks, and some logic adds"
+gp
+cd ./scripts/
+uv run --with requests send-local-requests.py local-requests.txt
+syn-local "synapase project $ make it so that the context doesn't come into the projects when things are appended. Projects also need to be more explicit by the user -- have to make the ai know this so that random tasks don't get appended to projects"
+gs
+ga .
+gs
+syn-local Look into hhub.io to learn about hacking
+syn-local Make a tag for sequel and prequel in movies and tv dbs
+syn-local Ask Jordan lots of questions on Christmas Eve about her internship: Ask Jordan lots of questions about her internship applying / interview experience â€ƒ´ how many did she apply, how many oas and interviews did she do, whatâ€ƒ¹s the vibe of Barclays just based on the people you met, how big is Barclays? How long is the internshipâ€¦ etc, are there other interns, is it like a program is there a name for it or are there just Barclays swe interns, whatâ€ƒ¹s the position title? Tell me about the actual technical interview please
+syn-local "Ask Jordan lots of questions on Christmas Eve about her internship: Ask Jordan lots of questions about her internship applying / interview experience â€ƒ´ how many did she apply, how many oas and interviews did she do, whatâ€ƒ¹s the vibe of Barclays just based on the people you met, how big is Barclays? How long is the internshipâ€¦ etc, are there other interns, is it like a program is there a name for it or are there just Barclays swe interns, whatâ€ƒ¹s the position title? Tell me about the actual technical interview please"
+syn-local "Ask Jordan lots of questions on Christmas Eve about her internship: Ask Jordan lots of questions about her internship applying / interview experience â€ƒ´ how many did she apply, how many oas and interviews did she do, whatâ€ƒ¹s the vibe of Barclays just based on the people you met, how big is Barclays? How long is the internshipâ€¦ etc, are there other interns, is it like a program is there a name for it or are there just Barclays swe interns, whatâ€ƒ¹s the position title? Tell me about the actual technical interview please"
+syn-local "synapase project $ make it so that every request with text for some kinda rich text property is handled by some wrapper functions which splits the blocks in less than 2000 characters in notions weird UTF version. This will be more robust with error handling"
+syn-local Text the ginger girl to go out $ dec 1
+syn-local "Text the ginger girl to go out $ dec 1"
+syn-local "Text the ginger girl to go out $ dec 1"
+syn-local "Call spectrum to make sure price of subscription doesn't go up $ July 2025"
+syn-local "cancel uber one membership $  march 25 2026"
+syn-local "Link my fsa Fidelity card to bilt when I get it $ junaray 2025"
+syn-local "Set up Fidelity fsa $ january 2026"
+syn-local Go through all of hammerspoonâ€ƒ¹s docs to learn about them â€ƒ´ some of them are really cool
+syn-local "Look into the following apps: Sketchy bar janky borders and sbarlua and Felix kratz dot files"
+syn-local "Look into Skhd hotkey Mac daemon"
+syn-local "Add frank sinatra and Barry to karaoke playlist"
+syn-local "Add bucket list see Barry mannilow in concert"
+syn-local "Add Billy Joel to karaoke playlist"
+syn-local "Go through all of hammerspoonâ€ƒ¹s docs to learn about them â€ƒ´ some of them are really cool $ hotkey project"
+ga .
+gc -m "improved pipeline and tweaked prompts"
+cd ..
+ga .
+gc -m "improved pipeline and tweaked prompts"
+gc -m "improved pipeline and tweaked prompts"
+syn-local "Go through all of hammerspoonâ€ƒ¹s docs to learn about them â€ƒ´ some of them are really cool $ hotkey project"
+syn-local "Make a tag for sequel and prequel in movies and tv dbs"
+syn-local "dotfiles project $ figure out a way to store which vscode extensions are activated and aren't when exporting vscode settings to save them if that's something that I'll even include in dotfiles since vscode has cloud sync"
+syn-local "health cox ricahrdson substack could be good media to consume $ media center project"
+syn-local "https://www.thisamericanlife.org/178/superpowers"
+uv run --with requests send-local-requests.py local-requests.txt
+cd ./scripts/
+uv run --with requests send-local-requests.py local-requests.txt
+syn-local "Try the nail polish Paige got me $ Chore"
+syn-local "Add Calebâ€ƒ¹s food places to the nyc Google Maps list from his text about washington heights $ Chore"
+syn-local "Look into veritasiums other channels numberifle and other phones and shit $ Learning task"
+ga .
+gc -m "tweaked prompts and properties and added tmdb to readme"
+cd ..
+ga .
+gc -m "tweaked prompts and properties and added tmdb to readme"
+gp
+ga .
+gc -m "added bookmarks db, people db, fun things db, and youtube video db"
+gp
+ga .
+gc -m "tweaked prompt so bookmarks db is only for individual links"
+gp
+ga .
+gc -m "tweaked prompts and url detection to capture domains with https"
+gp
+ga .
+gc -m "tweaked prompts and added more backup logic if scraping fails"
+gp
+cd scripts
+uv run --with requests ./send-local-requests.py ./local-requests.txt
+uv run --with requests ./send-local-requests.py ./local-requests.txt
+uv run --with requests ./send-local-requests.py ./local-requests.txt
+uv run --with requests inscriptis ./test_scraper.py
+uv run --with inscriptis ./test_scraper.py
+uv run --with requests inscriptis ./test_scraper.py
+uv run --with requests,inscriptis ./test_scraper.py
+uv run --with requests,inscriptis ./test_scraper.py
+uv run --with requests,bs4 ./test_scraper.py
+uv run --with requests,bs4 ./test_scraper.py
+ga .
+gc -m "fixed bookmark title scraping"
+cd ..
+git reset --soft HEAD~1
+gl
+cd ./scripts/
+uv run --with requests ./send-local-requests.py ./local-requests.txt
+uv run --with requests ./send-local-requests.py ./local-requests.txt
+syn-local "Do the Edge $ NYC fun things"
+syn-local "Do the Edge $ NYC fun things"
+syn-local "Do the Edge $ NYC fun things"
+syn-local "https://www.youtube.com/watch?v=GbBHSzOxp4c"
+syn-local "yt video to save: https://www.youtube.com/watch?v=8FW9EaaBk_s"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "https://www.youtube.com/watch?v=0H6n1aK0ZSo â€ƒ´ favorite"
+syn-local "https://www.youtube.com/watch?v=0H6n1aK0ZSo â€ƒ´ favorite"
+syn-local "https://www.youtube.com/watch?v=0H6n1aK0ZSo â€ƒ´ favorite"
+syn-local "https://www.youtube.com/watch?v=0H6n1aK0ZSo â€ƒ´ favorite"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "need to watch https://www.youtube.com/watch?v=vxsGSpBQQfg"
+syn-local "https://downdetector.com"
+syn-local "Ask Gemini to rec me podcast episodes for this am life and add those into my database - Go through more all time this am life episodes recommended on Reddit for my podcast episodes database on Notion $ Chore"
+syn-local "Add Eric Andre subway to fav yt videos"
+cd ..
+ga .
+gs
+git restore --staged scripts/local-requests copy.txt
+git restore --staged "scripts/local-requests copy.txt"
+gs
+ga .
+gc -m "final tweaks before it's basically production ready"
+gp
+syn-local "add a scripts directory to take all the raycast script commands and use hammerspoon to trigger them from a scripts directory to further get off raycast $ hotkey optimiaztion projet"
+syn-local Add Apple Card to my money note for online payment methods $ notion project
+syn-local "Add Apple Card to my money note for online payment methods â€ƒ´ for notion project"
+syn-local "Add Apple Card to my money note for online payment methods â€ƒ´ for notion project"
+syn-local "Watch the full love is blind season with someone then go get tickets to the reunion with them $  Make a bucket list item"
+syn-local "Plan my trip to Boston for Karlâ€ƒ¹s birthday and ask if I can make it a surprise to Johaan on the phone"
+syn-local "photo organization project $ organize my liked photos because theyâ€ƒ¹re kinda random rn - some are from tinder lmao"
+ga .
+gc -m "prompt tweak so tasks as only classified with one tag instead of multiple"
+gp
+gs
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+cd ..
+./scripts/set-secrets.sh
+syn-local "https://www.clay.com/"
+syn-local "https://www.clay.com/"
+syn-local "https://www.clay.com/"
+syn-local "watched https://www.youtube.com/watch?v=XoulaehrD_I"
+./scripts/set-secrets.sh
+syn-local "Do this trip: https://www.instagram.com/mtnmemories?igsh=bGM0dm9wNHBqMTZ0 $ Bucket list"
+ga .
+gc -m "final touches - fixed a bug with the context getting inject into project based notes"
+gp
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+ga .
+gc -m "updated prompting guide to include what the prompt defaults include"
+gp
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+ps aux
+ps aux | grep -i "Cold"
+kill -9 7123
+kill -9 7674
+ps aux | grep -i "Cold"
+kill -9 7685 7698 7515
+kill -9 7685 7698 7515
+kill -9 7685 7698 7515
+ps aux | grep -i "Cold"
+ls
+touch script.sh
+vim script.sh
+chmod +x script.sh
+./script.sh
+# Check system daemons (most likely location)\
+ls /Library/LaunchDaemons | grep -i "cold"\
+\
+# Check user agents (less likely for the main blocker, but possible for helpers)\
+ls /Library/LaunchAgents | grep -i "cold"\
+ls ~/Library/LaunchAgents | grep -i "cold"
+sudo launchctl unload -w /Library/LaunchDaemons/com.getcoldturkey.blocker.agent.plist
+sudo rm /Library/LaunchDaemons/com.getcoldturkey.blocker.agent.plist
+ps aux | grep -i "Cold"
+# Check system daemons (most likely location)\
+ls /Library/LaunchDaemons | grep -i "cold"\
+\
+# Check user agents (less likely for the main blocker, but possible for helpers)\
+ls /Library/LaunchAgents | grep -i "cold"\
+ls ~/Library/LaunchAgents | grep -i "cold"
+ls /Library/LaunchDaemons | grep -i "cold"
+ls /Library/LaunchAgents | grep -i "cold"
+ls ~/Library/LaunchAgents | grep -i "cold"
+sudo launchctl unload -w /Library/LaunchDaemons/com.getcoldturkey.blocker.agent.plist
+launchctl unload -w /Library/LaunchAgents/com.getcoldturkey.blocker.agent.plist
+ps aux | grep -i "Cold"
+./script.sh
+ps aux | grep -i "Cold"
+sudo find /Library/Google/Chrome/NativeMessagingHosts ~/Library/Application\ Support/Google/Chrome/NativeMessagingHosts -name "*cold*" -delete
+pkill -9 -f "NMHChrome"
+ps aux | grep -i "Cold"
+gs
+gb
+ga .
+gc -m "updated README.md and removed myself from event changes email lsit"
+gp
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+/Users/alexmiller/Desktop/personal-software-projects/active/mcat-availability-scraper/.venv/bin/python
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+/Users/alexmiller/Desktop/personal-software-projects/active/mcat-availability-scraper/.venv/bin/python
+/Users/alexmiller/Desktop/personal-software-projects/active/mcat-availability-scraper/.venv/bin/python
+cat ~/.ssh/config
+ssh google-cloud-vm
+python3 -c "import time; print(int(time.time() * 1000))"
+ssh google-cloud-vm
+ssh google-cloud-vm
+ssh google-cloud-vm
+ssh google-cloud-vm
+ssh google-cloud-vm
+ssh google-cloud-vm
+ssh google-cloud-vm
+ssh google-cloud-vm
+vim ~/.ssh/config
+ssh google-cloud-vm
+ssh google-cloud-vm
+ssh google-cloud-vm
+un init
+uv init
+uv add selenium
+uv add webdriver-manager
+brew install just
+uv add pydantic_settings
+uv add pydantic
+just run
+uv add "pydantic[email]"
+gs
+gs
+ga .
+gc -m "added web scraper project template that I just created -- has good things set up like configuration management, pyproject.toml, and justfile"
+gp
+gs
+git remote add origin https://github.com/alexjmiller5/mcat-availability-scraper.git
+gb
+gp
+    git push --set-upstream origin main
+uv run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+just run
+ga .
+gc -m "completed full flow to find most recent test slots and email them to nicholas"
+gp
+ga .
+gc -m "removed extra newline"
+gp
+ga .
+gc -m "formatted files according to black formatter"
+gp
+cd ..
+scp -r ./mcat_bot alexmiller@instance-20250618-113955:~/mcat_bot
+scp -r ./mcat_bot alexmiller@instance-20250618-113955:/mcat-availability-scraper/
+scp -r ./mcat-availability-scraper/ alexmiller@instance-20250618-113955:/mcat-availability-scraper/
+ls
+scp -r ./mcat-availability-scraper/ alexmiller@instance-20250618-113955:~/
+cd mcat-availability-scraper
+just run
+uv add requests
+just auth
+uv add bs4
+just auth
+just --help
+just --list
+just scan
+just scan
+just scan
+just auth
+just scan
+just scan
+just scan
+just auth
+just scan
+just scan
+just scan
+just auth
+just scan
+just scan
+just scan
+just auth
+just scan
+just scan
+just auth
+just scan
+just scan
+just auth
+just scan
+just scan
+just scan
+ga scan.py auth.py
+gc -m "got the session to save via a browser simulation and the searches requests reverse engineerered, show more button isn't reversed engienered yet though"
+gp
+ls
+just scan
+just scan
+just auth
+just scan
+just scan
+ssh raspberry-pi
+source /Users/alexmiller/Desktop/personal-software-projects/active/mcat-availability-scraper/.venv/bin/activate
+just auth
+just scan
+just scan
+just auth
+just scan
+just scan
+2025-12-03 02:46:58,981 - DEBUG - scan - ðƒ¿ƒ³‚ Loading session from session.json\
+2025-12-03 02:46:58,981 - DEBUG - scan -    > Session loaded. URL: https://wsr2.pearsonvue.com/testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690\
+2025-12-03 02:46:58,982 - DEBUG - scan - ðƒ¿ƒ³‚ Loading targets from targets.json\
+2025-12-03 02:46:58,982 - INFO - scan - ðƒ¿ƒ´ƒ¬ Loaded session. Target URL: https://wsr2.pearsonvue.com/testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690\
+2025-12-03 02:46:58,982 - INFO - scan - ðƒ¿ƒ´ƒ® Scanning: Connecticut on 01/15/2026\
+2025-12-03 02:46:58,982 - DEBUG - scan - ðƒ¿ƒº€ Sending INITIAL POST request...\
+2025-12-03 02:46:58,989 - DEBUG - connectionpool - Starting new HTTPS connection (1): wsr2.pearsonvue.com:443\
+2025-12-03 02:46:59,237 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 302 0\
+2025-12-03 02:46:59,481 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "GET /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 129072\
+2025-12-03 02:46:59,621 - DEBUG - scan -    > Response Code: 200\
+2025-12-03 02:46:59,621 - DEBUG - scan -    > Response Length: 129069\
+2025-12-03 02:46:59,621 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:46:59,627 - DEBUG - scan -    > ViewState found via BS4: VQvTHTboCTWecU3jNBzO...\
+2025-12-03 02:46:59,627 - DEBUG - scan -    > Parsing HTML content for slots (Length: 129069)\
+2025-12-03 02:46:59,633 - DEBUG - scan -    > Found 0 test center rows in this batch.\
+2025-12-03 02:46:59,633 - DEBUG - scan -    > Initial Load found 0 slots. Seen locs: set()\
+2025-12-03 02:46:59,633 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 5 ---\
+2025-12-03 02:46:59,633 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:46:59,633 - DEBUG - scan -    > Stop Check: Is 'display: none'? True\
+2025-12-03 02:46:59,633 - DEBUG - scan -    > Sending AJAX POST for index 5. Payload VS: VQvTHTboCTWecU3...\
+2025-12-03 02:47:00,332 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 3031\
+2025-12-03 02:47:00,332 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:00,332 - DEBUG - scan -    > AJAX Response Length: 3031\
+2025-12-03 02:47:00,332 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:00,332 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:00,332 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:00,333 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:00,333 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 10 ---\
+2025-12-03 02:47:00,333 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:00,333 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:00,333 - DEBUG - scan -    > Sending AJAX POST for index 10. Payload VS: VQvTHTboCTWecU3...\
+2025-12-03 02:47:00,537 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 3031\
+2025-12-03 02:47:00,538 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:00,538 - DEBUG - scan -    > AJAX Response Length: 3031\
+2025-12-03 02:47:00,538 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:00,538 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:00,540 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:00,540 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:00,540 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 15 ---\
+2025-12-03 02:47:00,540 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:00,540 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:00,540 - DEBUG - scan -    > Sending AJAX POST for index 15. Payload VS: VQvTHTboCTWecU3...\
+2025-12-03 02:47:00,737 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 3031\
+2025-12-03 02:47:00,738 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:00,739 - DEBUG - scan -    > AJAX Response Length: 3031\
+2025-12-03 02:47:00,739 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:00,739 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:00,740 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:00,740 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:00,740 - DEBUG - scan - ï¿½ï¿½ --- PAGINATION LOOP START: Count 20 ---\
+2025-12-03 02:47:00,740 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:00,740 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:00,740 - DEBUG - scan -    > Sending AJAX POST for index 20. Payload VS: VQvTHTboCTWecU3...\
+2025-12-03 02:47:00,934 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 3031\
+2025-12-03 02:47:00,936 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:00,936 - DEBUG - scan -    > AJAX Response Length: 3031\
+2025-12-03 02:47:00,936 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:00,936 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:00,937 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:00,937 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:00,937 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 25 ---\
+2025-12-03 02:47:00,937 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:00,937 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:00,938 - DEBUG - scan -    > Sending AJAX POST for index 25. Payload VS: VQvTHTboCTWecU3...\
+2025-12-03 02:47:01,125 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 3031\
+2025-12-03 02:47:01,126 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:01,127 - DEBUG - scan -    > AJAX Response Length: 3031\
+2025-12-03 02:47:01,127 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:01,127 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:01,128 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:01,128 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:01,128 - INFO - scan -    - No slots found.\
+2025-12-03 02:47:01,128 - INFO - scan - ï¿½ï¿½ Scanning: Connecticut on 01/23/2026\
+2025-12-03 02:47:01,129 - DEBUG - scan - ðƒ¿ƒº€ Sending INITIAL POST request...\
+2025-12-03 02:47:01,764 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 302 0\
+2025-12-03 02:47:02,176 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "GET /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 265197\
+2025-12-03 02:47:02,267 - DEBUG - scan -    > Response Code: 200\
+2025-12-03 02:47:02,267 - DEBUG - scan -    > Response Length: 265134\
+2025-12-03 02:47:02,267 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:02,302 - DEBUG - scan -    > ViewState found via BS4: KY1wKh0dtDyecU3jNBzO...\
+2025-12-03 02:47:02,302 - DEBUG - scan -    > Parsing HTML content for slots (Length: 265134)\
+2025-12-03 02:47:02,330 - DEBUG - scan -    > Found 30 test center rows in this batch.\
+2025-12-03 02:47:02,330 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Norwalk CT\
+2025-12-03 02:47:02,330 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-White Plains NY\
+2025-12-03 02:47:02,330 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Islandia (Long Island\
+2025-12-03 02:47:02,330 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Yonkers NY\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Lake Success (Queens)\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Lake Success NY TBD\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Wallingford (New Have\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Forest Hills NY\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (Lexington Ave)\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (W 44th St)\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (Herald Square)\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-New York City NY TBD\
+2025-12-03 02:47:02,331 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-New York NY TBD\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Brooklyn NY\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Lyndhurst NJ\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (100 William St.)\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Jersey City NJ\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Wethersfield (Hartfor\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Staten Island NY\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Piscataway NJ\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Springfield MA\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Princeton(Trenton) NJ\
+2025-12-03 02:47:02,332 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Warwick RI\
+2025-12-03 02:47:02,333 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Worcester MA\
+2025-12-03 02:47:02,333 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Albany NY\
+2025-12-03 02:47:02,333 - DEBUG - scan -      -> No buttons for Pearson VUE Test Center-East Providence RI\
+2025-12-03 02:47:02,333 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Warrington PA\
+2025-12-03 02:47:02,333 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Scranton PA TBD\
+2025-12-03 02:47:02,333 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Scranton PA\
+2025-12-03 02:47:02,333 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Allentown PA\
+2025-12-03 02:47:02,333 - DEBUG - scan -    > Initial Load found 0 slots. Seen locs: set()\
+2025-12-03 02:47:02,333 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 5 ---\
+2025-12-03 02:47:02,333 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? True\
+2025-12-03 02:47:02,333 - DEBUG - scan -    > Stop Check: Is 'display: none'? True\
+2025-12-03 02:47:02,334 - DEBUG - scan -    > Sending AJAX POST for index 5. Payload VS: KY1wKh0dtDyecU3...\
+2025-12-03 02:47:03,004 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 112550\
+2025-12-03 02:47:03,007 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:03,007 - DEBUG - scan -    > AJAX Response Length: 112490\
+2025-12-03 02:47:03,007 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:03,007 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:03,009 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:03,009 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:03,010 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 10 ---\
+2025-12-03 02:47:03,010 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:03,010 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:03,010 - DEBUG - scan -    > Sending AJAX POST for index 10. Payload VS: KY1wKh0dtDyecU3...\
+2025-12-03 02:47:03,767 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 112550\
+2025-12-03 02:47:03,770 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:03,770 - DEBUG - scan -    > AJAX Response Length: 112490\
+2025-12-03 02:47:03,770 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:03,770 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:03,771 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:03,771 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:03,771 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 15 ---\
+2025-12-03 02:47:03,771 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:03,772 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:03,772 - DEBUG - scan -    > Sending AJAX POST for index 15. Payload VS: KY1wKh0dtDyecU3...\
+2025-12-03 02:47:04,634 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 112550\
+2025-12-03 02:47:04,637 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:04,637 - DEBUG - scan -    > AJAX Response Length: 112490\
+2025-12-03 02:47:04,637 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:04,637 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:04,640 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:04,640 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:04,640 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 20 ---\
+2025-12-03 02:47:04,640 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:04,640 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:04,641 - DEBUG - scan -    > Sending AJAX POST for index 20. Payload VS: KY1wKh0dtDyecU3...\
+2025-12-03 02:47:05,335 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 112550\
+2025-12-03 02:47:05,336 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:05,336 - DEBUG - scan -    > AJAX Response Length: 112490\
+2025-12-03 02:47:05,336 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:05,336 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:05,338 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:05,338 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:05,338 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 25 ---\
+2025-12-03 02:47:05,338 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:05,338 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:05,338 - DEBUG - scan -    > Sending AJAX POST for index 25. Payload VS: KY1wKh0dtDyecU3...\
+2025-12-03 02:47:06,217 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 112550\
+2025-12-03 02:47:06,221 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:06,221 - DEBUG - scan -    > AJAX Response Length: 112490\
+2025-12-03 02:47:06,221 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:06,222 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:06,225 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:06,225 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:06,225 - INFO - scan -    - No slots found.\
+2025-12-03 02:47:06,225 - INFO - scan - ðƒ¿ƒ´ƒ® Scanning: Connecticut on 09/11/2026\
+2025-12-03 02:47:06,225 - DEBUG - scan - ðƒ¿ƒº€ Sending INITIAL POST request...\
+2025-12-03 02:47:06,849 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 302 0\
+2025-12-03 02:47:07,156 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "GET /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 266955\
+2025-12-03 02:47:07,206 - DEBUG - scan -    > Response Code: 200\
+2025-12-03 02:47:07,207 - DEBUG - scan -    > Response Length: 266892\
+2025-12-03 02:47:07,207 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:07,252 - DEBUG - scan -    > ViewState found via BS4: 7cra0xr9myaecU3jNBzO...\
+2025-12-03 02:47:07,252 - DEBUG - scan -    > Parsing HTML content for slots (Length: 266892)\
+2025-12-03 02:47:07,281 - DEBUG - scan -    > Found 30 test center rows in this batch.\
+2025-12-03 02:47:07,281 - DEBUG - scan -      -> FOUND AVAILABLE BUTTONS for Pearson Professional Centers-Norwalk CT\
+2025-12-03 02:47:07,281 - DEBUG - scan -      -> FOUND AVAILABLE BUTTONS for Pearson Professional Centers-White Plains NY\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> FOUND AVAILABLE BUTTONS for Pearson Professional Centers-Islandia (Long Island\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> FOUND AVAILABLE BUTTONS for Pearson Professional Centers-Yonkers NY\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Lake Success (Queens)\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Lake Success NY TBD\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Wallingford (New Have\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Forest Hills NY\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (Lexington Ave)\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (W 44th St)\
+2025-12-03 02:47:07,282 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (Herald Square)\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-New York City NY TBD\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-New York NY TBD\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Brooklyn NY\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Lyndhurst NJ\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-NY (100 William St.)\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Jersey City NJ\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Wethersfield (Hartfor\
+2025-12-03 02:47:07,283 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Staten Island NY\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Piscataway NJ\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Springfield MA\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Princeton(Trenton) NJ\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Warwick RI\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Worcester MA\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Albany NY\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson VUE Test Center-East Providence RI\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Warrington PA\
+2025-12-03 02:47:07,284 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Scranton PA TBD\
+2025-12-03 02:47:07,285 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Scranton PA\
+2025-12-03 02:47:07,285 - DEBUG - scan -      -> No buttons for Pearson Professional Centers-Allentown PA\
+2025-12-03 02:47:07,285 - DEBUG - scan -    > Initial Load found 8 slots. Seen locs: {'Pearson Professional Centers-Islandia (Long Island', 'Pearson Professional Centers-Norwalk CT', 'Pearson Professional Centers-White Plains NY', 'Pearson Professional Centers-Yonkers NY'}\
+2025-12-03 02:47:07,285 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 5 ---\
+2025-12-03 02:47:07,285 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? True\
+2025-12-03 02:47:07,285 - DEBUG - scan -    > Stop Check: Is 'display: none'? True\
+2025-12-03 02:47:07,285 - DEBUG - scan -    > Sending AJAX POST for index 5. Payload VS: 7cra0xr9myaecU3...\
+2025-12-03 02:47:08,093 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 116062\
+2025-12-03 02:47:08,096 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:08,096 - DEBUG - scan -    > AJAX Response Length: 116002\
+2025-12-03 02:47:08,096 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:08,096 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:08,097 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:08,097 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:08,097 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 10 ---\
+2025-12-03 02:47:08,097 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:08,097 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:08,097 - DEBUG - scan -    > Sending AJAX POST for index 10. Payload VS: 7cra0xr9myaecU3...\
+2025-12-03 02:47:08,792 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 118257\
+2025-12-03 02:47:08,795 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:08,795 - DEBUG - scan -    > AJAX Response Length: 118197\
+2025-12-03 02:47:08,795 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:08,795 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:08,798 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:08,798 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:08,798 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 15 ---\
+2025-12-03 02:47:08,798 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:08,798 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:08,798 - DEBUG - scan -    > Sending AJAX POST for index 15. Payload VS: 7cra0xr9myaecU3...\
+2025-12-03 02:47:09,586 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 120013\
+2025-12-03 02:47:09,588 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:09,589 - DEBUG - scan -    > AJAX Response Length: 119953\
+2025-12-03 02:47:09,589 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:09,589 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:09,591 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:09,591 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:09,591 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 20 ---\
+2025-12-03 02:47:09,591 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:09,591 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:09,592 - DEBUG - scan -    > Sending AJAX POST for index 20. Payload VS: 7cra0xr9myaecU3...\
+2025-12-03 02:47:10,376 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 122208\
+2025-12-03 02:47:10,380 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:10,380 - DEBUG - scan -    > AJAX Response Length: 122148\
+2025-12-03 02:47:10,380 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:10,380 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:10,383 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:10,383 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:10,383 - DEBUG - scan - ðƒ¿ƒ´ƒ¤ --- PAGINATION LOOP START: Count 25 ---\
+2025-12-03 02:47:10,383 - DEBUG - scan -    > Stop Check: Has 'allTestCentersShownMessage'? False\
+2025-12-03 02:47:10,383 - DEBUG - scan -    > Stop Check: Is 'display: none'? False\
+2025-12-03 02:47:10,384 - DEBUG - scan -    > Sending AJAX POST for index 25. Payload VS: 7cra0xr9myaecU3...\
+2025-12-03 02:47:11,123 - DEBUG - connectionpool - https://wsr2.pearsonvue.com:443 "POST /testtaker/registration/SelectTestCenterAndDateProximity/AAMC?conversationId=656690 HTTP/1.1" 200 123964\
+2025-12-03 02:47:11,126 - DEBUG - scan -    > AJAX Response Code: 200\
+2025-12-03 02:47:11,127 - DEBUG - scan -    > AJAX Response Length: 123904\
+2025-12-03 02:47:11,127 - DEBUG - scan -    > AJAX Response Snippet: <?xml version="1.0" encoding="UTF-8"?><partial-response id="j_id__v_0"><changes><update id="a4jOutputPanelTable"><![CDATA[<span id="a4jOutputPanelTable"><input id="selectAppointmentButton" name="selec\
+2025-12-03 02:47:11,127 - DEBUG - scan -    > Attempting to extract ViewState...\
+2025-12-03 02:47:11,129 - WARNING - scan -    > âƒºƒ€ï¸ƒ¯ FAILED to extract ViewState from response.\
+2025-12-03 02:47:11,129 - DEBUG - scan -    > 'testCenterList' NOT found in response. Verify payload or ViewState.\
+2025-12-03 02:47:11,130 - INFO - scan - ðƒ¿ƒ®ƒ© FOUND 8 TOTAL SLOTS!\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-Norwalk CT @ 8:00 AM\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-Norwalk CT @ 08:00\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-White Plains NY @ 8:00 AM\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-White Plains NY @ 08:00\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-Islandia (Long Island @ 8:00 AM\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-Islandia (Long Island @ 08:00\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-Yonkers NY @ 8:00 AM\
+2025-12-03 02:47:11,130 - INFO - scan -    - Pearson Professional Centers-Yonkers NY @ 08:00\
+2025-12-03 02:47:12,042 - INFO - notifier - Email sent successfully to amiller06880@gmail.com
+just auth
+just scan
+just run
+just run
+just run
+just scan
+just auth
+just scan
+source /Users/alexmiller/Desktop/personal-software-projects/active/mcat-availability-scraper/.venv/bin/activate
+ssh google-cloud-vm
+source /Users/alexmiller/Desktop/personal-software-projects/active/mcat-availability-scraper/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/mcat-availability-scraper/.venv/bin/activate
+ssh google-cloud-vm
+sudo tailscale donw
+asd
+sudo tailscale down
+./startup.sh
+./startup.sh
+./cherr
+./scripts/cherri-secrets.sh not
+./scripts/cherri-secrets.sh ./notion-shortcuts/add_video.cherri
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+gs
+ga .
+gc -m "fix links bug where ai was returning [] if there were no links sometimes and added a default low priority for cleanup tasks"
+gp
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+ssh raspberry-pi
+./scripts/cherri-secrets.sh ./miscellaneous/synapse.cherri
+ssh raspberry-pi
+ssh google-cloud-vm
+sudo tailscale donw
+sudo tailscale down
+brew install --cask keyclu
+brew install chrome-cli
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+osascript -l JavaScript test.js
+osascript -l JavaScript test.js
+osascript -l JavaScript test.js
+brew uninstall blueutil
+ls
+cd Desktop
+ls
+cd personal-software-projects
+ls
+cd active
+ls
+mkdir blueprint
+cd blueprint
+echo "# blueprint" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git branch -M main\
+git remote add origin https://github.com/alexjmiller5/blueprint.git\
+git push -u origin main
+ls
+pwd
+ln -s /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/test.json /Users/alexmiller/Desktop/test.json
+ls
+ls ~/Desktop/test.json
+ls ~/Desktop
+vim ~/Desktop/test.json
+ls
+cat test.json
+ls
+brew install blueutil
+blueutil --set-night-shift-enabled on
+brew install smudge/smudge/nightlight
+open "raycast://extensions/raycast/raycast/export-settings-data"
+open "raycast://extensions/raycast/raycast/export-settings-data"
+open "raycast://extensions/raycast/raycast/export-settings-data/export"
+open "raycast://extensions/raycast/raycast/export-settings-data/"
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+chmod +x ./generator.sh
+bash ./generator.sh
+find /modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+ls
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+chmod +x ./install.sh
+bash ./install.sh
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+gs
+git log
+git reset --soft HEAD~1
+gs
+git reset --soft HEAD~1
+gs
+git reset --soft HEAD~1
+ggs
+gs
+git log
+gs
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+chmod +x plist.sh
+bash ./plist.sh
+find ~/Library/Preferences ~/Library/Containers -name "*AltTab*" -o -name "*KeyClu*" -o -name "*MonitorControl*"
+chmod +x ./generator.sh
+bash ./generator.sh
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+bash 
+bash generator.sh
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+bash ./generator.sh
+bash ./generator.sh
+osascript -e "id of app \"$Hammerspoon\""
+osascript -e "id of app \"Hammerspoon\""
+bash ./generator.sh
+osascript -e "id of app \"Finder\""
+osascript -e "id of app \"Dock\""
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+cd zsh
+cd ./modules/zsh/
+./dump.sh
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+cd ../..
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+cd ./modules/raycast
+ls
+./dump.sh
+git log
+git reset --soft HEAD~1
+./dump.sh
+./dump.sh
+./dump.sh
+cd ..
+cd ..
+touch test.sh
+chmod +x ./test.sh
+bash ./test.sh
+bash ./test.sh
+cd modules/ssh
+bash ./dump.sh
+bash ./dump.sh
+ls
+chmod +x ./dump.sh
+bash ./dump.sh
+./dump.sh
+chmod +x ./setup.sh
+./setup.sh
+chmod +x ./generate_blueprint.sh
+bash ./generate_blueprint.sh
+bash ./generate_blueprint.sh
+find ~/blueprint/modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+git config
+chmod +x ~/blueprint/core/git_push.sh\
+chmod +x ~/blueprint/modules/*/*.sh
+find ~/blueprint/modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+gs
+gs
+gb
+git remote -v
+git remote -v
+find ~/blueprint/modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+git remote -v
+gs
+cd ~
+ls
+cd ./blueprint/
+ls
+cd ./modules/
+ls
+cd ./keyclu/
+cat ./dump.sh
+cd ~
+rm -rf ./blueprint/
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+ls
+cd Applications
+ls
+cd /
+ls
+cd Applications
+ls
+echo $HOME
+git config --global user.email "98389659+alexjmiller5@users.noreply.github.com"
+cd ~
+cat .gitconfig
+vim ~/.zshrc
+vim ~/.zshrc
+cd ./modules/ssh/
+bash ./dump.sh
+bash ./dump.sh
+bash dump.sh
+bash dump.sh
+bash dump.sh
+bash dump.sh
+bash dump.sh
+git filter-branch --force --index-filter \\
+  "git rm --cached --ignore-unmatch modules/ssh/config" \\
+  --prune-empty --tag-name-filter cat -- --all
+~/blueprint/modules/ssh/dump.sh\
+git add modules/ssh/config\
+git commit -m "Add redacted SSH config"
+cd ..
+cd ..
+git filter-branch --force --index-filter \\
+  "git rm --cached --ignore-unmatch modules/ssh/config" \\
+  --prune-empty --tag-name-filter cat -- --all
+git filter-repo --path modules/ssh/config --invert-paths --force
+# This should return nothing\
+git log --all -- modules/ssh/config
+git log --all -- modules/ssh/config
+# Generate the redacted file again\
+./modules/ssh/dump.sh\
+\
+# Commit it fresh\
+git add modules/ssh/config\
+git commit -m "Add redacted SSH config"
+# Add remote back (using the URL from your logs)\
+git remote add origin https://github.com/alexjmiller5/blueprint.git\
+\
+# Force push\
+git push --force -u origin main
+ls -lh modules/raycast/data/*.sqlite
+brew install git-lfs
+git log
+git reset --soft HEAD~1
+git reset --soft HEAD~1
+git reset --soft HEAD~1
+git reset --soft HEAD~1
+git remote add origin https://github.com/alexjmiller5/blueprint.git
+git push --force -u origin main
+git reset --soft HEAD~1
+git reset --soft HEAD~1
+git reset --soft HEAD~1
+git reset --soft HEAD~1
+git add .
+gc -m "reverted to before the large racyast files and removed ssh config from git history"
+gp
+git push --force -u origin main
+git log --all -- modules/ssh/config
+./install.sh
+uv init
+uv add PyYaml
+uv sync
+just sync
+just run ./scripts/load_agents.py
+just run
+just run
+osascript -e "id of app \"1Password\""
+just load_agents
+cd /modules
+cd modules
+cd ./1password/
+dump
+./dump.sh
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+cd ../..
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+ssh-keygen -t ed25519 -f ~/.ssh/blueprint_deploy_key -C "blueprint-automation" -N ""
+cat ~/.ssh/blueprint_deploy_key.pub | pbcopy
+cat ~/.ssh/blueprint_deploy_key.pub | pbcopy
+vim ~/.zshrc
+vim ~/.zshrc
+cat ~/.functions
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/synapse/.venv/bin/activate
+brew install --cask sf-symbols
+echo $PATH
+vim ~/.zshrc
+cd /Library/LaunchAgents
+ls
+lla
+cd ~/Library/LaunchAgents
+ls
+source /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/.venv/bin/activate
+defaults read com.apple.WindowManager
+cd ~/Library/Application Support/com.apple.sharedfilelist/
+ls
+cd "~/Library/Application Support/com.apple.sharedfilelist/"
+cd "~/Library/Application Support/"
+cd "~/Library/Application Support/com.apple.sharedfilelist"
+cd "~/Library/Application Support"
+cd "~/Library/"
+cd ~/Library/Application\ Support/com.apple.sharedfilelist/
+ls
+brew install gemini-cli
+gemini
+defaults read .GlobalPreferences
+brew autoremove
+brew install --cask --force notion-calendar
+source /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/.venv/bin/activate
+gemini
+cd ./modules/
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+cd ..
+find ./modules -name "dump.sh" -print0 | xargs -0 -I {} sh -c 'echo "Running {}..."; bash "{}"; echo "----------------"'
+gemini
+gemini
+gemini
+cd ./modules/chrome/
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+ls -F "$HOME/Library/Application Support/Google/Chrome/" | grep "Profile\|Default"
+# Verify the file exists first, then peek at the keys\
+PREFS="$HOME/Library/Application Support/Google/Chrome/Profile 1/Preferences"\
+if [ -f "$PREFS" ]; then\
+  cat "$PREFS" | jq '.extensions | keys'\
+else\
+  echo "File not found"\
+fi
+cat "$HOME/Library/Application Support/Google/Chrome/Profile 1/Preferences" | jq '.extensions.toolbar'
+bash ./dump.sh
+bash ./dump.sh
+cat "$HOME/Library/Application Support/Google/Chrome/Profile 9/Preferences" | jq '.extensions | keys'
+bash ./dump.sh
+bash ./dump_state.sh
+bash ./dump_state.sh
+bash ./dump_state.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+# Finds the path to "kActionShowDownloads" in your Profile 1 Preferences\
+jq -c 'paths(.. | select(. == "kActionShowDownloads"?))' "$HOME/Library/Application Support/Google/Chrome/Profile 1/Preferences"
+# Finds the path to "kActionShowDownloads" in your Profile 1 Preferences\
+jq -c 'paths(.. | select(. == "kActionShowDownloads"?))' "$HOME/Library/Application Support/Google/Chrome/Profile 1/Preferences"
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+bash ./dump.sh
+uv run ./dump.py
+uv run ./dump.py
+uv run ./dump.py
+uv run ./dump.py
+uv run ./dump.py
+uv run dump.py
+uv run dump.py
+uv run dump.py
+cd ../..
+just load_agents
+cd /Library/LaunchAgents/
+ls
+cd ~/Library/LaunchAgents/
+ls
+rm ./com.alexmiller.blueprint.rectangle.plist
+rm ./com.alexmiller.blueprint.monitorcontrol.plist
+brew uninstall --zap monitorcontrol
+brew install monitorcontrol
+brew uninstall --zap monitorcontrol
+brew uninstall --zap git-lfs
+vim ~/.aliases
+vim ~/.functions
+vim ~/.functions
+get-bundleid "Visual Studio Code"
+get-bundleid "QuickTime Player"
+get-bundleid "LibreOffice"
+brew upgrade
+brew install --cask --force \\
+  binary-ninja \\
+  visual-studio-code \\
+  qbittorrent \\
+  1password \\
+  raycast \\
+  figma \\
+  autoraise \\
+  betterdisplay \\
+  google-chrome \\
+  karabiner-elements \\
+  telegram \\
+  notion \\
+  notion-calendar \\
+  spotify \\
+  inkscape \\
+  cursor \\
+  dolphin \\
+  docker \\
+  obsidian \\
+  ipfs \\
+  chatgpt \\
+  zoom \\
+  whatsapp \\
+  github-desktop \\
+  keyclu \\
+  libreoffice \\
+  wireshark \\
+  burp-suite \\
+  texts \\
+  hammerspoon \\
+  processing \\
+  qflipper \\
+  raspberry-pi-imager \\
+  mysqlworkbench \\
+  ghostty \\
+  numi \\
+  messenger \\
+  yaak \\
+  bambu-studio \\
+  alttab \\
+  postman \\
+  tailscale \\
+  duckduckgo \\
+  slack \\
+  discord \\
+  sf-symbols
+source /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/.venv/bin/activate
+log stream --predicate 'process == "launchd" && eventMessage CONTAINS "com.alexmiller.blueprint.vscode"' --debug
+cd /Users/alexmiller/.vscode/extensions
+launchctl print gui/$(id -u)/com.alexmiller.blueprint.vscode
+launchctl print gui/$(id -u)/com.alexmiller.blueprint.vscode
+launchctl print gui/$(id -u)/com.alexmiller.blueprint.vscode
+launchctl print gui/$(id -u)/com.alexmiller.blueprint.vscode
+launchctl print gui/$(id -u)/com.alexmiller.blueprint.vscode
+launchctl print gui/$(id -u)/com.alexmiller.blueprint.vscode
+launchctl print gui/$(id -u)/com.alexmiller.blueprint.vscode
+cd ~/.config/brewfile/Brewfile
+cd ~/.config/brewfi
+cd ~/.config
+ls
+cd raycast
+ls
+cat config.json
+cd extensions
+ls
+ls
+cd ..
+ls
+cd ..
+ls
+cd g
+cd gh
+ls
+ccat config.yml
+bat config.yml
+brew install bat
+bat config.yml
+bat config.yml
+ls
+cd ..
+ls
+cd 1Password
+ls
+cd ssh
+ls
+bat agent.toml
+clear
+ls
+cd ..
+bat agent.toml
+cd ..
+ls
+cd op
+ls
+cat config
+cd ..
+brew list
+brew uninstall --zap terragrunt
+brew uninstall --zap pipenv
+ls
+cd gtk-4.0
+ls
+cd ..
+cd configstore
+ls
+cat firebase-tools.json
+ls
+cd ..
+rm -rf configstore
+ls
+cd qBittorrent
+ls
+cd ..
+ls
+cd raycast
+ls
+cat config.json
+cd ai
+ls
+cd ../extensions
+ls
+cd mail
+ls
+cd ..
+cd 6a921dd0-e3da-4c31-81dc-437d0eaac5e0
+ls
+cd ..
+cd ~
+ls
+lla
+cat .bashrc
+rm .bashrc
+cat .bash_
+cat .bash_prompt
+cat ~/.zsh_prompt
+cat ~/.zsh_prompt
+bat ~/.zsh_prompt
+bat ~/.bash_prompt
+bat .zshrc
+lla
+bat .bash_history
+rm .bash_history
+bat .zsh_history
+ls
+lla
+cat .BurpSuite
+cd .BurpSuite
+ls
+cd ..
+ls
+lla
+bat .zprofile
+vim ~/.aliases
+vim ~/.aliases
+ls
+cd Desktop
+ls
+cd personal-software-projects
+ls
+cd sandbox
+ls
+mv gpt-copy-files-to-clipboard ../inactive
+cd ../inactive
+ls
+cd ../active
+git clone https://github.com/alexjmiller5/power-clipper
+code power-clipper
+vim ~/.functions
+vim ~/.functions
+cd /Users/alexmiller/.vscode/extensions
+ls
+grep "azure"
+grep "azure"  .
+grep "azure" .
+grep "azure" *
+ls
+ls
+ls
+ls
+ls
+ls
+cd ms-azuretools.vscode-azurefunctions-1.20.3
+ls
+cd ..
+ls
+ls
+ls
+brew install vsce
+npm install
+source /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/.venv/bin/activate
+source /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/.venv/bin/activate
+deactivate
+cd ./modules/finder/
+./dump.sh
+./dump.sh
+cd ../homebrew
+ls
+./dump.sh
+./dump.sh
+./dump.sh
+cd ../..
+just run load_agents
+just load_agents
+just run load_agents
+just load_agents
+cd ./modules/vscode/
+./dump.sh
+source /Users/alexmiller/Desktop/personal-software-projects/active/blueprint/.venv/bin/activate
+geminni
+gemini
+cd  ../..
+just load_agents
+just load_agents
+gemini
+just load_agents
+just load_agents
+which rsync
+which mkdir
+which sed
+which sqlite3
+which dirname
+cd ./modules/
+cd ./ghostty/
+./dump.sh
+vim /Users/alexmiller/Library/Application Support/com.mitchellh.ghostty/config
+vim "/Users/alexmiller/Library/Application Support/com.mitchellh.ghostty/config"
+cd ../..
+just load_agents
+just load_agents
+vim "/Users/alexmiller/Library/Application Support/com.mitchellh.ghostty/config"
+vim "/Users/alexmiller/Library/Application Support/com.mitchellh.ghostty/config"
+vim "/Users/alexmiller/Library/Application Support/com.mitchellh.ghostty/config"
+pwd
+npm list -g --depth=0
+brew search cors-anywhere-cli
+brew search npm
+npm uninstall -g cors-anywhere-cli
+pip3 list --user
+which python3
+gem list --local
+/usr/libexec/java_home -V
+ls -F /usr/local/bin | grep -v '/$'
+ls /Applications
+which pipenv
+brew uninstall --zap pipenv
+du -sh ~/.local/share/virtualenvs/
+rm -rf ~/.local/share/virtualenvs/
+brew install uv
+rm /opt/homebrew/bin/pipenv
+sudo rm -rf /Library/Java/JavaVirtualMachines/jdk-21.jdk\
+sudo rm -rf /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk
+brew install --cask temurin
+brew install rbenv ruby-build
+rm -rf /Applications/Docker.app \\
+       /Applications/Visual\ Studio\ Code.app \\
+       /Applications/Postman.app \\
+       /Applications/Figma.app \\
+       /Applications/GitHub\ Desktop.app \\
+       /Applications/Ghostty.app \\
+       /Applications/Wireshark.app \\
+       /Applications/Obsidian.app \\
+       /Applications/Raycast.app \\
+       /Applications/Cursor.app \\
+       /Applications/Discord.app \\
+       /Applications/Spotify.app \\
+       /Applications/Slack.app \\
+       /Applications/1Password.app
+sudo rm -rf /Applications/Docker.app \\
+       /Applications/Visual\ Studio\ Code.app \\
+       /Applications/Postman.app \\
+       /Applications/Figma.app \\
+       /Applications/GitHub\ Desktop.app \\
+       /Applications/Ghostty.app \\
+       /Applications/Wireshark.app \\
+       /Applications/Obsidian.app \\
+       /Applications/Raycast.app \\
+       /Applications/Cursor.app \\
+       /Applications/Discord.app \\
+       /Applications/Spotify.app \\
+       /Applications/Slack.app \\
+       /Applications/1Password.app
+brew install --cask \\
+  docker \\
+  visual-studio-code \\
+  postman \\
+  figma \\
+  github-desktop \\
+  ghostty \\
+  wireshark \\
+  obsidian \\
+  raycast \\
+  cursor \\
+  discord \\
+  spotify \\
+  slack \\
+  1password
+brew install --cask \\
+  docker \\
+  visual-studio-code \\
+  postman \\
+  figma \\
+  github \\
+  ghostty \\
+  wireshark \\
+  obsidian \\
+  raycast \\
+  discord \\
+  spotify \\
+  slack \\
+  1password
+rm /usr/local/bin/hub-tool
+sudo /usr/local/bin/hub-tool
+sudo rm /usr/local/bin/hub-tool
+brew install --cask \\
+  docker \\
+  visual-studio-code \\
+  postman \\
+  figma \\
+  github \\
+  ghostty \\
+  wireshark \\
+  obsidian \\
+  raycast \\
+  discord \\
+  spotify \\
+  slack \\
+  1password
+sudo rm /usr/local/bin/kubectl.docker
+brew install --cask \\
+  docker \\
+  visual-studio-code \\
+  postman \\
+  figma \\
+  github \\
+  ghostty \\
+  wireshark \\
+  obsidian \\
+  raycast \\
+  discord \\
+  spotify \\
+  slack \\
+  1password
+sudo rm /usr/local/bin/docker
+brew install --cask \\
+  docker \\
+  visual-studio-code \\
+  postman \\
+  figma \\
+  github \\
+  ghostty \\
+  wireshark \\
+  obsidian \\
+  raycast \\
+  discord \\
+  spotify \\
+  slack \\
+  1password
+sudo rm /usr/local/bin/docker-credential-desktop
+brew install --cask \\
+  docker \\
+  visual-studio-code \\
+  postman \\
+  figma \\
+  github \\
+  ghostty \\
+  wireshark \\
+  obsidian \\
+  raycast \\
+  discord \\
+  spotify \\
+  slack \\
+  1password
+sudo rm /usr/local/bin/docker-credential-osxkeychain
+brew install --cask \\
+  docker \\
+  visual-studio-code \\
+  postman \\
+  figma \\
+  github \\
+  ghostty \\
+  wireshark \\
+  obsidian \\
+  raycast \\
+  discord \\
+  spotify \\
+  slack \\
+  1password
+brew uninstall github
+brew install --cask github
