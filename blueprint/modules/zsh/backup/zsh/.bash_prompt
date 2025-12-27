@@ -1,0 +1,41 @@
+# Set up colors, ensuring they don't break line wrapping with \[...\]
+RED="\[\e[0;31m\]"
+GREEN="\[\e[0;32m\]"
+YELLOW="\[\e[0;33m\]"
+BLUE="\[\e[0;34m\]"
+MAGENTA="\[\e[0;35m\]"
+BOLD="\[\e[1m\]"
+NC="\[\e[0m\]" # No Color
+
+# This function runs before the prompt is drawn
+prompt_command() {
+  local exit_status=$? # Get exit code of last command
+
+  # Set user@host context only in SSH
+  if [[ -n "$SSH_TTY" ]]; then
+    CONTEXT="${YELLOW}\u@\h${NC} "
+  else
+    CONTEXT=""
+  fi
+
+  # Set Git info
+  if command -v git &>/dev/null && git rev-parse --is-inside-work-tree &>/dev/null; then
+    GIT_INFO=" ${MAGENTA} $(git rev-parse --abbrev-ref HEAD)${NC}"
+  else
+    GIT_INFO=""
+  fi
+
+  # Set exit code symbol
+  if [ $exit_status -eq 0 ]; then
+    EXIT_SYMBOL="${GREEN}✔${NC} "
+  else
+    EXIT_SYMBOL="${RED}✖${NC} "
+  fi
+}
+
+# Register the function to run before each prompt
+PROMPT_COMMAND="prompt_command"
+
+# Define the Prompt Structure (PS1)
+# It uses the variables set by PROMPT_COMMAND
+PS1="${CONTEXT}${BLUE}\w${NC}${GIT_INFO} ${EXIT_SYMBOL}${BOLD}❯${NC} "
